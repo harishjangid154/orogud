@@ -10,5 +10,37 @@
     "ayurveda",
     "immunity"
   ],
-  "content": "<h2>Why Seasonal Boxes Work</h2>\n<p>Each season brings new challenges—dryness, cold, heat, moisture. Ayurvedic seasonal immunity boxes gather the right herbs for that time of year so the body transitions smoothly.</p>\n\n<h2>What’s Inside?</h2>\n<ul>\n<li>Herbal teas for daily sipping.</li>\n<li>Kadha or decoction mixes for deeper support.</li>\n<li>Syrups or shots for targeted care.</li>\n<li>Amla or ginger gummies for convenience.</li>\n<li>Mini rasayana foods like chyawanprash sachets.</li>\n</ul>\n\n<h2>How to Use a Seasonal Box</h2>\n<p>Start with the daily tea, add syrup shots during colder weeks, and use kadha when you feel your throat or energy dip. Everything includes instructions so beginners can follow easily.</p>\n\n<h2>Perfect for Gifting</h2>\n<p>These curated boxes are thoughtful gifts—practical, beautiful, and rooted in traditional wellness. Great for festivals, corporate gifting, or personal care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Immune Parcel</a> to elevate seasonal wellness.</p>"
+  "content": "<h2>Why Seasonal Boxes Work</h2>\n<p>Each season brings new challenges—dryness, cold, heat, moisture. Ayurvedic seasonal immunity boxes gather the right herbs for that time of year so the body transitions smoothly.</p>\n\n<h2>What’s Inside?</h2>\n<ul>\n<li>Herbal teas for daily sipping.</li>\n<li>Kadha or decoction mixes for deeper support.</li>\n<li>Syrups or shots for targeted care.</li>\n<li>Amla or ginger gummies for convenience.</li>\n<li>Mini rasayana foods like chyawanprash sachets.</li>\n</ul>\n\n<h2>How to Use a Seasonal Box</h2>\n<p>Start with the daily tea, add syrup shots during colder weeks, and use kadha when you feel your throat or energy dip. Everything includes instructions so beginners can follow easily.</p>\n\n<h2>Perfect for Gifting</h2>\n<p>These curated boxes are thoughtful gifts—practical, beautiful, and rooted in traditional wellness. Great for festivals, corporate gifting, or personal care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Immune Parcel</a> to elevate seasonal wellness.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "moringa-the-21st-century-superleaf-meets-ayurveda",
+      "title": "Moringa: The 21st-Century Superleaf Meets Ayurveda"
+    },
+    {
+      "slug": "seasonal-immunity-ayurvedas-take-on-staying-well-year-round",
+      "title": "Seasonal Immunity: Ayurveda’s Take on Staying Well Year-Round"
+    },
+    {
+      "slug": "tulsi-tea-daily-ritual-for-immunity-and-calm",
+      "title": "Tulsi Tea: Daily Ritual for Immunity and Calm"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-multivitamin-whole-food-blend",
+      "title": "Ayurvedic Multivitamin — Whole-Food Blend"
+    },
+    {
+      "slug": "tulsi-holy-basil-tea-bags",
+      "title": "Organic Tulsi (Holy Basil) Tea Bags"
+    },
+    {
+      "slug": "herbal-immune-parcel-seasonal-box",
+      "title": "Herbal Immune Parcel (Seasonal Box)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    }
+  ]
 }

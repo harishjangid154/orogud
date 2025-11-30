@@ -10,5 +10,37 @@
     "grooming",
     "almond oil"
   ],
-  "content": "<h2>Beard Care Basics</h2>\n<p>Beard routines prioritize skin health under the hair. Dryness, itch, and flaking often come from neglected skin rather than hair alone. Oils nourish both hair and skin.</p>\n\n<h2>Why Bhringraj & Almond?</h2>\n<ul>\n<li><strong>Bhringraj:</strong> Traditionally used to support hair strength and reduce breakage.</li>\n<li><strong>Almond Oil:</strong> Absorbs well, provides fatty acids, and is gentle on skin.</li>\n</ul>\n\n<h2>How to Use Beard Oil</h2>\n<ol>\n<li>Apply 2–3 drops to palms and rub together.</li>\n<li>Massage into underlying skin, then comb through beard for even coverage.</li>\n<li>Use daily or as needed for conditioning and styling.</li>\n</ol>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Beard Oil</a> and add a simple grooming ritual to your routine.</p>"
+  "content": "<h2>Beard Care Basics</h2>\n<p>Beard routines prioritize skin health under the hair. Dryness, itch, and flaking often come from neglected skin rather than hair alone. Oils nourish both hair and skin.</p>\n\n<h2>Why Bhringraj & Almond?</h2>\n<ul>\n<li><strong>Bhringraj:</strong> Traditionally used to support hair strength and reduce breakage.</li>\n<li><strong>Almond Oil:</strong> Absorbs well, provides fatty acids, and is gentle on skin.</li>\n</ul>\n\n<h2>How to Use Beard Oil</h2>\n<ol>\n<li>Apply 2–3 drops to palms and rub together.</li>\n<li>Massage into underlying skin, then comb through beard for even coverage.</li>\n<li>Use daily or as needed for conditioning and styling.</li>\n</ol>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Beard Oil</a> and add a simple grooming ritual to your routine.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "from-root-to-tip-ayurvedic-protocols-for-hair-growth",
+      "title": "From Root to Tip: Ayurvedic Protocols for Hair Growth"
+    },
+    {
+      "slug": "ayurvedic-haircare-oil-rituals-for-stronger-hair",
+      "title": "Ayurvedic Haircare: Oil Rituals for Stronger Hair"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-beard-oil-bhringraj-almond-oil",
+      "title": "Ayurvedic Beard Oil (Bhringraj + Almond Oil)"
+    },
+    {
+      "slug": "ayurvedic-hair-growth-serum-bhringraj-castor",
+      "title": "Ayurvedic Hair Growth Serum — Bhringraj + Castor"
+    },
+    {
+      "slug": "herbal-anti-dandruff-shampoo-bar",
+      "title": "Herbal Anti-Dandruff Shampoo Bar"
+    },
+    {
+      "slug": "herbal-hair-oil-bhringraj-amla",
+      "title": "Herbal Hair Oil (Bhringraj + Amla)"
+    }
+  ]
 }

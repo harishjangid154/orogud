@@ -10,5 +10,37 @@
     "ayurveda",
     "baby oil"
   ],
-  "content": "<h2>Why Baby Massage Matters</h2>\n<p>Abhyanga is more than bonding — it supports nervous system development, digestion, circulation, and emotional security. Ayurveda recommends gentle daily massage as a stabilizing ritual for infants.</p>\n\n<h2>Choosing the Right Oil</h2>\n<ul>\n<li><strong>Coconut oil:</strong> Cooling and ideal for warm climates.</li>\n<li><strong>Sesame oil:</strong> Warming and grounding for cooler months.</li>\n<li><strong>Brahmi & calendula:</strong> Mild herbs that soothe and protect delicate skin.</li>\n</ul>\n\n<h2>How to Perform Infant Abhyanga</h2>\n<ol>\n<li>Warm the oil lightly.</li>\n<li>Use soft strokes along arms and legs.</li>\n<li>Massage tummy clockwise to support digestion.</li>\n<li>Keep the room warm and comfortable.</li>\n</ol>\n\n<h2>Safety Essentials</h2>\n<p>Patch-test every new oil. Avoid scented oils or strong herbs. Always consult your pediatrician before introducing any herbal products for newborns.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Baby Massage Oil</a> and begin a peaceful daily routine.</p>"
+  "content": "<h2>Why Baby Massage Matters</h2>\n<p>Abhyanga is more than bonding — it supports nervous system development, digestion, circulation, and emotional security. Ayurveda recommends gentle daily massage as a stabilizing ritual for infants.</p>\n\n<h2>Choosing the Right Oil</h2>\n<ul>\n<li><strong>Coconut oil:</strong> Cooling and ideal for warm climates.</li>\n<li><strong>Sesame oil:</strong> Warming and grounding for cooler months.</li>\n<li><strong>Brahmi & calendula:</strong> Mild herbs that soothe and protect delicate skin.</li>\n</ul>\n\n<h2>How to Perform Infant Abhyanga</h2>\n<ol>\n<li>Warm the oil lightly.</li>\n<li>Use soft strokes along arms and legs.</li>\n<li>Massage tummy clockwise to support digestion.</li>\n<li>Keep the room warm and comfortable.</li>\n</ol>\n\n<h2>Safety Essentials</h2>\n<p>Patch-test every new oil. Avoid scented oils or strong herbs. Always consult your pediatrician before introducing any herbal products for newborns.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Baby Massage Oil</a> and begin a peaceful daily routine.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "talc-free-baby-care-ayurvedas-gentle-touch",
+      "title": "Talc-Free Baby Care: Ayurveda’s Gentle Touch"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ]
 }

@@ -14,5 +14,37 @@
     "cucumber",
     "sunburn care"
   ],
-  "content": "## What Is This Cooling Gel?\nA lightweight, fast-absorbing gel made from aloe vera, cucumber extract, and rose water designed to cool and soothe sun-exposed or heat-irritated skin.\n\n## Ayurvedic Significance\nCucumber and rose water are cooling and help pacify Pitta; aloe adds hydration and supports gentle healing—making the blend ideal for heat-related skin complaints.\n\n### Key Benefits\n- Rapidly cools and hydrates sunburn or heat rash.\n- Soothes irritation and reduces redness.\n- Gentle, non-greasy formula for face and body.\n\n## Ingredients\n- Aloe vera gel\n- Cucumber extract\n- Rose water\n\n## Usage Instructions\n- Apply liberally to affected areas as needed. Re-apply after sweating or washing the area.\n\n## Packaging\n- Squeeze tube with clear directions and sun-care notes.\n\n## Safety & Consultation\n- For severe burns, blistering, fever, or systemic symptoms, seek medical care immediately. Patch-test if allergic to botanical ingredients.\n\n## Why Choose This Gel?\nA gentle, Ayurvedic-inspired topical for quick cooling relief and everyday heat management."
+  "content": "## What Is This Cooling Gel?\nA lightweight, fast-absorbing gel made from aloe vera, cucumber extract, and rose water designed to cool and soothe sun-exposed or heat-irritated skin.\n\n## Ayurvedic Significance\nCucumber and rose water are cooling and help pacify Pitta; aloe adds hydration and supports gentle healing—making the blend ideal for heat-related skin complaints.\n\n### Key Benefits\n- Rapidly cools and hydrates sunburn or heat rash.\n- Soothes irritation and reduces redness.\n- Gentle, non-greasy formula for face and body.\n\n## Ingredients\n- Aloe vera gel\n- Cucumber extract\n- Rose water\n\n## Usage Instructions\n- Apply liberally to affected areas as needed. Re-apply after sweating or washing the area.\n\n## Packaging\n- Squeeze tube with clear directions and sun-care notes.\n\n## Safety & Consultation\n- For severe burns, blistering, fever, or systemic symptoms, seek medical care immediately. Patch-test if allergic to botanical ingredients.\n\n## Why Choose This Gel?\nA gentle, Ayurvedic-inspired topical for quick cooling relief and everyday heat management.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-eye-cream-cucumber-triphala",
+      "title": "Herbal Eye Cream (Cucumber + Triphala)"
+    },
+    {
+      "slug": "herbal-eye-gel-cucumber-aloe",
+      "title": "Herbal Eye Gel (Cucumber + Aloe)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "cool-down-natural-care-for-sun-exposed-skin",
+      "title": "Cool Down: Natural Care for Sun-Exposed Skin"
+    },
+    {
+      "slug": "eye-care-in-ayurveda-cooling-rituals-for-tired-eyes",
+      "title": "Eye Care in Ayurveda: Cooling Rituals for Tired Eyes"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
 }

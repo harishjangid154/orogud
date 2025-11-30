@@ -10,5 +10,37 @@
     "recovery",
     "ayurveda"
   ],
-  "content": "<h2>First Steps After Overindulgence</h2>\n<p>Begin with gentle rehydration, rest, and small steps to restore digestion. Avoid heavy, oily foods early on; focus on light broths or the herbal hangover powder mixed in warm water.</p>\n\n<h2>Herbs That Help</h2>\n<ul>\n<li><strong>Ajwain:</strong> Relieves gas and stimulates digestion.</li>\n<li><strong>Ginger:</strong> Calms nausea and warms the gut.</li>\n<li><strong>Lemon & Rock Salt:</strong> Help replenish electrolytes and bring lightness.</li>\n</ul>\n\n<h2>Practical Dos & Don'ts</h2>\n<ul>\n<li><strong>Do:</strong> Sip warm water or herbal infusion slowly, rest, and eat simple foods like khichdi or congee.</li>\n<li><strong>Don't:</strong> Force heavy meals, caffeine, or intense exercise until you feel rehydrated and steady.</li>\n</ul>\n\n<h2>When to Seek Help</h2>\n<p>If you experience severe vomiting, disorientation, breathing difficulty, or signs of alcohol poisoning, seek immediate medical care. These powders are supportive, not a substitute for emergency treatment.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Hangover Aid Sachets</a> for gentle post-indulgence relief.</p>"
+  "content": "<h2>First Steps After Overindulgence</h2>\n<p>Begin with gentle rehydration, rest, and small steps to restore digestion. Avoid heavy, oily foods early on; focus on light broths or the herbal hangover powder mixed in warm water.</p>\n\n<h2>Herbs That Help</h2>\n<ul>\n<li><strong>Ajwain:</strong> Relieves gas and stimulates digestion.</li>\n<li><strong>Ginger:</strong> Calms nausea and warms the gut.</li>\n<li><strong>Lemon & Rock Salt:</strong> Help replenish electrolytes and bring lightness.</li>\n</ul>\n\n<h2>Practical Dos & Don'ts</h2>\n<ul>\n<li><strong>Do:</strong> Sip warm water or herbal infusion slowly, rest, and eat simple foods like khichdi or congee.</li>\n<li><strong>Don't:</strong> Force heavy meals, caffeine, or intense exercise until you feel rehydrated and steady.</li>\n</ul>\n\n<h2>When to Seek Help</h2>\n<p>If you experience severe vomiting, disorientation, breathing difficulty, or signs of alcohol poisoning, seek immediate medical care. These powders are supportive, not a substitute for emergency treatment.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Hangover Aid Sachets</a> for gentle post-indulgence relief.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    },
+    {
+      "slug": "ayurvedic-oils-for-radiant-skin-amla-rosehip-combo",
+      "title": "Ayurvedic Oils for Radiant Skin: Amla & Rosehip Combo"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ]
 }

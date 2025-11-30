@@ -14,5 +14,37 @@
     "eucalyptus",
     "breath support"
   ],
-  "content": "## What Is This Breath Support Spray?\nA soothing nasal and airway spray formulated with diluted eucalyptus hydrosol, tulsi extract, and a saline base. Designed to provide temporary clarity and ease during congestion.\n\n## Ayurvedic Significance\nTulsi supports respiratory comfort while eucalyptus provides cooling vapors that clear the nasal passages. Saline moisturizes and reduces dryness.\n\n### Key Benefits\n- Promotes clearer nasal breathing.\n- Helps ease temporary congestion.\n- Refreshes and moisturizes nasal passages.\n\n## Ingredients\n- Tulsi extract\n- Eucalyptus hydrosol (diluted)\n- Saline solution\n\n## Usage Instructions\n- Use as per label guidance.\n- Do not overuse; consult a practitioner if symptoms persist.\n\n## Packaging\n- Sterile pump bottle.\n\n## Safety & Consultation\n- Not for chronic sinus issues without medical guidance. Avoid for young children unless advised.\n\n## Why Choose This Spray?\nA gentle, plant-based respiratory support tool inspired by Ayurvedic herbs."
+  "content": "## What Is This Breath Support Spray?\nA soothing nasal and airway spray formulated with diluted eucalyptus hydrosol, tulsi extract, and a saline base. Designed to provide temporary clarity and ease during congestion.\n\n## Ayurvedic Significance\nTulsi supports respiratory comfort while eucalyptus provides cooling vapors that clear the nasal passages. Saline moisturizes and reduces dryness.\n\n### Key Benefits\n- Promotes clearer nasal breathing.\n- Helps ease temporary congestion.\n- Refreshes and moisturizes nasal passages.\n\n## Ingredients\n- Tulsi extract\n- Eucalyptus hydrosol (diluted)\n- Saline solution\n\n## Usage Instructions\n- Use as per label guidance.\n- Do not overuse; consult a practitioner if symptoms persist.\n\n## Packaging\n- Sterile pump bottle.\n\n## Safety & Consultation\n- Not for chronic sinus issues without medical guidance. Avoid for young children unless advised.\n\n## Why Choose This Spray?\nA gentle, plant-based respiratory support tool inspired by Ayurvedic herbs.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-nasal-inhaler-peppermint-eucalyptus",
+      "title": "Ayurvedic Nasal Inhaler (Peppermint + Eucalyptus)"
+    },
+    {
+      "slug": "herbal-cold-flu-powder-trikatu-tulsi",
+      "title": "Herbal Cold & Flu Powder (Trikatu + Tulsi)"
+    },
+    {
+      "slug": "herbal-energy-tea-shilajit-tulsi-blend",
+      "title": "Herbal Energy Tea — Shilajit + Tulsi Blend"
+    },
+    {
+      "slug": "tulsi-mulethi-cough-syrup-herbal",
+      "title": "Tulsi & Mulethi Herbal Cough Syrup"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "breath-of-life-ayurvedic-tools-for-better-breathing",
+      "title": "Breath of Life: Ayurvedic Tools for Better Breathing"
+    },
+    {
+      "slug": "cold-flu-essentials-from-ayurveda",
+      "title": "Cold & Flu Essentials from Ayurveda"
+    },
+    {
+      "slug": "natural-cough-relief-from-ayurveda",
+      "title": "Natural Cough Relief from Ayurveda"
+    }
+  ]
 }

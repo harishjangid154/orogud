@@ -14,5 +14,37 @@
     "turmeric",
     "skin exfoliation"
   ],
-  "content": "## What Is This Body Scrub?\nA revitalizing Ayurvedic body scrub that blends exfoliating coffee grounds with turmeric and coconut oil to brighten and smooth the skin.\n\n## Ayurvedic Significance\nCoffee stimulates circulation and warms Kapha tissues. Turmeric supports natural glow and reduces minor inflammation.\n\n### Key Benefits\n- Exfoliates dead skin cells.\n- Improves circulation.\n- Leaves skin soft, bright, and refreshed.\n\n## Ingredients\n- Coffee grounds\n- Turmeric powder\n- Coconut oil\n\n## Usage Instructions\n- Apply to damp skin in the shower. Massage gently in circular motions. Rinse thoroughly. Use 1–2 times weekly.\n\n## Packaging\n- Sturdy jar with scooper for hygienic use.\n\n## Safety & Consultation\n- Avoid on open cuts, active acne, or very sensitive skin. Turmeric may stain light fabrics.\n\n## Why Choose This Scrub?\nA natural, energizing exfoliator made with simple Ayurvedic botanicals and oils."
+  "content": "## What Is This Body Scrub?\nA revitalizing Ayurvedic body scrub that blends exfoliating coffee grounds with turmeric and coconut oil to brighten and smooth the skin.\n\n## Ayurvedic Significance\nCoffee stimulates circulation and warms Kapha tissues. Turmeric supports natural glow and reduces minor inflammation.\n\n### Key Benefits\n- Exfoliates dead skin cells.\n- Improves circulation.\n- Leaves skin soft, bright, and refreshed.\n\n## Ingredients\n- Coffee grounds\n- Turmeric powder\n- Coconut oil\n\n## Usage Instructions\n- Apply to damp skin in the shower. Massage gently in circular motions. Rinse thoroughly. Use 1–2 times weekly.\n\n## Packaging\n- Sturdy jar with scooper for hygienic use.\n\n## Safety & Consultation\n- Avoid on open cuts, active acne, or very sensitive skin. Turmeric may stain light fabrics.\n\n## Why Choose This Scrub?\nA natural, energizing exfoliator made with simple Ayurvedic botanicals and oils.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-face-peel-enzyme-based-with-papaya-turmeric",
+      "title": "Herbal Face Peel (Papaya Enzyme + Turmeric)"
+    },
+    {
+      "slug": "herbal-joint-supplement-boswellia-turmeric",
+      "title": "Herbal Joint Supplement (Boswellia + Turmeric)"
+    },
+    {
+      "slug": "neem-turmeric-tooth-powder",
+      "title": "Neem & Turmeric Tooth Powder"
+    },
+    {
+      "slug": "turmeric-curcuma-longa-powder-organic",
+      "title": "Organic Turmeric (Curcuma Longa) Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "natural-exfoliation-ayurvedic-scrubs-for-glowing-skin",
+      "title": "Natural Exfoliation: Ayurvedic Scrubs for Glowing Skin"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "ditch-chemicals-natural-ayurvedic-oral-care",
+      "title": "Ditch Chemicals: Natural Ayurvedic Oral Care"
+    }
+  ]
 }

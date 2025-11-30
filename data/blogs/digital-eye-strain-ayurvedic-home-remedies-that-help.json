@@ -10,5 +10,37 @@
     "chamomile",
     "home remedies"
   ],
-  "content": "<h2>Why Your Eyes Need Breaks</h2>\n<p>Prolonged screen time causes dryness, strain, and tension in the periorbital area. Simple home remedies restore moisture, circulation, and relaxation.</p>\n\n<h2>Warm vs Cold: When to Use Each</h2>\n<ul>\n<li><strong>Warm compress:</strong> Use for tension, sinus congestion, and to improve circulation.</li>\n<li><strong>Cold compress:</strong> Use for acute puffiness, inflammation, or after long screen sessions.</li>\n</ul>\n\n<h2>How to Use an Herbal Compress</h2>\n<ol>\n<li>Warm or chill as instructed.</li>\n<li>Close your eyes and rest the compress for 5–15 minutes.</li>\n<li>Pair with palming or gentle eye rolls to restore comfort.</li>\n</ol>\n\n<h2>Daily Practice</h2>\n<p>Use a warm compress in the evening to relax, or a cold compress after extended screen work. Combining with short breaks and blinking exercises amplifies benefits.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Eye Compress</a> — portable relief for tired eyes.</p>"
+  "content": "<h2>Why Your Eyes Need Breaks</h2>\n<p>Prolonged screen time causes dryness, strain, and tension in the periorbital area. Simple home remedies restore moisture, circulation, and relaxation.</p>\n\n<h2>Warm vs Cold: When to Use Each</h2>\n<ul>\n<li><strong>Warm compress:</strong> Use for tension, sinus congestion, and to improve circulation.</li>\n<li><strong>Cold compress:</strong> Use for acute puffiness, inflammation, or after long screen sessions.</li>\n</ul>\n\n<h2>How to Use an Herbal Compress</h2>\n<ol>\n<li>Warm or chill as instructed.</li>\n<li>Close your eyes and rest the compress for 5–15 minutes.</li>\n<li>Pair with palming or gentle eye rolls to restore comfort.</li>\n</ol>\n\n<h2>Daily Practice</h2>\n<p>Use a warm compress in the evening to relax, or a cold compress after extended screen work. Combining with short breaks and blinking exercises amplifies benefits.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Eye Compress</a> — portable relief for tired eyes.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    },
+    {
+      "slug": "amla-gummies-easy-immune-support-for-busy-people",
+      "title": "Amla Gummies: Easy Immune Support for Busy People"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-eye-compress-warm-cold",
+      "title": "Herbal Eye Compress (Warm/Cold)"
+    },
+    {
+      "slug": "ayurvedic-baby-powder-mild-talc-free",
+      "title": "Ayurvedic Baby Powder (Mild & Talc-Free)"
+    },
+    {
+      "slug": "ayurvedic-sleep-tea-vata-calming-blend",
+      "title": "Ayurvedic Sleep Tea (Vata-Calming Blend)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    }
+  ]
 }

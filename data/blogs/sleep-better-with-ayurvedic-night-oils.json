@@ -10,5 +10,37 @@
     "vata care",
     "ayurveda"
   ],
-  "content": "<h2>Why Ayurveda Uses Oils for Sleep</h2>\n<p>Oil massage is one of Ayurveda’s most reliable methods for calming Vata — the dosha responsible for anxiety, restlessness, and insomnia. Applying warm herbal oils before bed helps ease the mind, relax muscles, and support consistent sleep routines.</p>\n\n<h2>What Makes This Sleep Oil Effective</h2>\n<p>This herbal blend combines Ashwagandha for grounding, Brahmi for mental calm, and sesame/coconut oil for nourishing and warming the tissues. Optional lavender adds a gentle aromatic touch.</p>\n\n<h2>How to Use Herbal Sleep Oil</h2>\n<ol>\n<li>Warm the oil gently.</li>\n<li>Massage onto soles of feet in circular motions.</li>\n<li>Massage scalp if you prefer deep relaxation.</li>\n<li>Put on cotton socks after foot massage if needed.</li>\n<li>Practice deep breathing for 2 minutes.</li>\n</ol>\n<p>With regular use, the body learns to associate this ritual with sleep readiness.</p>\n\n<h2>Short Testimonials</h2>\n<ul>\n<li><em>“My sleep improved in 1 week of nightly foot massage.”</em></li>\n<li><em>“Helps me unwind from screen fatigue.”</em></li>\n</ul>\n\n<h2>Safety Notes</h2>\n<p>Always do a patch test. Consult a doctor if you are pregnant or using sedative medications.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop herbal sleep oil</a> and build a calming night ritual.</p>"
+  "content": "<h2>Why Ayurveda Uses Oils for Sleep</h2>\n<p>Oil massage is one of Ayurveda’s most reliable methods for calming Vata — the dosha responsible for anxiety, restlessness, and insomnia. Applying warm herbal oils before bed helps ease the mind, relax muscles, and support consistent sleep routines.</p>\n\n<h2>What Makes This Sleep Oil Effective</h2>\n<p>This herbal blend combines Ashwagandha for grounding, Brahmi for mental calm, and sesame/coconut oil for nourishing and warming the tissues. Optional lavender adds a gentle aromatic touch.</p>\n\n<h2>How to Use Herbal Sleep Oil</h2>\n<ol>\n<li>Warm the oil gently.</li>\n<li>Massage onto soles of feet in circular motions.</li>\n<li>Massage scalp if you prefer deep relaxation.</li>\n<li>Put on cotton socks after foot massage if needed.</li>\n<li>Practice deep breathing for 2 minutes.</li>\n</ol>\n<p>With regular use, the body learns to associate this ritual with sleep readiness.</p>\n\n<h2>Short Testimonials</h2>\n<ul>\n<li><em>“My sleep improved in 1 week of nightly foot massage.”</em></li>\n<li><em>“Helps me unwind from screen fatigue.”</em></li>\n</ul>\n\n<h2>Safety Notes</h2>\n<p>Always do a patch test. Consult a doctor if you are pregnant or using sedative medications.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop herbal sleep oil</a> and build a calming night ritual.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    },
+    {
+      "slug": "ayurvedic-oils-for-radiant-skin-amla-rosehip-combo",
+      "title": "Ayurvedic Oils for Radiant Skin: Amla & Rosehip Combo"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-sleep-oil-ashwagandha-brahmi-blend",
+      "title": "Herbal Sleep Oil (Ashwagandha + Brahmi Blend)"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ]
 }

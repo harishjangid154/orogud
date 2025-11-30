@@ -10,5 +10,37 @@
     "gum health",
     "ayurveda"
   ],
-  "content": "<h2>What Is Oil Pulling?</h2>\n<p>Oil pulling (kavala/gandusha) involves swishing oil in the mouth to draw out impurities, strengthen gums, and cleanse the oral cavity. It has been practiced for thousands of years in Ayurveda.</p>\n\n<h2>Benefits You May Notice</h2>\n<ul>\n<li>Reduced plaque and fresher breath.</li>\n<li>Improved gum comfort and moisture.</li>\n<li>A sense of oral lightness and clarity.</li>\n</ul>\n\n<h2>How to Practice Oil Pulling</h2>\n<ol>\n<li>Take 1 tbsp of sesame or coconut oil.</li>\n<li>Swish gently for 5–15 minutes.</li>\n<li>Spit into a bin (oil can clog drains).</li>\n<li>Rinse with warm water and brush normally.</li>\n</ol>\n\n<h2>Safety & Practical Tips</h2>\n<p>Do not swallow the oil. Avoid if you have active infections or open sores. Always maintain your regular dental checkups—oil pulling is a supplement, not a substitute.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Oil Pulling Kit</a> and bring a timeless oral ritual into your routine.</p>"
+  "content": "<h2>What Is Oil Pulling?</h2>\n<p>Oil pulling (kavala/gandusha) involves swishing oil in the mouth to draw out impurities, strengthen gums, and cleanse the oral cavity. It has been practiced for thousands of years in Ayurveda.</p>\n\n<h2>Benefits You May Notice</h2>\n<ul>\n<li>Reduced plaque and fresher breath.</li>\n<li>Improved gum comfort and moisture.</li>\n<li>A sense of oral lightness and clarity.</li>\n</ul>\n\n<h2>How to Practice Oil Pulling</h2>\n<ol>\n<li>Take 1 tbsp of sesame or coconut oil.</li>\n<li>Swish gently for 5–15 minutes.</li>\n<li>Spit into a bin (oil can clog drains).</li>\n<li>Rinse with warm water and brush normally.</li>\n</ol>\n\n<h2>Safety & Practical Tips</h2>\n<p>Do not swallow the oil. Avoid if you have active infections or open sores. Always maintain your regular dental checkups—oil pulling is a supplement, not a substitute.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Oil Pulling Kit</a> and bring a timeless oral ritual into your routine.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    },
+    {
+      "slug": "ayurvedic-oils-for-radiant-skin-amla-rosehip-combo",
+      "title": "Ayurvedic Oils for Radiant Skin: Amla & Rosehip Combo"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-oral-rinse-oil-pulling-kit",
+      "title": "Ayurvedic Oral Rinse (Oil Pulling Kit)"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ]
 }

@@ -10,5 +10,37 @@
     "neem",
     "ayurveda skincare"
   ],
-  "content": "<h2>Understanding Acne in Ayurveda</h2>\n<p>Acne is often linked to Pitta imbalance—excess heat, inflammation, and bacterial activity in the skin. Herbs that cool, purify, and soothe offer effective, natural support.</p>\n\n<h2>The Ayurvedic Power Trio</h2>\n<ul>\n<li><strong>Tea Tree:</strong> Antimicrobial and clarifying.</li>\n<li><strong>Neem:</strong> Purifies and cools irritated areas.</li>\n<li><strong>Aloe Vera:</strong> Soothes inflammation and promotes healing.</li>\n</ul>\n\n<h2>How to Use Acne Serum</h2>\n<ol>\n<li>Cleanse face with a mild herbal cleanser.</li>\n<li>Apply 1–2 drops only on active breakouts.</li>\n<li>Follow with a lightweight moisturizer.</li>\n<li>Avoid using multiple strong actives at once.</li>\n</ol>\n\n<h2>Realistic Expectations</h2>\n<p>Natural acne care works gradually. Expect calmer, less inflamed skin in 1–2 weeks of consistent use. Persistent, cystic acne requires dermatologist evaluation.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Acne Serum</a> and start a gentle, effective routine.</p>"
+  "content": "<h2>Understanding Acne in Ayurveda</h2>\n<p>Acne is often linked to Pitta imbalance—excess heat, inflammation, and bacterial activity in the skin. Herbs that cool, purify, and soothe offer effective, natural support.</p>\n\n<h2>The Ayurvedic Power Trio</h2>\n<ul>\n<li><strong>Tea Tree:</strong> Antimicrobial and clarifying.</li>\n<li><strong>Neem:</strong> Purifies and cools irritated areas.</li>\n<li><strong>Aloe Vera:</strong> Soothes inflammation and promotes healing.</li>\n</ul>\n\n<h2>How to Use Acne Serum</h2>\n<ol>\n<li>Cleanse face with a mild herbal cleanser.</li>\n<li>Apply 1–2 drops only on active breakouts.</li>\n<li>Follow with a lightweight moisturizer.</li>\n<li>Avoid using multiple strong actives at once.</li>\n</ol>\n\n<h2>Realistic Expectations</h2>\n<p>Natural acne care works gradually. Expect calmer, less inflamed skin in 1–2 weeks of consistent use. Persistent, cystic acne requires dermatologist evaluation.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Acne Serum</a> and start a gentle, effective routine.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "detox-baths-ayurvedic-ingredients-that-relax-and-cleanse",
+      "title": "Detox Baths: Ayurvedic Ingredients That Relax and Cleanse"
+    },
+    {
+      "slug": "ditch-chemicals-natural-ayurvedic-oral-care",
+      "title": "Ditch Chemicals: Natural Ayurvedic Oral Care"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "neem-face-mist",
+      "title": "Neem Face Mist"
+    },
+    {
+      "slug": "ayurvedic-face-spf-powder-mineral-based",
+      "title": "Ayurvedic Face SPF Powder (Mineral-Based)"
+    },
+    {
+      "slug": "herbal-anti-dandruff-shampoo-bar",
+      "title": "Herbal Anti-Dandruff Shampoo Bar"
+    }
+  ]
 }

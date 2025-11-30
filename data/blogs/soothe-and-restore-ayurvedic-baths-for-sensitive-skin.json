@@ -10,5 +10,37 @@
     "oats",
     "sensitive skin"
   ],
-  "content": "<h2>The Ayurvedic Logic Behind Herbal Baths</h2>\n<p>Ayurveda suggests that warm, herbal-infused water calms aggravated doshas, especially Vata (dryness) and Pitta (heat). A bath is not just cleansing—it's medicinal when herbs are involved.</p>\n\n<h2>Why Oats, Rose & Calendula?</h2>\n<ul>\n<li><strong>Oats:</strong> Natural emollient that softens dry skin.</li>\n<li><strong>Rose:</strong> Cooling, soothing, and Pitta-balancing.</li>\n<li><strong>Calendula:</strong> Traditionally used for minor skin irritation.</li>\n</ul>\n\n<h2>How to Prepare an Ayurvedic Bath</h2>\n<ol>\n<li>Fill your tub with warm (not hot) water.</li>\n<li>Drop the filled muslin bath tea bag into the tub and let steep.</li>\n<li>Soak for 15–20 minutes in a calm, quiet environment.</li>\n</ol>\n\n<h2>How Often?</h2>\n<p>1–2 times a week is ideal for sensitive skin—frequent enough for nourishment but not over-drying.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Bath Tea</a> and bring Ayurvedic calm into your self-care routine.</p>"
+  "content": "<h2>The Ayurvedic Logic Behind Herbal Baths</h2>\n<p>Ayurveda suggests that warm, herbal-infused water calms aggravated doshas, especially Vata (dryness) and Pitta (heat). A bath is not just cleansing—it's medicinal when herbs are involved.</p>\n\n<h2>Why Oats, Rose & Calendula?</h2>\n<ul>\n<li><strong>Oats:</strong> Natural emollient that softens dry skin.</li>\n<li><strong>Rose:</strong> Cooling, soothing, and Pitta-balancing.</li>\n<li><strong>Calendula:</strong> Traditionally used for minor skin irritation.</li>\n</ul>\n\n<h2>How to Prepare an Ayurvedic Bath</h2>\n<ol>\n<li>Fill your tub with warm (not hot) water.</li>\n<li>Drop the filled muslin bath tea bag into the tub and let steep.</li>\n<li>Soak for 15–20 minutes in a calm, quiet environment.</li>\n</ol>\n\n<h2>How Often?</h2>\n<p>1–2 times a week is ideal for sensitive skin—frequent enough for nourishment but not over-drying.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Bath Tea</a> and bring Ayurvedic calm into your self-care routine.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "gulkand-sweet-cooling-and-good-for-your-skin",
+      "title": "Gulkand: Sweet, Cooling, and Good for Your Skin"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herb-infused-bath-tea-rose-oats",
+      "title": "Herb-Infused Bath Tea (Rose + Oats)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    }
+  ]
 }

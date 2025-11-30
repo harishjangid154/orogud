@@ -10,5 +10,37 @@
     "turmeric",
     "neem"
   ],
-  "content": "<h2>Why Ayurveda Trusts Turmeric and Neem</h2>\n<p>Turmeric has been used for centuries for its wound-healing, anti-inflammatory properties. Neem adds antimicrobial power, helping protect minor cuts and scrapes from infection. Together they form a simple yet effective first-aid combo.</p>\n\n<h2>What Does an Herbal First Aid Balm Do?</h2>\n<p>This balm gently coats the affected area, reducing redness and helping the body’s natural repair process. Coconut oil adds nourishment while beeswax forms a protective layer.</p>\n\n<h2>Where to Use It</h2>\n<ul>\n<li>Minor cuts & abrasions</li>\n<li>Insect bites</li>\n<li>Rashes</li>\n<li>Small burns (after cooling)</li>\n</ul>\n\n<h2>How to Apply</h2>\n<ol>\n<li>Clean the area with water.</li>\n<li>Pat dry.</li>\n<li>Apply a thin layer of balm.</li>\n<li>Repeat 1–2 times daily as needed.</li>\n</ol>\n\n<h2>When to See a Doctor</h2>\n<p>If the wound is deep, bleeding heavily, or shows signs of infection (pus, swelling, fever), seek professional medical care. Herbal balms are for <strong>minor</strong> concerns only.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal First Aid Balm</a> and keep natural healing at hand.</p>"
+  "content": "<h2>Why Ayurveda Trusts Turmeric and Neem</h2>\n<p>Turmeric has been used for centuries for its wound-healing, anti-inflammatory properties. Neem adds antimicrobial power, helping protect minor cuts and scrapes from infection. Together they form a simple yet effective first-aid combo.</p>\n\n<h2>What Does an Herbal First Aid Balm Do?</h2>\n<p>This balm gently coats the affected area, reducing redness and helping the body’s natural repair process. Coconut oil adds nourishment while beeswax forms a protective layer.</p>\n\n<h2>Where to Use It</h2>\n<ul>\n<li>Minor cuts & abrasions</li>\n<li>Insect bites</li>\n<li>Rashes</li>\n<li>Small burns (after cooling)</li>\n</ul>\n\n<h2>How to Apply</h2>\n<ol>\n<li>Clean the area with water.</li>\n<li>Pat dry.</li>\n<li>Apply a thin layer of balm.</li>\n<li>Repeat 1–2 times daily as needed.</li>\n</ol>\n\n<h2>When to See a Doctor</h2>\n<p>If the wound is deep, bleeding heavily, or shows signs of infection (pus, swelling, fever), seek professional medical care. Herbal balms are for <strong>minor</strong> concerns only.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal First Aid Balm</a> and keep natural healing at hand.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "detox-baths-ayurvedic-ingredients-that-relax-and-cleanse",
+      "title": "Detox Baths: Ayurvedic Ingredients That Relax and Cleanse"
+    },
+    {
+      "slug": "ditch-chemicals-natural-ayurvedic-oral-care",
+      "title": "Ditch Chemicals: Natural Ayurvedic Oral Care"
+    },
+    {
+      "slug": "heal-chapped-lips-naturally-with-neem",
+      "title": "Heal Chapped Lips Naturally with Neem"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "neem-turmeric-tooth-powder",
+      "title": "Neem & Turmeric Tooth Powder"
+    },
+    {
+      "slug": "turmeric-curcuma-longa-powder-organic",
+      "title": "Organic Turmeric (Curcuma Longa) Powder"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ]
 }

@@ -9,7 +9,8 @@ import * as Tooltip from "@/components/ui/Tooltip";
 import * as Popover from "@/components/ui/Popover";
 import * as Dialog from "@/components/ui/Dialog";
 import ProductImageGallery from "@/components/ProductImageGallery";
-import { Share2, Heart, ShoppingCart, Check } from "lucide-react";
+import ShareProductButton from "@/components/ShareProductButton";
+import { Heart, ShoppingCart } from "lucide-react";
 
 type ProductData = {
   title: string;
@@ -21,6 +22,8 @@ type ProductData = {
   sku?: string;
   content?: string;
   tags?: string[];
+  relatedProducts?: Array<{ slug: string; title: string }>;
+  relatedBlogs?: Array<{ slug: string; title: string }>;
 };
 
 const PRODUCTS_DIR = path.join(process.cwd(), "data", "products");
@@ -236,46 +239,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                     </Tooltip.Tooltip>
                   </Tooltip.TooltipProvider>
 
-                  <Popover.Popover>
-                    <Popover.PopoverTrigger asChild>
-                      <button className="btn btn-outline px-4">
-                        <Share2 className="h-5 w-5" />
-                      </button>
-                    </Popover.PopoverTrigger>
-                    <Popover.PopoverContent className="w-64">
-                      <div className="space-y-3">
-                        <h4 className="font-semibold text-text mb-3">Share Product</h4>
-                        <div className="space-y-2">
-                          <button
-                            onClick={() => {
-                              if (typeof window !== "undefined") {
-                                navigator.clipboard.writeText(window.location.href);
-                              }
-                            }}
-                            className="w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
-                          >
-                            Copy Link
-                          </button>
-                          <a
-                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(product.title)}&url=${encodeURIComponent(typeof window !== "undefined" ? window.location.href : "")}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
-                          >
-                            Share on Twitter
-                          </a>
-                          <a
-                            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== "undefined" ? window.location.href : "")}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
-                          >
-                            Share on Facebook
-                          </a>
-                        </div>
-                      </div>
-                    </Popover.PopoverContent>
-                  </Popover.Popover>
+                  <ShareProductButton slug={slug} title={product.title} />
                 </div>
               </div>
 
@@ -344,13 +308,51 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 </Tabs.Tabs>
               </div>
 
-              {/* Related Products */}
-              <div className="card card-pad-md">
-                <h4 className="text-base font-bold text-text mb-4">Explore More</h4>
-                <p className="text-muted text-sm mb-4">Discover more curated products from our collection.</p>
-                <Link href="/products" className="btn btn-outline w-full">
-                  View All Products
-                </Link>
+              {/* Related Products & Blogs */}
+              <div className="space-y-6">
+                {product.relatedProducts && product.relatedProducts.length > 0 && (
+                  <div className="card card-pad-lg">
+                    <h3 className="text-lg font-bold text-text mb-4">Related Products</h3>
+                    <div className="grid grid-cols-1 gap-3">
+                      {product.relatedProducts.map((related) => (
+                        <Link
+                          key={related.slug}
+                          href={`/products/${related.slug}`}
+                          className="p-3 rounded-lg border border-border hover:border-accent hover:bg-accent-light transition-all group"
+                        >
+                          <p className="font-semibold text-text group-hover:text-accent transition-colors">{related.title}</p>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {product.relatedBlogs && product.relatedBlogs.length > 0 && (
+                  <div className="card card-pad-lg">
+                    <h3 className="text-lg font-bold text-text mb-4">Related Articles</h3>
+                    <div className="grid grid-cols-1 gap-3">
+                      {product.relatedBlogs.map((blog) => (
+                        <Link
+                          key={blog.slug}
+                          href={`/blogs/${blog.slug}`}
+                          className="p-3 rounded-lg border border-border hover:border-accent hover:bg-accent-light transition-all group"
+                        >
+                          <p className="font-semibold text-text group-hover:text-accent transition-colors">{blog.title}</p>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {(!product.relatedProducts || product.relatedProducts.length === 0) && (!product.relatedBlogs || product.relatedBlogs.length === 0) && (
+                  <div className="card card-pad-md">
+                    <h4 className="text-base font-bold text-text mb-4">Explore More</h4>
+                    <p className="text-muted text-sm mb-4">Discover more curated products from our collection.</p>
+                    <Link href="/products" className="btn btn-outline w-full">
+                      View All Products
+                    </Link>
+                  </div>
+                )}
               </div>
             </div>
           </div>

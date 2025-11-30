@@ -10,5 +10,37 @@
     "castor oil",
     "ayurveda"
   ],
-  "content": "<h2>The Ayurvedic Approach to Hair Health</h2>\n<p>Ayurveda treats hair as an expression of ojas and tissue nourishment. Regular oiling, scalp massage, balanced diet, and herbs like bhringraj and amla form the backbone of hair care practices.</p>\n\n<h2>Why Bhringraj & Castor?</h2>\n<ul>\n<li><strong>Bhringraj:</strong> Traditional tonic for root strength and hair vitality.</li>\n<li><strong>Castor Oil:</strong> Thick, nourishing oil that seals moisture and supports scalp health.</li>\n<li><strong>Amla:</strong> Antioxidant-rich support for follicles and shine.</li>\n</ul>\n\n<h2>How to Use Nightly Serums Effectively</h2>\n<ol>\n<li>Apply a few drops to the scalp and massage gently for 5–10 minutes.</li>\n<li>Leave overnight or at least a few hours before washing.</li>\n<li>Repeat 2–3 times weekly initially, adjusting per scalp response.</li>\n</ol>\n\n<h2>Patience & Complementary Habits</h2>\n<p>Hair cycles take time. Expect to evaluate results over 3–6 months. Support serums with a diet rich in protein, healthy fats, and iron, plus stress management and gentle hair handling.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Hair Growth Serum</a> and commit to consistent root care.</p>"
+  "content": "<h2>The Ayurvedic Approach to Hair Health</h2>\n<p>Ayurveda treats hair as an expression of ojas and tissue nourishment. Regular oiling, scalp massage, balanced diet, and herbs like bhringraj and amla form the backbone of hair care practices.</p>\n\n<h2>Why Bhringraj & Castor?</h2>\n<ul>\n<li><strong>Bhringraj:</strong> Traditional tonic for root strength and hair vitality.</li>\n<li><strong>Castor Oil:</strong> Thick, nourishing oil that seals moisture and supports scalp health.</li>\n<li><strong>Amla:</strong> Antioxidant-rich support for follicles and shine.</li>\n</ul>\n\n<h2>How to Use Nightly Serums Effectively</h2>\n<ol>\n<li>Apply a few drops to the scalp and massage gently for 5–10 minutes.</li>\n<li>Leave overnight or at least a few hours before washing.</li>\n<li>Repeat 2–3 times weekly initially, adjusting per scalp response.</li>\n</ol>\n\n<h2>Patience & Complementary Habits</h2>\n<p>Hair cycles take time. Expect to evaluate results over 3–6 months. Support serums with a diet rich in protein, healthy fats, and iron, plus stress management and gentle hair handling.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Hair Growth Serum</a> and commit to consistent root care.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "ayurvedic-haircare-oil-rituals-for-stronger-hair",
+      "title": "Ayurvedic Haircare: Oil Rituals for Stronger Hair"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-hair-growth-serum-bhringraj-castor",
+      "title": "Ayurvedic Hair Growth Serum — Bhringraj + Castor"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-beard-oil-bhringraj-almond-oil",
+      "title": "Ayurvedic Beard Oil (Bhringraj + Almond Oil)"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    }
+  ]
 }

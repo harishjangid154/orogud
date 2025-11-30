@@ -10,5 +10,37 @@
     "epsom salt",
     "ayurveda"
   ],
-  "content": "<h2>Why Detox Baths Work</h2>\n<p>A warm bath opens pores, encourages circulation, and relaxes tight muscles. When combined with Ayurvedic herbs, it becomes a nurturing therapy for body and mind.</p>\n\n<h2>Key Ayurvedic Ingredients</h2>\n<ul>\n<li><strong>Epsom Salt:</strong> Rich in magnesium for muscle relaxation.</li>\n<li><strong>Sea Salt:</strong> Gently exfoliates and purifies.</li>\n<li><strong>Neem:</strong> Cooling, antimicrobial, ideal for skin prone to irritation.</li>\n<li><strong>Dried Herbs:</strong> Enhance the aroma and therapeutic effect.</li>\n</ul>\n\n<h2>How to Take a Detox Bath</h2>\n<ol>\n<li>Add 2 handfuls of salts to warm water.</li>\n<li>Soak for 15–20 minutes without distractions.</li>\n<li>Rinse gently and moisturize afterward.</li>\n</ol>\n\n<h2>How Often?</h2>\n<p>Once or twice a week is ideal. Daily baths may dry the skin.</p>\n\n<h2>Safety Notes</h2>\n<p>People with high blood pressure, varicose veins, heart disease, or pregnancy should consult their doctor first. Avoid hot water during Pitta flare-ups.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Detox Bath Salts</a> and elevate your self-care ritual.</p>"
+  "content": "<h2>Why Detox Baths Work</h2>\n<p>A warm bath opens pores, encourages circulation, and relaxes tight muscles. When combined with Ayurvedic herbs, it becomes a nurturing therapy for body and mind.</p>\n\n<h2>Key Ayurvedic Ingredients</h2>\n<ul>\n<li><strong>Epsom Salt:</strong> Rich in magnesium for muscle relaxation.</li>\n<li><strong>Sea Salt:</strong> Gently exfoliates and purifies.</li>\n<li><strong>Neem:</strong> Cooling, antimicrobial, ideal for skin prone to irritation.</li>\n<li><strong>Dried Herbs:</strong> Enhance the aroma and therapeutic effect.</li>\n</ul>\n\n<h2>How to Take a Detox Bath</h2>\n<ol>\n<li>Add 2 handfuls of salts to warm water.</li>\n<li>Soak for 15–20 minutes without distractions.</li>\n<li>Rinse gently and moisturize afterward.</li>\n</ol>\n\n<h2>How Often?</h2>\n<p>Once or twice a week is ideal. Daily baths may dry the skin.</p>\n\n<h2>Safety Notes</h2>\n<p>People with high blood pressure, varicose veins, heart disease, or pregnancy should consult their doctor first. Avoid hot water during Pitta flare-ups.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Detox Bath Salts</a> and elevate your self-care ritual.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "heal-chapped-lips-naturally-with-neem",
+      "title": "Heal Chapped Lips Naturally with Neem"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ]
 }

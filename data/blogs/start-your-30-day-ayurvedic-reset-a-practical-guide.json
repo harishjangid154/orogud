@@ -10,5 +10,37 @@
     "lifestyle",
     "reset"
   ],
-  "content": "<h2>Why a 30-Day Reset?</h2>\n<p>Ayurveda emphasizes routine (dinacharya), diet, and mindful living. A guided 30-day plan makes it easier to adopt these habits in a structured way.</p>\n\n<h2>What the Program Covers</h2>\n<ul>\n<li>Daily routines for morning and night.</li>\n<li>Weekly meal plans with easy Ayurvedic recipes.</li>\n<li>Yoga and pranayama sequences.</li>\n<li>Dosha-based personalization tips.</li>\n<li>Printable tracking checklists.</li>\n</ul>\n\n<h2>How to Prepare</h2>\n<p>Choose your start date, gather simple ingredients, set up a quiet space for practice, and review the dosha assessment. Small steps early create momentum.</p>\n\n<h2>What to Expect</h2>\n<p>More stable digestion, calmer sleep, better energy, and improved clarity within a few weeks. Progress varies—listen to your body and adapt pace as needed.</p>\n\n<p><a href='#' style='font-weight:bold;'>Download the 30-Day Ayurvedic Plan</a> and begin your reset today.</p>"
+  "content": "<h2>Why a 30-Day Reset?</h2>\n<p>Ayurveda emphasizes routine (dinacharya), diet, and mindful living. A guided 30-day plan makes it easier to adopt these habits in a structured way.</p>\n\n<h2>What the Program Covers</h2>\n<ul>\n<li>Daily routines for morning and night.</li>\n<li>Weekly meal plans with easy Ayurvedic recipes.</li>\n<li>Yoga and pranayama sequences.</li>\n<li>Dosha-based personalization tips.</li>\n<li>Printable tracking checklists.</li>\n</ul>\n\n<h2>How to Prepare</h2>\n<p>Choose your start date, gather simple ingredients, set up a quiet space for practice, and review the dosha assessment. Small steps early create momentum.</p>\n\n<h2>What to Expect</h2>\n<p>More stable digestion, calmer sleep, better energy, and improved clarity within a few weeks. Progress varies—listen to your body and adapt pace as needed.</p>\n\n<p><a href='#' style='font-weight:bold;'>Download the 30-Day Ayurvedic Plan</a> and begin your reset today.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    },
+    {
+      "slug": "ayurvedic-oils-for-radiant-skin-amla-rosehip-combo",
+      "title": "Ayurvedic Oils for Radiant Skin: Amla & Rosehip Combo"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-lifestyle-guide-30-day-plan-digital-printable",
+      "title": "Herbal Lifestyle Guide + 30-Day Ayurvedic Plan (Digital)"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ]
 }

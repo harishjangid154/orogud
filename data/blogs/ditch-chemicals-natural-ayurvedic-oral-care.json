@@ -10,5 +10,37 @@
     "turmeric",
     "natural toothpaste"
   ],
-  "content": "<h2>Why Ayurveda Prefers Herbal Tooth Powders</h2>\n<p>Before chemical toothpaste existed, Ayurveda relied on herbal powders made from neem, turmeric, clove, and natural minerals. These ingredients cleanse the mouth, strengthen gums, and maintain fresh breath without synthetic foaming agents.</p>\n\n<h2>Key Herbs That Support Oral Health</h2>\n<ul>\n<li><strong>Neem:</strong> Powerful antimicrobial for gum health.</li>\n<li><strong>Turmeric:</strong> Reduces inflammation and soothes gums.</li>\n<li><strong>Clove:</strong> Strengthens gums and reduces sensitivity.</li>\n</ul>\n\n<h2>How to Use Ayurvedic Tooth Powder</h2>\n<ol>\n<li>Wet your brush.</li>\n<li>Dip gently — a little goes a long way.</li>\n<li>Brush for 1–2 minutes.</li>\n<li>Rinse thoroughly.</li>\n</ol>\n<p>Use 2–3 times weekly to avoid abrasiveness.</p>\n\n<h2>Safety Notes</h2>\n<p>Ayurvedic powders are not meant to be swallowed. People with enamel thinning or gum disease should consult a dentist before switching entirely to powders.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop neem & turmeric tooth powder</a> for cleaner, fresher oral hygiene naturally.</p>"
+  "content": "<h2>Why Ayurveda Prefers Herbal Tooth Powders</h2>\n<p>Before chemical toothpaste existed, Ayurveda relied on herbal powders made from neem, turmeric, clove, and natural minerals. These ingredients cleanse the mouth, strengthen gums, and maintain fresh breath without synthetic foaming agents.</p>\n\n<h2>Key Herbs That Support Oral Health</h2>\n<ul>\n<li><strong>Neem:</strong> Powerful antimicrobial for gum health.</li>\n<li><strong>Turmeric:</strong> Reduces inflammation and soothes gums.</li>\n<li><strong>Clove:</strong> Strengthens gums and reduces sensitivity.</li>\n</ul>\n\n<h2>How to Use Ayurvedic Tooth Powder</h2>\n<ol>\n<li>Wet your brush.</li>\n<li>Dip gently — a little goes a long way.</li>\n<li>Brush for 1–2 minutes.</li>\n<li>Rinse thoroughly.</li>\n</ol>\n<p>Use 2–3 times weekly to avoid abrasiveness.</p>\n\n<h2>Safety Notes</h2>\n<p>Ayurvedic powders are not meant to be swallowed. People with enamel thinning or gum disease should consult a dentist before switching entirely to powders.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop neem & turmeric tooth powder</a> for cleaner, fresher oral hygiene naturally.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "switching-to-herbal-toothpaste-what-to-expect",
+      "title": "Switching to Herbal Toothpaste: What to Expect"
+    },
+    {
+      "slug": "combat-acne-with-ayurvedic-actives",
+      "title": "Combat Acne with Ayurvedic Actives"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "neem-turmeric-tooth-powder",
+      "title": "Neem & Turmeric Tooth Powder"
+    },
+    {
+      "slug": "licorice-toothpaste-herbal",
+      "title": "Licorice Toothpaste — Herbal (Fluoride-Free)"
+    },
+    {
+      "slug": "ayurvedic-body-scrub-coffee-turmeric",
+      "title": "Ayurvedic Body Scrub (Coffee + Turmeric)"
+    },
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    }
+  ]
 }

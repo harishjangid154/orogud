@@ -10,5 +10,37 @@
     "sage",
     "hormonal balance"
   ],
-  "content": "<h2>Understanding Menopause Through Ayurveda</h2>\n<p>Ayurveda views menopause as a natural life transition influenced by Vata and Pitta. As hormones shift, the body may experience heat, dryness, mood swings, or disrupted sleep. Support focuses on cooling, grounding, and nourishing practices.</p>\n\n<h2>Helpful Herbs</h2>\n<ul>\n<li><strong>Shatavari:</strong> Cooling, nourishing, traditionally used for women's wellness.</li>\n<li><strong>Sage:</strong> Known for supporting temperature balance.</li>\n<li><strong>Ashwagandha:</strong> Stabilizes mood and promotes resilience.</li>\n</ul>\n\n<h2>Lifestyle Practices</h2>\n<ul>\n<li>Eat cooling foods—cucumber, leafy greens, coconut water.</li>\n<li>Practice restorative yoga and gentle evening walks.</li>\n<li>Avoid spicy, fried, and very hot foods that aggravate Pitta.</li>\n<li>Maintain a consistent sleep-wake rhythm.</li>\n</ul>\n\n<h2>Safety First</h2>\n<p>Herbs can support comfort but should never replace medical care. Women with hormone-sensitive conditions, or those on HRT, should consult their clinician before adding supplements.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Menopause Support</a> to complement your wellness journey safely.</p>"
+  "content": "<h2>Understanding Menopause Through Ayurveda</h2>\n<p>Ayurveda views menopause as a natural life transition influenced by Vata and Pitta. As hormones shift, the body may experience heat, dryness, mood swings, or disrupted sleep. Support focuses on cooling, grounding, and nourishing practices.</p>\n\n<h2>Helpful Herbs</h2>\n<ul>\n<li><strong>Shatavari:</strong> Cooling, nourishing, traditionally used for women's wellness.</li>\n<li><strong>Sage:</strong> Known for supporting temperature balance.</li>\n<li><strong>Ashwagandha:</strong> Stabilizes mood and promotes resilience.</li>\n</ul>\n\n<h2>Lifestyle Practices</h2>\n<ul>\n<li>Eat cooling foods—cucumber, leafy greens, coconut water.</li>\n<li>Practice restorative yoga and gentle evening walks.</li>\n<li>Avoid spicy, fried, and very hot foods that aggravate Pitta.</li>\n<li>Maintain a consistent sleep-wake rhythm.</li>\n</ul>\n\n<h2>Safety First</h2>\n<p>Herbs can support comfort but should never replace medical care. Women with hormone-sensitive conditions, or those on HRT, should consult their clinician before adding supplements.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Menopause Support</a> to complement your wellness journey safely.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "gentle-support-for-periods-ayurvedic-teas-that-help",
+      "title": "Gentle Support for Periods: Ayurvedic Teas That Help"
+    },
+    {
+      "slug": "shatavari-gentle-ayurvedic-support-for-women",
+      "title": "Shatavari: Gentle Ayurvedic Support for Women"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-menopause-support-sage-shatavari-blend",
+      "title": "Herbal Menopause Support (Sage + Shatavari Blend)"
+    },
+    {
+      "slug": "herbal-menstrual-tea-methi-shatavari-blend",
+      "title": "Herbal Menstrual Tea — Methi + Shatavari Blend"
+    },
+    {
+      "slug": "shatavari-root-powder",
+      "title": "Organic Shatavari Root Powder"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    }
+  ]
 }

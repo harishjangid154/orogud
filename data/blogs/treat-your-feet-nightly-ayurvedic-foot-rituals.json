@@ -10,5 +10,37 @@
     "sesame",
     "night ritual"
   ],
-  "content": "<h2>The Power of Nightly Foot Care</h2>\n<p>Feet carry the weight of our day. Ayurveda recommends nightly nourishment to repair tissues, stimulate circulation, and calm the nervous system before sleep.</p>\n\n<h2>Vetiver & Sesame for Repair</h2>\n<ul>\n<li><strong>Vetiver:</strong> Cooling, anti-inflammatory, and soothing for irritated skin.</li>\n<li><strong>Sesame Oil:</strong> Deeply nourishing and supportive for tissue regeneration.</li>\n<li><strong>Shea Butter:</strong> Protects and seals moisture overnight.</li>\n</ul>\n\n<h2>How to Use for Best Results</h2>\n<ol>\n<li>Warm a small amount of cream in your hands.</li>\n<li>Massage into heels and soles for 3–5 minutes.</li>\n<li>Wear cotton socks overnight for deeper absorption.</li>\n</ol>\n\n<h2>When to See a Specialist</h2>\n<p>If cracks are deep, bleeding, or infected, consult a podiatrist. Topical creams aid mild-to-moderate conditions but don’t replace professional care for severe issues.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Foot Cream</a> and treat your feet to nightly restoration.</p>"
+  "content": "<h2>The Power of Nightly Foot Care</h2>\n<p>Feet carry the weight of our day. Ayurveda recommends nightly nourishment to repair tissues, stimulate circulation, and calm the nervous system before sleep.</p>\n\n<h2>Vetiver & Sesame for Repair</h2>\n<ul>\n<li><strong>Vetiver:</strong> Cooling, anti-inflammatory, and soothing for irritated skin.</li>\n<li><strong>Sesame Oil:</strong> Deeply nourishing and supportive for tissue regeneration.</li>\n<li><strong>Shea Butter:</strong> Protects and seals moisture overnight.</li>\n</ul>\n\n<h2>How to Use for Best Results</h2>\n<ol>\n<li>Warm a small amount of cream in your hands.</li>\n<li>Massage into heels and soles for 3–5 minutes.</li>\n<li>Wear cotton socks overnight for deeper absorption.</li>\n</ol>\n\n<h2>When to See a Specialist</h2>\n<p>If cracks are deep, bleeding, or infected, consult a podiatrist. Topical creams aid mild-to-moderate conditions but don’t replace professional care for severe issues.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Foot Cream</a> and treat your feet to nightly restoration.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "choosing-oils-ayurvedic-tips-for-cooking-fat",
+      "title": "Choosing Oils: Ayurvedic Tips for Cooking Fat"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-cooking-oil-blend-heart-friendly-blend",
+      "title": "Ayurvedic Cooking Oil Blend (Heart-friendly Blend)"
+    },
+    {
+      "slug": "ayurvedic-foot-cream-vetiver-sesame",
+      "title": "Ayurvedic Foot Cream (Vetiver + Sesame)"
+    },
+    {
+      "slug": "herbal-scented-incense-meditation-blend",
+      "title": "Herbal Scented Incense (Meditation Blend)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    }
+  ]
 }

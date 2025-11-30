@@ -14,5 +14,37 @@
     "ayurveda baby",
     "chamomile"
   ],
-  "content": "## What Is This Baby Powder?\nA natural, talc-free baby powder designed to keep delicate infant skin dry and comfortable. Made from rice starch, cornstarch, chamomile, and neem for gentle soothing.\n\n## Ayurvedic Significance\nChamomile calms Vata and reduces irritation; neem supports microbial balance; rice starch is light and absorbent.\n\n### Key Benefits\n- Absorbs excess moisture.\n- Soothes rash-prone or sensitive areas.\n- Talc-free and pediatric-friendly.\n\n## Ingredients\n- Rice starch\n- Cornstarch\n- Chamomile\n- Neem (tiny amount)\n\n## Usage Instructions\n- Dust lightly on clean, dry skin after bath.\n\n## Packaging\n- Shaker bottle with pediatric usage notes.\n\n## Safety & Consultation\n- Avoid inhalation. Consult pediatrician for newborn use or if rashes persist.\n\n## Why Choose This Powder?\nA gentle, safe formula rooted in Ayurvedic comfort and modern pediatric standards."
+  "content": "## What Is This Baby Powder?\nA natural, talc-free baby powder designed to keep delicate infant skin dry and comfortable. Made from rice starch, cornstarch, chamomile, and neem for gentle soothing.\n\n## Ayurvedic Significance\nChamomile calms Vata and reduces irritation; neem supports microbial balance; rice starch is light and absorbent.\n\n### Key Benefits\n- Absorbs excess moisture.\n- Soothes rash-prone or sensitive areas.\n- Talc-free and pediatric-friendly.\n\n## Ingredients\n- Rice starch\n- Cornstarch\n- Chamomile\n- Neem (tiny amount)\n\n## Usage Instructions\n- Dust lightly on clean, dry skin after bath.\n\n## Packaging\n- Shaker bottle with pediatric usage notes.\n\n## Safety & Consultation\n- Avoid inhalation. Consult pediatrician for newborn use or if rashes persist.\n\n## Why Choose This Powder?\nA gentle, safe formula rooted in Ayurvedic comfort and modern pediatric standards.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-sleep-tea-vata-calming-blend",
+      "title": "Ayurvedic Sleep Tea (Vata-Calming Blend)"
+    },
+    {
+      "slug": "herbal-eye-compress-warm-cold",
+      "title": "Herbal Eye Compress (Warm/Cold)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "talc-free-baby-care-ayurvedas-gentle-touch",
+      "title": "Talc-Free Baby Care: Ayurveda’s Gentle Touch"
+    },
+    {
+      "slug": "digital-eye-strain-ayurvedic-home-remedies-that-help",
+      "title": "Digital Eye Strain: Ayurvedic Home Remedies That Help"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
 }

@@ -10,5 +10,37 @@
     "ayurveda",
     "supplements"
   ],
-  "content": "<h2>Whole-Foods vs. Synthetic Isolates</h2>\n<p>Ayurveda tends to favor foods and herbs over isolated nutrients. Whole-food multivitamins deliver nutrients in their natural matrix, improving absorption and reducing the likelihood of imbalance that high-dose synthetic isolates can cause.</p>\n\n<h2>When to Consider a Natural Multivitamin</h2>\n<ul>\n<li>Busy lifestyles with inconsistent meals.</li>\n<li>Mild nutritional gaps due to dietary restrictions.</li>\n<li>Seasonal transitions or recovery from illness.</li>\n</ul>\n\n<h2>Key Ingredients & Benefits</h2>\n<ul>\n<li><strong>Amla:</strong> Vitamin C and antioxidant support.</li>\n<li><strong>Moringa:</strong> Vitamins, minerals, and chlorophyll.</li>\n<li><strong>Spirulina:</strong> Plant protein and micronutrients.</li>\n<li><strong>Ashwagandha:</strong> Adaptogenic support for stress and resilience.</li>\n</ul>\n\n<h2>Dosha & Safety Notes</h2>\n<p>Consult a practitioner if pregnant, breastfeeding, or on medications. Whole-food supplements support balance but are not a replacement for targeted medical therapy.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Multivitamin</a> if you want food-first, gentle daily support.</p>"
+  "content": "<h2>Whole-Foods vs. Synthetic Isolates</h2>\n<p>Ayurveda tends to favor foods and herbs over isolated nutrients. Whole-food multivitamins deliver nutrients in their natural matrix, improving absorption and reducing the likelihood of imbalance that high-dose synthetic isolates can cause.</p>\n\n<h2>When to Consider a Natural Multivitamin</h2>\n<ul>\n<li>Busy lifestyles with inconsistent meals.</li>\n<li>Mild nutritional gaps due to dietary restrictions.</li>\n<li>Seasonal transitions or recovery from illness.</li>\n</ul>\n\n<h2>Key Ingredients & Benefits</h2>\n<ul>\n<li><strong>Amla:</strong> Vitamin C and antioxidant support.</li>\n<li><strong>Moringa:</strong> Vitamins, minerals, and chlorophyll.</li>\n<li><strong>Spirulina:</strong> Plant protein and micronutrients.</li>\n<li><strong>Ashwagandha:</strong> Adaptogenic support for stress and resilience.</li>\n</ul>\n\n<h2>Dosha & Safety Notes</h2>\n<p>Consult a practitioner if pregnant, breastfeeding, or on medications. Whole-food supplements support balance but are not a replacement for targeted medical therapy.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Multivitamin</a> if you want food-first, gentle daily support.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-gummies-easy-immune-support-for-busy-people",
+      "title": "Amla Gummies: Easy Immune Support for Busy People"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-multivitamin-whole-food-blend",
+      "title": "Ayurvedic Multivitamin — Whole-Food Blend"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ]
 }

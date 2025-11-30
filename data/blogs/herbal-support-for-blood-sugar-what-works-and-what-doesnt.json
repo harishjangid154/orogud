@@ -10,5 +10,37 @@
     "bitter melon",
     "gymnema"
   ],
-  "content": "<h2>The Ayurvedic Lens on Blood Sugar</h2>\n<p>Ayurveda frames blood sugar imbalance as a disturbance of Kapha and impaired digestive fire. Herbal support focuses on improving metabolism—not replacing clinical treatment. Herbs complement, but never replace medical monitoring.</p>\n\n<h2>What Actually Helps</h2>\n<ul>\n<li><strong>Fenugreek:</strong> High in fiber and supportive for digestion and metabolism.</li>\n<li><strong>Bitter Melon:</strong> Traditionally used to support healthy glucose handling.</li>\n<li><strong>Gymnema:</strong> Known as “sugar destroyer,” helps reduce sugar cravings.</li>\n</ul>\n\n<h2>What Doesn’t Work</h2>\n<p>Quick fixes, extreme detoxes, or taking herbs without medical supervision. These approaches can be harmful, especially if you're on medication.</p>\n\n<h2>Safe Ayurveda + Lifestyle Practices</h2>\n<ul>\n<li>Eat balanced meals with whole grains and fiber.</li>\n<li>Walk lightly after meals to support digestion.</li>\n<li>Prioritize sleep—Glucose control worsens when sleep is disrupted.</li>\n<li>Avoid excessive snacking and refined carbs.</li>\n</ul>\n\n<h2>Essential Safety Notice</h2>\n<p>If you are on blood-sugar–lowering medication, always check with your doctor before adding herbs. Monitor glucose regularly.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Diabetic Support</a> — safe, supervised Ayurvedic support.</p>"
+  "content": "<h2>The Ayurvedic Lens on Blood Sugar</h2>\n<p>Ayurveda frames blood sugar imbalance as a disturbance of Kapha and impaired digestive fire. Herbal support focuses on improving metabolism—not replacing clinical treatment. Herbs complement, but never replace medical monitoring.</p>\n\n<h2>What Actually Helps</h2>\n<ul>\n<li><strong>Fenugreek:</strong> High in fiber and supportive for digestion and metabolism.</li>\n<li><strong>Bitter Melon:</strong> Traditionally used to support healthy glucose handling.</li>\n<li><strong>Gymnema:</strong> Known as “sugar destroyer,” helps reduce sugar cravings.</li>\n</ul>\n\n<h2>What Doesn’t Work</h2>\n<p>Quick fixes, extreme detoxes, or taking herbs without medical supervision. These approaches can be harmful, especially if you're on medication.</p>\n\n<h2>Safe Ayurveda + Lifestyle Practices</h2>\n<ul>\n<li>Eat balanced meals with whole grains and fiber.</li>\n<li>Walk lightly after meals to support digestion.</li>\n<li>Prioritize sleep—Glucose control worsens when sleep is disrupted.</li>\n<li>Avoid excessive snacking and refined carbs.</li>\n</ul>\n\n<h2>Essential Safety Notice</h2>\n<p>If you are on blood-sugar–lowering medication, always check with your doctor before adding herbs. Monitor glucose regularly.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Diabetic Support</a> — safe, supervised Ayurvedic support.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    },
+    {
+      "slug": "amla-gummies-easy-immune-support-for-busy-people",
+      "title": "Amla Gummies: Easy Immune Support for Busy People"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-diabetic-support-fenugreek-bitter-melon-blend",
+      "title": "Herbal Diabetic Support (Fenugreek + Bitter Melon Blend)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    }
+  ]
 }

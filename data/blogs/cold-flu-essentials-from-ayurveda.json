@@ -10,5 +10,37 @@
     "tulsi",
     "ayurveda remedies"
   ],
-  "content": "<h2>Understanding Respiratory Imbalance in Ayurveda</h2>\n<p>Seasonal colds, congestion, and sluggishness often occur when Kapha accumulates and Agni weakens. Ayurveda uses warming herbs to open channels and restore flow.</p>\n\n<h2>Key Herbs in Cold & Flu Powder</h2>\n<ul>\n<li><strong>Trikatu:</strong> Stimulates warmth and clears congestion.</li>\n<li><strong>Tulsi:</strong> A classical herb for cough and respiratory ease.</li>\n<li><strong>Licorice:</strong> Soothes throat irritation.</li>\n<li><strong>Citrus peel:</strong> Lightens Kapha and refreshes the breath.</li>\n</ul>\n\n<h2>How to Use the Powder</h2>\n<ol>\n<li>Mix ¼–½ tsp in hot water or honey.</li>\n<li>Sip slowly to enjoy its warming, clearing effects.</li>\n<li>Pair with steam inhalation or warm soups for added comfort.</li>\n</ol>\n\n<h2>When to Seek Medical Care</h2>\n<p>If symptoms last more than a few days, include fever, shortness of breath, chest pain, or persistent cough, consult a doctor immediately. Ayurvedic powders complement—not replace—clinical care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Cold & Flu Powder</a> to support seasonal wellness.</p>"
+  "content": "<h2>Understanding Respiratory Imbalance in Ayurveda</h2>\n<p>Seasonal colds, congestion, and sluggishness often occur when Kapha accumulates and Agni weakens. Ayurveda uses warming herbs to open channels and restore flow.</p>\n\n<h2>Key Herbs in Cold & Flu Powder</h2>\n<ul>\n<li><strong>Trikatu:</strong> Stimulates warmth and clears congestion.</li>\n<li><strong>Tulsi:</strong> A classical herb for cough and respiratory ease.</li>\n<li><strong>Licorice:</strong> Soothes throat irritation.</li>\n<li><strong>Citrus peel:</strong> Lightens Kapha and refreshes the breath.</li>\n</ul>\n\n<h2>How to Use the Powder</h2>\n<ol>\n<li>Mix ¼–½ tsp in hot water or honey.</li>\n<li>Sip slowly to enjoy its warming, clearing effects.</li>\n<li>Pair with steam inhalation or warm soups for added comfort.</li>\n</ol>\n\n<h2>When to Seek Medical Care</h2>\n<p>If symptoms last more than a few days, include fever, shortness of breath, chest pain, or persistent cough, consult a doctor immediately. Ayurvedic powders complement—not replace—clinical care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Cold & Flu Powder</a> to support seasonal wellness.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "breath-of-life-ayurvedic-tools-for-better-breathing",
+      "title": "Breath of Life: Ayurvedic Tools for Better Breathing"
+    },
+    {
+      "slug": "natural-cough-relief-from-ayurveda",
+      "title": "Natural Cough Relief from Ayurveda"
+    },
+    {
+      "slug": "natural-energy-boosters-from-ayurveda",
+      "title": "Natural Energy Boosters from Ayurveda"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-cold-flu-powder-trikatu-tulsi",
+      "title": "Herbal Cold & Flu Powder (Trikatu + Tulsi)"
+    },
+    {
+      "slug": "ayurvedic-breath-support-spray-eucalyptus-tulsi",
+      "title": "Ayurvedic Breath Support Spray (Eucalyptus + Tulsi)"
+    },
+    {
+      "slug": "herbal-energy-tea-shilajit-tulsi-blend",
+      "title": "Herbal Energy Tea — Shilajit + Tulsi Blend"
+    },
+    {
+      "slug": "tulsi-mulethi-cough-syrup-herbal",
+      "title": "Tulsi & Mulethi Herbal Cough Syrup"
+    }
+  ]
 }

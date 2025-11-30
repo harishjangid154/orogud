@@ -10,5 +10,37 @@
     "cumin",
     "bloating"
   ],
-  "content": "<h2>Why Traditional Carminatives Work</h2>\n<p>Ajwain and cumin are warming, aromatic seeds that stimulate digestive enzymes and soothe bloating. Hing (asafoetida) acts as a potent antispasmodic and carminative—especially helpful for flatulence and trapped gas.</p>\n\n<h2>How to Use the Syrup</h2>\n<ul>\n<li>Take 1–2 tsp after heavy or rich meals.</li>\n<li>Use sparingly as needed; not intended for chronic use without practitioner guidance.</li>\n</ul>\n\n<h2>Simple Home Practices to Reduce Bloating</h2>\n<ul>\n<li>Chew slowly and avoid cold drinks with meals.</li>\n<li>Use warm fennel or cumin water after meals.</li>\n<li>Stay lightly active after eating (short walk).</li>\n</ul>\n\n<h2>When to See a Doctor</h2>\n<p>Persistent, severe, or recurrent abdominal pain, unexplained weight loss, or bleeding requires medical evaluation. Digestive tonics support occasional discomfort but are not a replacement for medical care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ajwain + Cumin Digestive Tonic</a> and keep digestion calm and balanced.</p>"
+  "content": "<h2>Why Traditional Carminatives Work</h2>\n<p>Ajwain and cumin are warming, aromatic seeds that stimulate digestive enzymes and soothe bloating. Hing (asafoetida) acts as a potent antispasmodic and carminative—especially helpful for flatulence and trapped gas.</p>\n\n<h2>How to Use the Syrup</h2>\n<ul>\n<li>Take 1–2 tsp after heavy or rich meals.</li>\n<li>Use sparingly as needed; not intended for chronic use without practitioner guidance.</li>\n</ul>\n\n<h2>Simple Home Practices to Reduce Bloating</h2>\n<ul>\n<li>Chew slowly and avoid cold drinks with meals.</li>\n<li>Use warm fennel or cumin water after meals.</li>\n<li>Stay lightly active after eating (short walk).</li>\n</ul>\n\n<h2>When to See a Doctor</h2>\n<p>Persistent, severe, or recurrent abdominal pain, unexplained weight loss, or bleeding requires medical evaluation. Digestive tonics support occasional discomfort but are not a replacement for medical care.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ajwain + Cumin Digestive Tonic</a> and keep digestion calm and balanced.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "recover-naturally-ayurvedic-tips-after-a-big-night",
+      "title": "Recover Naturally: Ayurvedic Tips After a Big Night"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "digestive-tonic-ajwain-cumin-syrup",
+      "title": "Digestive Tonic — Ajwain + Cumin Syrup"
+    },
+    {
+      "slug": "fermented-buttermilk-cultured-lassi-mix",
+      "title": "Cultured Lassi Mix (Fermented Buttermilk Powder)"
+    },
+    {
+      "slug": "herbal-hangover-aid-ajwain-lemon-powder",
+      "title": "Herbal Hangover Aid (Ajwain + Lemon Powder)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    }
+  ]
 }

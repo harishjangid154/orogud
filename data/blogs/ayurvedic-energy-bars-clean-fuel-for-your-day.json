@@ -9,5 +9,37 @@
     "ayurvedic snack",
     "clean energy"
   ],
-  "content": "<h2>Why Ayurvedic Energy Bars Are Different</h2>\n<p>Most commercial energy bars are packed with preservatives, artificial sweeteners, and synthetic protein powders. Ayurvedic energy bars, however, use whole ingredients like dates, nuts, ghee, and spices to provide clean, stable energy.</p>\n\n<h2>The Power of Dates + Makhana + Ghee</h2>\n<ul>\n<li><strong>Dates:</strong> Natural energy and iron-rich sweetness.</li>\n<li><strong>Makhana:</strong> Light, nutrient-dense, Vata-balancing.</li>\n<li><strong>Ghee:</strong> Supports digestion and sustained energy.</li>\n<li><strong>Almonds:</strong> Healthy fats and protein.</li>\n<li><strong>Cardamom:</strong> Aids digestion and adds aroma.</li>\n</ul>\n\n<h2>Perfect for Active Lifestyles</h2>\n<p>These bars provide the right balance of carbohydrates, minerals, and healthy fats. They are excellent:</p>\n<ul>\n<li>Pre/post yoga</li>\n<li>As a mid-day work snack</li>\n<li>For children needing natural energy</li>\n<li>During travel</li>\n</ul>\n\n<h2>Storage & Freshness</h2>\n<p>Store in a cool, dry place. Because these bars contain ghee and natural ingredients, they stay fresh for 30–45 days without refrigeration.</p>\n\n<p><strong>Note:</strong> People with diabetes should consult their doctor before consuming date-based snacks.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Energy Bars</a> and energize your day naturally.</p>"
+  "content": "<h2>Why Ayurvedic Energy Bars Are Different</h2>\n<p>Most commercial energy bars are packed with preservatives, artificial sweeteners, and synthetic protein powders. Ayurvedic energy bars, however, use whole ingredients like dates, nuts, ghee, and spices to provide clean, stable energy.</p>\n\n<h2>The Power of Dates + Makhana + Ghee</h2>\n<ul>\n<li><strong>Dates:</strong> Natural energy and iron-rich sweetness.</li>\n<li><strong>Makhana:</strong> Light, nutrient-dense, Vata-balancing.</li>\n<li><strong>Ghee:</strong> Supports digestion and sustained energy.</li>\n<li><strong>Almonds:</strong> Healthy fats and protein.</li>\n<li><strong>Cardamom:</strong> Aids digestion and adds aroma.</li>\n</ul>\n\n<h2>Perfect for Active Lifestyles</h2>\n<p>These bars provide the right balance of carbohydrates, minerals, and healthy fats. They are excellent:</p>\n<ul>\n<li>Pre/post yoga</li>\n<li>As a mid-day work snack</li>\n<li>For children needing natural energy</li>\n<li>During travel</li>\n</ul>\n\n<h2>Storage & Freshness</h2>\n<p>Store in a cool, dry place. Because these bars contain ghee and natural ingredients, they stay fresh for 30–45 days without refrigeration.</p>\n\n<p><strong>Note:</strong> People with diabetes should consult their doctor before consuming date-based snacks.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Ayurvedic Energy Bars</a> and energize your day naturally.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    },
+    {
+      "slug": "amla-gummies-easy-immune-support-for-busy-people",
+      "title": "Amla Gummies: Easy Immune Support for Busy People"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "herbal-energy-bars-dates-makhana-ghee",
+      "title": "Herbal Energy Bars (Dates + Makhana + Ghee)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    }
+  ]
 }

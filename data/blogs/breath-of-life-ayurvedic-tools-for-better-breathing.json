@@ -10,5 +10,37 @@
     "eucalyptus",
     "pranayama"
   ],
-  "content": "<h2>The Importance of Clear Breathing</h2>\n<p>Ayurveda views breath (prana) as life force. When nasal passages feel blocked, prana flow reduces, affecting clarity, focus, and energy.</p>\n\n<h2>How Tulsi and Eucalyptus Help</h2>\n<ul>\n<li><strong>Tulsi:</strong> A classical herb for respiratory ease and clarity.</li>\n<li><strong>Eucalyptus:</strong> Provides cooling vapors that open nasal passages.</li>\n<li><strong>Saline:</strong> Moisturizes dry mucus membranes.</li>\n</ul>\n\n<h2>How to Use Breath Support Sprays</h2>\n<p>Use 1–2 sprays per nostril as directed. Allow the cool herbal mist to clear and refresh the airways.</p>\n\n<h2>Pranayama Practices for Better Breathing</h2>\n<ul>\n<li><strong>Anulom Vilom:</strong> Balances prana flow.</li>\n<li><strong>Bhramari:</strong> Calms the mind and soothes sinuses.</li>\n<li><strong>Deep belly breathing:</strong> Enhances lung capacity.</li>\n</ul>\n\n<h2>When to Seek Medical Advice</h2>\n<p>If congestion persists for weeks, includes fever, or interferes with sleep, seek professional evaluation.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Breath Support Spray</a> and breathe easier, naturally.</p>"
+  "content": "<h2>The Importance of Clear Breathing</h2>\n<p>Ayurveda views breath (prana) as life force. When nasal passages feel blocked, prana flow reduces, affecting clarity, focus, and energy.</p>\n\n<h2>How Tulsi and Eucalyptus Help</h2>\n<ul>\n<li><strong>Tulsi:</strong> A classical herb for respiratory ease and clarity.</li>\n<li><strong>Eucalyptus:</strong> Provides cooling vapors that open nasal passages.</li>\n<li><strong>Saline:</strong> Moisturizes dry mucus membranes.</li>\n</ul>\n\n<h2>How to Use Breath Support Sprays</h2>\n<p>Use 1–2 sprays per nostril as directed. Allow the cool herbal mist to clear and refresh the airways.</p>\n\n<h2>Pranayama Practices for Better Breathing</h2>\n<ul>\n<li><strong>Anulom Vilom:</strong> Balances prana flow.</li>\n<li><strong>Bhramari:</strong> Calms the mind and soothes sinuses.</li>\n<li><strong>Deep belly breathing:</strong> Enhances lung capacity.</li>\n</ul>\n\n<h2>When to Seek Medical Advice</h2>\n<p>If congestion persists for weeks, includes fever, or interferes with sleep, seek professional evaluation.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Breath Support Spray</a> and breathe easier, naturally.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "breathwork-basics-start-a-daily-pranayama-practice",
+      "title": "Breathwork Basics: Start a Daily Pranayama Practice"
+    },
+    {
+      "slug": "cold-flu-essentials-from-ayurveda",
+      "title": "Cold & Flu Essentials from Ayurveda"
+    },
+    {
+      "slug": "natural-cough-relief-from-ayurveda",
+      "title": "Natural Cough Relief from Ayurveda"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-breath-support-spray-eucalyptus-tulsi",
+      "title": "Ayurvedic Breath Support Spray (Eucalyptus + Tulsi)"
+    },
+    {
+      "slug": "ayurvedic-breathwork-guide-audio-digital-product",
+      "title": "Ayurvedic Breathwork Guide + Audio (Digital Download)"
+    },
+    {
+      "slug": "ayurvedic-nasal-inhaler-peppermint-eucalyptus",
+      "title": "Ayurvedic Nasal Inhaler (Peppermint + Eucalyptus)"
+    },
+    {
+      "slug": "herbal-cold-flu-powder-trikatu-tulsi",
+      "title": "Herbal Cold & Flu Powder (Trikatu + Tulsi)"
+    }
+  ]
 }

@@ -14,5 +14,37 @@
     "eucalyptus",
     "sinus relief"
   ],
-  "content": "## What Is This Nasal Inhaler?\nA pocket-sized inhaler containing a wick infused with diluted peppermint and eucalyptus essential oils for short-term nasal clearing and mental refreshment.\n\n## Ayurvedic Significance\nCooling, aromatic botanicals like peppermint and eucalyptus help clear the head, support easier breathing briefly, and stimulate clarity—useful for on-the-go refreshment and focus.\n\n### Key Benefits\n- Quick, portable relief for mild nasal congestion.\n- Invigorates and sharpens mental focus.\n- Refillable and travel-friendly.\n\n## Ingredients\n- Peppermint essential oil (diluted)\n- Eucalyptus essential oil (diluted)\n- Inhaler tube with replaceable wick\n\n## Usage Instructions\n- Hold the inhaler near one nostril, close the other, inhale gently through the nose 1–3 times. Use as needed; avoid excessive use.\n\n## Packaging\n- Refillable inhaler tube with spare wick included.\n\n## Safety & Consultation\n- Not for infants or small children. Avoid if you have severe asthma or known sensitivity to essential oils. Discontinue if irritation occurs.\n\n## Why Choose This Inhaler?\nA natural, non-medicated way to support brief nasal clarity and mental alertness while traveling or working."
+  "content": "## What Is This Nasal Inhaler?\nA pocket-sized inhaler containing a wick infused with diluted peppermint and eucalyptus essential oils for short-term nasal clearing and mental refreshment.\n\n## Ayurvedic Significance\nCooling, aromatic botanicals like peppermint and eucalyptus help clear the head, support easier breathing briefly, and stimulate clarity—useful for on-the-go refreshment and focus.\n\n### Key Benefits\n- Quick, portable relief for mild nasal congestion.\n- Invigorates and sharpens mental focus.\n- Refillable and travel-friendly.\n\n## Ingredients\n- Peppermint essential oil (diluted)\n- Eucalyptus essential oil (diluted)\n- Inhaler tube with replaceable wick\n\n## Usage Instructions\n- Hold the inhaler near one nostril, close the other, inhale gently through the nose 1–3 times. Use as needed; avoid excessive use.\n\n## Packaging\n- Refillable inhaler tube with spare wick included.\n\n## Safety & Consultation\n- Not for infants or small children. Avoid if you have severe asthma or known sensitivity to essential oils. Discontinue if irritation occurs.\n\n## Why Choose This Inhaler?\nA natural, non-medicated way to support brief nasal clarity and mental alertness while traveling or working.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-breath-support-spray-eucalyptus-tulsi",
+      "title": "Ayurvedic Breath Support Spray (Eucalyptus + Tulsi)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "on-the-go-relief-ayurvedic-inhalers-for-busy-days",
+      "title": "On-the-Go Relief: Ayurvedic Inhalers for Busy Days"
+    },
+    {
+      "slug": "breath-of-life-ayurvedic-tools-for-better-breathing",
+      "title": "Breath of Life: Ayurvedic Tools for Better Breathing"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
 }

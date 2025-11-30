@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
+/* CORE NEUTRALS — always same */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #FAF7F3;
+  --surface: #FFFFFF;
+  --surface-2: #F6F3EE;
+
+  --text: #1F2326;
+  --muted: #585C5F;
+  --subtle: #8C8F92;
+
+  --border: #E8E5E1;
+  --shadow: rgba(31, 35, 38, 0.06);
+
+  --wood: #8A6B4A;
+  --beige: #CFC1AE;
+  --cream: #F3E9D8;
+  --brown-deep: #4A3B2E;
+
+  --success: #2E7D4B;
+  --warning: #C0844B;
+  --danger: #B44A4A;
+
+  --radius: 12px;
+  --container-max: 1200px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+:root[data-theme="terracotta"] {
+  --accent: #B86C4A;
+  --accent-600: #994F37;
+  --accent-contrast: #FFFFFF;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root[data-theme="teal"] {
+  --accent: #4F7E7A;
+  --accent-600: #35615F;
+  --accent-contrast: #FFFFFF;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --color-background-primary: var(--bg);
+  --color-background-secondary: var(--surface);
+  --color-text-primary: var(--text);
+  --color-text-secondary: var(--muted);
+  --color-text-tertiary: var(--subtle);
+  --color-border: var(--border);
+  --color-shadow: var(--shadow);
+  --color-wood: var(--wood);
+  --color-beige: var(--beige);
+  --color-cream: var(--cream);
+  --color-brown-deep: var(--brown-deep);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-radius: var(--radius);
+  --color-container-max: var(--container-max);
+
+}
+
+@theme terracotta {
+  --color-accent: var(--accent);
+  --color-accent-600: var(--accent-600);
+  --color-accent-contrast: var(--accent-contrast);
+}
+
+@theme teal {
+  --color-accent: var(--accent);
+  --color-accent-600: var(--accent-600);
+  --color-accent-contrast: var(--accent-contrast);
 }

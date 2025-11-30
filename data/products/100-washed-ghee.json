@@ -1,0 +1,11 @@
+{
+  "title": "100 Washed Ghee",
+  "date": "2025-11-10",
+  "price": 599,
+  "excerpt": "Small-batch washed ghee using traditional home methods.",
+  "images": ["/images/ghee-1.jpg", "/images/ghee-2.jpg"],
+  "category": "Food & Pantry",
+  "sku": "GHEE-100-W",
+  "tags": ["ghee", "dairy", "home"],
+  "content": "## How it's made\n\nThis is a markdown or HTML content block..."
+}

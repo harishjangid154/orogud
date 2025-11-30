@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ToastProvider, ToastViewport } from "@/components/ui/Toast";
 
 export const metadataBase = new URL("https://orogud.com");
 
@@ -61,9 +62,12 @@ export default function RootLayout({
         {/* you can add other head-level meta tags here if needed */}
       </head>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <ToastProvider>
+          <Header />
+          {children}
+          <Footer />
+          <ToastViewport />
+        </ToastProvider>
       </body>
     </html>
   );

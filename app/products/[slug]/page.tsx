@@ -4,6 +4,12 @@ import path from "path";
 import React from "react";
 import { Metadata } from "next";
 import Link from "next/link";
+import * as Tabs from "@/components/ui/Tabs";
+import * as Tooltip from "@/components/ui/Tooltip";
+import * as Popover from "@/components/ui/Popover";
+import * as Dialog from "@/components/ui/Dialog";
+import ProductImageGallery from "@/components/ProductImageGallery";
+import { Share2, Heart, ShoppingCart, Check } from "lucide-react";
 
 type ProductData = {
   title: string;
@@ -13,7 +19,7 @@ type ProductData = {
   images?: string[];
   category?: string;
   sku?: string;
-  content?: string; // html or markdown
+  content?: string;
   tags?: string[];
 };
 
@@ -114,20 +120,20 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <main className="px-4 md:px-6 lg:px-8 xl:px-12 py-8">
         <div className="max-w-4xl mx-auto">
           <div className="card">
-          <h1 className="text-2xl font-semibold">Product not found</h1>
-          <p className="muted mt-2">We couldn't find product: <strong>{slug}</strong>.</p>
-          {available.length ? (
-            <>
-              <p className="mt-4 muted">Available product slugs:</p>
-              <ul className="mt-2 space-y-2">
-                {available.map((s) => (
-                  <li key={s}><a href={`/products/${s}`} className="text-accent hover:underline">{s}</a></li>
-                ))}
-              </ul>
-            </>
-          ) : (
-            <p className="muted mt-4">No product files found in <code>data/products</code>.</p>
-          )}
+            <h1 className="text-2xl font-semibold">Product not found</h1>
+            <p className="muted mt-2">We couldn't find product: <strong>{slug}</strong>.</p>
+            {available.length ? (
+              <>
+                <p className="mt-4 muted">Available product slugs:</p>
+                <ul className="mt-2 space-y-2">
+                  {available.map((s) => (
+                    <li key={s}><a href={`/products/${s}`} className="text-accent hover:underline">{s}</a></li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <p className="muted mt-4">No product files found in <code>data/products</code>.</p>
+            )}
           </div>
         </div>
       </main>
@@ -139,92 +145,215 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   return (
     <main className="bg-primary min-h-screen">
       <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
-        <div className="max-w-6xl mx-auto">
-        {/* Breadcrumb */}
-        <div className="mb-8 flex items-center gap-2 text-sm text-muted">
-          <Link href="/products" className="hover:text-accent transition-colors">Products</Link>
-          <span>/</span>
-          <span className="text-text font-medium">{product.title}</span>
-        </div>
-
-        <div className="grid gap-8 md:grid-cols-3">
-          {/* Main Content */}
-          <div className="md:col-span-2">
-            <article className="card card-pad-lg">
-              {product.images && product.images.length ? (
-                <div className="mb-6 overflow-hidden rounded-lg">
-                  <img src={product.images[0]} alt={product.title} className="w-full h-auto object-cover" />
-                </div>
-              ) : null}
-
-              <header className="mb-8">
-                <div className="flex items-center gap-3 mb-4">
-                  {product.category ? <span className="badge">{product.category}</span> : null}
-                  {product.date ? <span className="text-xs text-muted">{new Date(product.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })}</span> : null}
-                </div>
-                <h1 className="text-4xl font-bold text-text mb-4">{product.title}</h1>
-                {product.excerpt ? <p className="lead text-lg">{product.excerpt}</p> : null}
-              </header>
-
-              {/* Price and CTA */}
-              <div className="bg-accent-light rounded-lg p-6 mb-8 flex items-center justify-between">
-                <div>
-                  <p className="text-sm text-muted mb-1">Price</p>
-                  <div className="text-3xl font-bold text-accent">
-                    {product.price ? (typeof product.price === "number" ? `₹${product.price}` : product.price) : "Price on request"}
-                  </div>
-                </div>
-                <button className="btn btn-primary btn-lg">Add to cart</button>
-              </div>
-
-              {/* Description */}
-              <section className="prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
-            </article>
+        <div className="max-w-7xl mx-auto">
+          {/* Breadcrumb */}
+          <div className="mb-6 flex items-center gap-2 text-sm text-muted">
+            <Link href="/products" className="hover:text-accent transition-colors">Products</Link>
+            <span>/</span>
+            {product.category && (
+              <>
+                <Link href={`/products?category=${encodeURIComponent(product.category)}`} className="hover:text-accent transition-colors">
+                  {product.category}
+                </Link>
+                <span>/</span>
+              </>
+            )}
+            <span className="text-text font-medium">{product.title}</span>
           </div>
 
-          {/* Sidebar */}
-          <aside className="md:col-span-1">
-            {/* Product Details */}
-            <div className="card card-pad-md mb-6">
-              <h4 className="text-sm font-semibold text-text mb-4 uppercase tracking-wide">Product Details</h4>
-              <ul className="text-sm space-y-3">
-                {product.sku ? (
-                  <li className="flex justify-between">
-                    <span className="text-muted">SKU</span>
-                    <strong className="text-text">{product.sku}</strong>
-                  </li>
-                ) : null}
-                {product.category ? (
-                  <li className="flex justify-between">
-                    <span className="text-muted">Category</span>
-                    <strong className="text-text">{product.category}</strong>
-                  </li>
-                ) : null}
-              </ul>
+          <div className="grid gap-8 lg:grid-cols-2">
+            {/* Left Column - Images */}
+            <div className="sticky top-24 self-start">
+              {product.images && product.images.length > 0 ? (
+                <ProductImageGallery images={product.images} title={product.title} />
+              ) : (
+                <div className="aspect-square w-full rounded-lg bg-surface-2 flex items-center justify-center">
+                  <span className="text-muted">No image available</span>
+                </div>
+              )}
             </div>
 
-            {/* Tags */}
-            {product.tags && product.tags.length > 0 ? (
-              <div className="card card-pad-md mb-6">
-                <h4 className="text-sm font-semibold text-text mb-4 uppercase tracking-wide">Tags</h4>
-                <div className="flex flex-wrap gap-2">
-                  {product.tags.map((t) => (
-                    <span key={t} className="badge">{t}</span>
-                  ))}
+            {/* Right Column - Product Info */}
+            <div className="space-y-6">
+              {/* Header */}
+              <div>
+                <div className="flex items-center gap-3 mb-4 flex-wrap">
+                  {product.category && (
+                    <Link
+                      href={`/products?category=${encodeURIComponent(product.category)}`}
+                      className="badge hover:bg-accent hover:text-accent-contrast transition-colors"
+                    >
+                      {product.category}
+                    </Link>
+                  )}
+                  {product.sku && (
+                    <span className="text-sm text-muted">SKU: {product.sku}</span>
+                  )}
+                </div>
+                <h1 className="text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">{product.title}</h1>
+                {product.excerpt && (
+                  <p className="text-lg text-muted leading-relaxed">{product.excerpt}</p>
+                )}
+              </div>
+
+              {/* Price Section */}
+              <div className="card card-pad-lg bg-accent-light border-2 border-accent/20">
+                <div className="flex items-center justify-between mb-6">
+                  <div>
+                    <p className="text-sm text-muted mb-2">Price</p>
+                    <div className="text-4xl md:text-5xl font-bold text-accent">
+                      {product.price ? (typeof product.price === "number" ? `₹${product.price}` : product.price) : "Price on request"}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Action Buttons */}
+                <div className="flex gap-3">
+                  <Tooltip.TooltipProvider>
+                    <Tooltip.Tooltip>
+                      <Tooltip.TooltipTrigger asChild>
+                        <button className="btn btn-primary flex-1 text-base py-3">
+                          <ShoppingCart className="h-5 w-5 mr-2" />
+                          Add to Cart
+                        </button>
+                      </Tooltip.TooltipTrigger>
+                      <Tooltip.TooltipContent>
+                        <p>Add this item to your shopping cart</p>
+                      </Tooltip.TooltipContent>
+                    </Tooltip.Tooltip>
+                  </Tooltip.TooltipProvider>
+
+                  <Tooltip.TooltipProvider>
+                    <Tooltip.Tooltip>
+                      <Tooltip.TooltipTrigger asChild>
+                        <button className="btn btn-outline px-4">
+                          <Heart className="h-5 w-5" />
+                        </button>
+                      </Tooltip.TooltipTrigger>
+                      <Tooltip.TooltipContent>
+                        <p>Add to wishlist</p>
+                      </Tooltip.TooltipContent>
+                    </Tooltip.Tooltip>
+                  </Tooltip.TooltipProvider>
+
+                  <Popover.Popover>
+                    <Popover.PopoverTrigger asChild>
+                      <button className="btn btn-outline px-4">
+                        <Share2 className="h-5 w-5" />
+                      </button>
+                    </Popover.PopoverTrigger>
+                    <Popover.PopoverContent className="w-64">
+                      <div className="space-y-3">
+                        <h4 className="font-semibold text-text mb-3">Share Product</h4>
+                        <div className="space-y-2">
+                          <button
+                            onClick={() => {
+                              if (typeof window !== "undefined") {
+                                navigator.clipboard.writeText(window.location.href);
+                              }
+                            }}
+                            className="w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
+                          >
+                            Copy Link
+                          </button>
+                          <a
+                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(product.title)}&url=${encodeURIComponent(typeof window !== "undefined" ? window.location.href : "")}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
+                          >
+                            Share on Twitter
+                          </a>
+                          <a
+                            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== "undefined" ? window.location.href : "")}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
+                          >
+                            Share on Facebook
+                          </a>
+                        </div>
+                      </div>
+                    </Popover.PopoverContent>
+                  </Popover.Popover>
                 </div>
               </div>
-            ) : null}
 
-            {/* Related */}
-            <div className="card card-pad-md">
-              <h4 className="text-sm font-semibold text-text mb-3 uppercase tracking-wide">Explore More</h4>
-              <p className="text-muted text-sm mb-4">Discover more curated products from our collection.</p>
-              <Link href="/products" className="btn btn-outline btn-sm w-full">
-                View all products
-              </Link>
+              {/* Quick Info Cards */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="card card-pad-md text-center">
+                  <div className="text-2xl mb-2">🚚</div>
+                  <p className="text-sm font-semibold text-text mb-1">Free Shipping</p>
+                  <p className="text-xs text-muted">On orders over ₹500</p>
+                </div>
+                <div className="card card-pad-md text-center">
+                  <div className="text-2xl mb-2">↩️</div>
+                  <p className="text-sm font-semibold text-text mb-1">Easy Returns</p>
+                  <p className="text-xs text-muted">30-day return policy</p>
+                </div>
+              </div>
+
+              {/* Description Tabs */}
+              <div className="card card-pad-lg">
+                <Tabs.Tabs defaultValue="description" className="w-full">
+                  <Tabs.TabsList className="mb-6">
+                    <Tabs.TabsTrigger value="description">Description</Tabs.TabsTrigger>
+                    <Tabs.TabsTrigger value="details">Details</Tabs.TabsTrigger>
+                    {product.tags && product.tags.length > 0 && (
+                      <Tabs.TabsTrigger value="tags">Tags</Tabs.TabsTrigger>
+                    )}
+                  </Tabs.TabsList>
+                  <Tabs.TabsContent value="description" className="prose max-w-none">
+                    <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                  </Tabs.TabsContent>
+                  <Tabs.TabsContent value="details">
+                    <div className="space-y-4">
+                      {product.sku && (
+                        <div className="flex justify-between py-3 border-b border-border">
+                          <span className="text-muted font-medium">SKU</span>
+                          <span className="font-semibold text-text">{product.sku}</span>
+                        </div>
+                      )}
+                      {product.category && (
+                        <div className="flex justify-between py-3 border-b border-border">
+                          <span className="text-muted font-medium">Category</span>
+                          <Link href={`/products?category=${encodeURIComponent(product.category)}`} className="font-semibold text-accent hover:text-accent-600">
+                            {product.category}
+                          </Link>
+                        </div>
+                      )}
+                      {product.date && (
+                        <div className="flex justify-between py-3 border-b border-border">
+                          <span className="text-muted font-medium">Added</span>
+                          <span className="font-semibold text-text">{new Date(product.date).toLocaleDateString("en-GB", { year: "numeric", month: "long", day: "numeric" })}</span>
+                        </div>
+                      )}
+                    </div>
+                  </Tabs.TabsContent>
+                  {product.tags && product.tags.length > 0 && (
+                    <Tabs.TabsContent value="tags">
+                      <div className="flex flex-wrap gap-2">
+                        {product.tags.map((tag) => (
+                          <span key={tag} className="badge">
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </Tabs.TabsContent>
+                  )}
+                </Tabs.Tabs>
+              </div>
+
+              {/* Related Products */}
+              <div className="card card-pad-md">
+                <h4 className="text-base font-bold text-text mb-4">Explore More</h4>
+                <p className="text-muted text-sm mb-4">Discover more curated products from our collection.</p>
+                <Link href="/products" className="btn btn-outline w-full">
+                  View All Products
+                </Link>
+              </div>
             </div>
-          </aside>
-        </div>
+          </div>
         </div>
       </div>
     </main>

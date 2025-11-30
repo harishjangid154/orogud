@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { JSX, useEffect, useState } from "react";
+import CategoryDropdown from "@/components/CategoryDropdown";
 
 type NavItem = { name: string; href: string };
 
@@ -68,6 +69,9 @@ export default function Header(): JSX.Element {
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-10 ml-8" aria-label="Primary navigation">
           {NAV.map((item) => {
+            if (item.name === "Categories") {
+              return <CategoryDropdown key={item.href} />;
+            }
             const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
             return (
               <Link

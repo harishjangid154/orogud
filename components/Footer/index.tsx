@@ -9,7 +9,7 @@ export default function Footer(): JSX.Element {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-surface-2 border-t border-border mt-16">
+    <footer className="bg-surface-2 border-t border-border">
       <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-16">
         <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-12">
           {/* Brand & description */}

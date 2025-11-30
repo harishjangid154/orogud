@@ -60,13 +60,9 @@ export default function RootLayout({
         <meta name="theme-color" content="#3B7A3A" />
         {/* you can add other head-level meta tags here if needed */}
       </head>
-      <body
-        
-      >
+      <body>
         <Header />
-        <div className="px-8">
-          {children}  
-        </div>
+        {children}
         <Footer />
       </body>
     </html>

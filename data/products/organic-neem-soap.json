@@ -1,0 +1,50 @@
+{
+  "title": "Neem Cleansing Soap",
+  "date": "2025-11-30",
+  "price": 149,
+  "excerpt": "A gentle cold-processed neem soap crafted for clear, balanced, acne-prone skin.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Personal Care",
+  "sku": "SOAP-NEEM-001",
+  "tags": [
+    "neem soap",
+    "ayurveda",
+    "pitta care",
+    "acne"
+  ],
+  "content": "## What Is Neem Cleansing Soap?\nNeem Cleansing Soap is a handcrafted, cold-processed herbal soap designed to care for acne-prone and sensitive skin. It blends neem oil, neem leaf powder, coconut oil, and olive oil to create a naturally purifying cleanser.\n\n## Ayurvedic Significance\nIn Ayurveda, neem is known as *Nimba*, a plant with powerful Pitta-balancing, antibacterial, and detoxifying qualities. It helps reduce heat, redness, and inflammation on the skin while supporting natural healing.\n\n### Key Benefits\n- Naturally antibacterial and anti-inflammatory.\n- Supports clear skin and reduces acne formation.\n- Helps maintain Pitta balance and cools irritated skin.\n- Gentle enough for daily use on face and body.\n- Cold-process formula retains nutrients for healthier skin.\n\n## Ingredients\n- **Cold-process soap base**\n- **Neem oil**\n- **Neem leaf powder**\n- **Coconut oil**\n- **Olive oil**\n\n## Usage Instructions\n- Use daily as a **face and body cleanser**.\n- For acne-prone areas, lather and leave for 20–30 seconds before rinsing.\n- Can be used as a **spot-treatment bar** for targeted cleansing.\n\n## Packaging\n- Wrapped in **recycled kraft paper** featuring natural neem illustrations.\n- Eco-friendly, minimalistic, and inspired by traditional herbal design.\n\n## Storage\n- Keep dry between uses to extend the soap's life.\n- Store on a slotted soap dish.\n\n## Why Choose This Neem Soap?\nThis soap is made using a traditional cold-process method that preserves the herbal potency of neem. It supports skin clarity, balances heat, and delivers a gentle yet effective cleansing experience—ideal for daily Ayurvedic skincare.",
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-face-cleanser-sandal-chickpea-flour",
+      "title": "Ayurvedic Face Cleanser — Sandal & Chickpea Flour"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "fight-acne-the-ayurvedic-way-neem-face-mist-rituals",
+      "title": "Fight Acne the Ayurvedic Way: Neem Face Mist Rituals"
+    },
+    {
+      "slug": "neem-soap-natural-defense-for-clear-skin",
+      "title": "Neem Soap: Natural Defense for Clear Skin"
+    },
+    {
+      "slug": "sandalwood-beauty-rituals-from-ayurveda",
+      "title": "Sandalwood Beauty Rituals from Ayurveda"
+    }
+  ]
+}

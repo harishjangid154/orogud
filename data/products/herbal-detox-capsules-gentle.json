@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Detox Capsules (Gentle)",
+  "date": "2025-11-30",
+  "price": 399,
+  "excerpt": "A mild internal detox supplement combining triphala, punarnava, and guduchi to support regularity and gentle cleansing.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Detox & Cleansing",
+  "sku": "DETOX-CAP-073",
+  "tags": [
+    "detox",
+    "triphala",
+    "punarnava",
+    "gentle cleanse"
+  ],
+  "content": "## What Are These Detox Capsules?\nA gentle, practitioner-inspired detox formula using triphala, punarnava, and guduchi to support bowel regularity, fluid balance, and mild detoxification without harsh laxatives.\n\n## Ayurvedic Significance\nTriphala is the classical gentle cleanser for the GI tract; punarnava supports fluid balance and elimination; guduchi supports tissue purification and immunity.\n\n### Key Benefits\n- Supports gentle bowel regularity and mild detox.\n- Reduces sluggishness without harsh stimulation.\n- Suitable for occasional use as part of a supportive regimen.\n\n## Ingredients\n- Triphala\n- Punarnava\n- Guduchi\n\n## Usage Instructions\n- Use as per label or practitioner guidance. Nighttime dosing is common for gentle action.\n\n## Packaging\n- Bottle with instructions and recommended duration.\n\n## Safety & Consultation\n- Consult practitioner if pregnant, breastfeeding, or on medications. Avoid aggressive multi-day cleanses without supervision.\n\n## Why Choose These Capsules?\nA measured, gentle approach to internal cleansing designed for safety and sustainability.",
+  "relatedProducts": [
+    {
+      "slug": "organic-triphala-powder",
+      "title": "Organic Triphala Powder"
+    },
+    {
+      "slug": "herbal-detox-bath-salts-neem-epsom",
+      "title": "Herbal Detox Bath Salts (Neem + Epsom)"
+    },
+    {
+      "slug": "herbal-eye-cream-cucumber-triphala",
+      "title": "Herbal Eye Cream (Cucumber + Triphala)"
+    },
+    {
+      "slug": "herbal-eye-drops-triphala-based",
+      "title": "Herbal Eye Drops (Triphala-Based)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "safe-detox-gentle-ayurvedic-paths-to-cleanse",
+      "title": "Safe Detox: Gentle Ayurvedic Paths to Cleanse"
+    },
+    {
+      "slug": "triphala-the-gentle-detoxifier-you-can-use-nightly",
+      "title": "Triphala — The Gentle Detoxifier You Can Use Nightly"
+    },
+    {
+      "slug": "eye-care-in-ayurveda-cooling-rituals-for-tired-eyes",
+      "title": "Eye Care in Ayurveda: Cooling Rituals for Tired Eyes"
+    }
+  ]
+}

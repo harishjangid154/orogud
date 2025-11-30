@@ -1,0 +1,46 @@
+{
+  "title": "Smart Snacking: Ayurvedic Mixes That Satisfy",
+  "date": "2025-11-30",
+  "author": "Harish",
+  "excerpt": "Ayurvedic snacking is about balance—nourishing foods, gentle spices, and mindful portions.",
+  "coverImage": "/og-image.png",
+  "tags": [
+    "snacks",
+    "ayurveda",
+    "digestive spices",
+    "healthy eating"
+  ],
+  "content": "<h2>The Ayurvedic Philosophy of Snacking</h2>\n<p>Snacking is best done with awareness—foods should be light, energizing, and easy to digest. Heavy, cold, or oily snacks increase Kapha and slow digestion.</p>\n\n<h2>Why Nuts & Seeds Work</h2>\n<ul>\n<li><strong>Almonds:</strong> Warm, grounding, and nourishing.</li>\n<li><strong>Pumpkin Seeds:</strong> Mineral-rich and energizing.</li>\n<li><strong>Sesame:</strong> Builds strength and supports Vata.</li>\n</ul>\n\n<h2>Mild Digestive Spices</h2>\n<p>Spices like cumin and black pepper help the body break down fats and absorb nutrients better. They also prevent post-snack heaviness.</p>\n\n<h2>Portion Control = Key</h2>\n<p>Kapha types should limit portions to a small handful. Pitta and Vata can enjoy moderately but should combine with warm drinks for better digestion.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Herbal Snacking Mix</a> and snack the Ayurvedic way.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ]
+}

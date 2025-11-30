@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Detox Bath Salts (Neem + Epsom)",
+  "date": "2025-11-30",
+  "price": 249,
+  "excerpt": "A cleansing, relaxing bath salt blend with Epsom salt, sea salt, neem powder, and dried herbs to detoxify skin and calm the body.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Body Care",
+  "sku": "DETOX-BATH-058",
+  "tags": [
+    "bath salts",
+    "detox",
+    "neem",
+    "epsom"
+  ],
+  "content": "## What Are Detox Bath Salts?\nA rejuvenating bath blend designed to cleanse the skin, relax muscles, and balance the doshas. Made with Epsom salt, sea salt, neem powder, and dried herbs.\n\n## Ayurvedic Significance\nNeem purifies and cools; Epsom salts relax muscles; sea salt cleanses subtle energy channels. Together they create a deeply balancing bath experience.\n\n### Key Benefits\n- Supports skin detoxification and clarity.\n- Relaxes sore muscles and calms nerves.\n- Balances excess Pitta and Kapha.\n\n## Ingredients\n- Epsom salt\n- Sea salt\n- Neem powder\n- Dried herbs\n\n## Usage Instructions\n- Add **2 handfuls** to warm bathwater.\n- Soak for **15–20 minutes**.\n\n## Packaging\n- Kraft pouch with scooper.\n\n## Safety & Consultation\n- Avoid if pregnant, diabetic with neuropathy, or with open wounds. Consult doctor for chronic skin conditions.\n\n## Why Choose This Blend?\nPure, herbal, and deeply restorative—ideal for weekly self-care.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "herbal-anti-dandruff-shampoo-bar",
+      "title": "Herbal Anti-Dandruff Shampoo Bar"
+    },
+    {
+      "slug": "herbal-deodorant-aluminium-free",
+      "title": "Herbal Deodorant — Aluminium-Free"
+    },
+    {
+      "slug": "herbal-detox-capsules-gentle",
+      "title": "Herbal Detox Capsules (Gentle)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "combat-acne-with-ayurvedic-actives",
+      "title": "Combat Acne with Ayurvedic Actives"
+    },
+    {
+      "slug": "detox-baths-ayurvedic-ingredients-that-relax-and-cleanse",
+      "title": "Detox Baths: Ayurvedic Ingredients That Relax and Cleanse"
+    }
+  ]
+}

@@ -93,16 +93,16 @@ export default async function BlogsPage(): Promise<JSX.Element> {
   return (
     <main className="bg-primary min-h-screen">
       {/* Header Section */}
-      <div className="container-max px-4 md:px-8 py-12 md:py-16">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold text-text mb-4">OROGUD Blog</h1>
-          <p className="lead text-lg">Insights, guides and stories about our products, traditional techniques, and simple living.</p>
+          <h1 className="text-3xl md:text-4xl font-bold text-text mb-3">OROGUD Blog</h1>
+          <p className="text-muted text-base md:text-lg">Insights, guides and stories about our products, traditional techniques, and simple living.</p>
         </div>
       </div>
 
       {/* Blog Grid */}
       <div className="bg-surface">
-        <div className="container-max px-4 md:px-8 py-16">
+        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
           {blogs.length === 0 ? (
             <div className="card card-pad-lg max-w-md">
               <h2 className="text-xl font-semibold text-text mb-2">No blog posts found</h2>
@@ -123,14 +123,14 @@ export default async function BlogsPage(): Promise<JSX.Element> {
                   return (
                     <article key={b.slug} className="card card-pad-md hover:shadow-md transition-all">
                       {b.coverImage ? (
-                        <Link href={`/blog/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
+                        <Link href={`/blogs/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
                           <img src={b.coverImage} alt={b.title} className="w-full h-56 object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
                         </Link>
                       ) : null}
 
                       <div>
                         <h3 className="text-lg font-semibold text-text mb-2">
-                          <Link href={`/blog/${b.slug}`} className="hover:text-accent transition-colors">
+                          <Link href={`/blogs/${b.slug}`} className="hover:text-accent transition-colors">
                             {b.title}
                           </Link>
                         </h3>
@@ -151,7 +151,7 @@ export default async function BlogsPage(): Promise<JSX.Element> {
                               </span>
                             ))}
                           </div>
-                          <Link href={`/blog/${b.slug}`} className="btn btn-primary btn-sm">
+                          <Link href={`/blogs/${b.slug}`} className="btn btn-primary btn-sm">
                             Read
                           </Link>
                         </div>

@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Energy Tea — Shilajit + Tulsi Blend",
+  "date": "2025-11-30",
+  "price": 349,
+  "excerpt": "An energizing, adaptogenic tea combining tulsi, ginger, cinnamon and a small, pharmaceutically-purified inclusion of shilajit for stamina and recovery.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Tea & Beverages",
+  "sku": "ENERGY-TEA-046",
+  "tags": [
+    "energy tea",
+    "shilajit",
+    "tulsi",
+    "adaptogen"
+  ],
+  "content": "## What Is This Herbal Energy Tea?\nA warming, adaptogenic tea thoughtfully blended to support gentle energy and recovery. The base of tulsi (holy basil), ginger, and cinnamon is enhanced with a small, pharmaceutically-purified shilajit inclusion—clearly sourced and disclosed on the pack.\n\n## Ayurvedic Significance\nTulsi is adaptogenic and supports respiratory and mental clarity; ginger stimulates digestion and circulation; shilajit (used sparingly and only when purified) is a classical rejuvenative mineral resin used to support stamina and recovery.\n\n### Key Benefits\n- Supports stamina and recovery when used responsibly.\n- Mild adaptogenic support for stress resilience.\n- Stimulates digestion and circulation with warming spices.\n\n## Ingredients\n- Tulsi (organic)\n- Ginger\n- Cinnamon\n- Pharmaceutical-grade purified shilajit (very small inclusion)\n\n## Usage Instructions\n- Brew one tea sachet in hot water for 4–6 minutes. Consume 1 cup/day.\n- Avoid excessive intake; follow pack dosing.\n\n## Packaging\n- Tea sachets with clear shilajit sourcing and purity statement on the box.\n\n## Safety & Consultation\n- Shilajit is included only as a pharmaceutically purified extract in very small amounts; consult your healthcare practitioner before use if pregnant, breastfeeding, on medication, or if you have gout, hemochromatosis, or hormone-sensitive conditions. Discontinue if you notice adverse effects.\n\n## Why Choose This Tea?\nA modern, cautious formulation that brings traditional adaptogens into a convenient tea with clear sourcing and safety guidance.",
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-breath-support-spray-eucalyptus-tulsi",
+      "title": "Ayurvedic Breath Support Spray (Eucalyptus + Tulsi)"
+    },
+    {
+      "slug": "ayurvedic-energy-capsules-shilajit-resin-standardized",
+      "title": "Ayurvedic Energy Capsules (Standardized Shilajit Resin)"
+    },
+    {
+      "slug": "herbal-cold-flu-powder-trikatu-tulsi",
+      "title": "Herbal Cold & Flu Powder (Trikatu + Tulsi)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "natural-energy-boosters-from-ayurveda",
+      "title": "Natural Energy Boosters from Ayurveda"
+    },
+    {
+      "slug": "ashwagandha-ancient-stress-relief-backed-by-ayurveda",
+      "title": "Ashwagandha — The Adaptogenic Root for Stress Resilience & Vitality"
+    },
+    {
+      "slug": "breath-of-life-ayurvedic-tools-for-better-breathing",
+      "title": "Breath of Life: Ayurvedic Tools for Better Breathing"
+    }
+  ]
+}

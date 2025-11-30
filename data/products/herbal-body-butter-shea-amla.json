@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Body Butter (Shea + Amla)",
+  "date": "2025-11-30",
+  "price": 329,
+  "excerpt": "A deeply nourishing body butter with shea, coconut oil, and amla infusion for dry Vata skin.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Skin Care",
+  "sku": "BODY-BUTTER-069",
+  "tags": [
+    "body butter",
+    "amla",
+    "shea",
+    "vata skincare"
+  ],
+  "content": "## What Is This Herbal Body Butter?\nA rich, creamy moisturizer made with shea butter, coconut oil, amla infusion, and vitamin E. Designed to nourish dry, Vata-type skin and restore softness.\n\n## Ayurvedic Significance\nAmla provides antioxidant support, shea butter offers deep moisture, and coconut oil cools and soothes aggravated Pitta.\n\n### Key Benefits\n- Deep hydration for dry skin.\n- Supports elasticity and smoothness.\n- Provides natural antioxidant nourishment.\n\n## Ingredients\n- Shea butter\n- Coconut oil\n- Amla oil infusion\n- Vitamin E\n\n## Usage Instructions\n- Apply generously after shower on slightly damp skin.\n\n## Packaging\n- Jar with spatula for hygienic application.\n\n## Safety & Consultation\n- Patch-test if sensitive. Avoid open cuts.\n\n## Why Choose This Butter?\nA luxurious, nutrient-rich Ayurvedic formula for dry, stressed, or rough skin.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-childrens-immunity-powder-mild",
+      "title": "Ayurvedic Children's Immunity Powder (Mild)"
+    },
+    {
+      "slug": "herbal-hair-oil-bhringraj-amla",
+      "title": "Herbal Hair Oil (Bhringraj + Amla)"
+    },
+    {
+      "slug": "rehydration-drink-mix-electrolyte-amla",
+      "title": "Rehydration Drink Mix — Electrolyte + Amla"
+    },
+    {
+      "slug": "ayurvedic-face-serum-amla-rosehip",
+      "title": "Ayurvedic Face Serum — Amla & Rosehip"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "deep-nourishment-ayurvedic-body-butters-for-dry-skin",
+      "title": "Deep Nourishment: Ayurvedic Body Butters for Dry Skin"
+    },
+    {
+      "slug": "support-your-childs-immunity-naturally-with-ayurveda",
+      "title": "Support Your Child’s Immunity Naturally with Ayurveda"
+    },
+    {
+      "slug": "natural-hydration-electrolytes-the-ayurvedic-way",
+      "title": "Natural Hydration: Electrolytes the Ayurvedic Way"
+    }
+  ]
+}

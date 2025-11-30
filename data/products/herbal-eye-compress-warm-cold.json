@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Eye Compress (Warm/Cold)",
+  "date": "2025-11-30",
+  "price": 299,
+  "excerpt": "Reusable eye compress filled with organic rice and calming herbs (chamomile, fennel) for warm or cold ocular relief.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Eye Care & Accessories",
+  "sku": "EYE-COMP-075",
+  "tags": [
+    "eye compress",
+    "warm cold",
+    "chamomile",
+    "digital eye strain"
+  ],
+  "content": "## What Is This Eye Compress?\nA cloth compress filled with organic rice and dried calming herbs (chamomile and fennel). Designed to be warmed in a microwave or chilled in a freezer for targeted eye relief.\n\n## Ayurvedic Significance\nWarm compresses calm Vata and improve circulation; cool compresses reduce Pitta-related inflammation and soothe puffiness. Herbs add gentle aromatherapeutic support.\n\n### Key Benefits\n- Relieves eye strain, sinus pressure, and puffiness.\n- Reusable and easy to heat or chill.\n- Portable for travel or office use.\n\n## Ingredients\n- Organic rice\n- Dried chamomile\n- Dried fennel\n- Soft cloth pouch with removable filler\n\n## Usage Instructions\n- Warm: Microwave for short intervals (10–20 seconds) until comfortable; test temperature before applying.\n- Cold: Chill in freezer for 20–30 minutes and apply as needed.\n\n## Packaging\n- Cloth pouch with instruction tag and storage bag.\n\n## Safety & Consultation\n- Avoid use on broken skin or open wounds. Those with severe eye conditions should consult an ophthalmologist.\n\n## Why Choose This Compress?\nSimple, herbal, and reusable relief for modern screen fatigue and sinus discomfort.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-baby-powder-mild-talc-free",
+      "title": "Ayurvedic Baby Powder (Mild & Talc-Free)"
+    },
+    {
+      "slug": "ayurvedic-sleep-tea-vata-calming-blend",
+      "title": "Ayurvedic Sleep Tea (Vata-Calming Blend)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "digital-eye-strain-ayurvedic-home-remedies-that-help",
+      "title": "Digital Eye Strain: Ayurvedic Home Remedies That Help"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    }
+  ]
+}

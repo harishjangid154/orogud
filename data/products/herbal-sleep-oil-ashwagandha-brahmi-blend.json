@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Sleep Oil (Ashwagandha + Brahmi Blend)",
+  "date": "2025-11-30",
+  "price": 299,
+  "excerpt": "A calming Ayurvedic oil blend for relaxation and improved sleep when massaged onto feet or scalp.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Body & Mind Care",
+  "sku": "SLEEP-OIL-001",
+  "tags": [
+    "sleep oil",
+    "ashwagandha oil",
+    "brahmi oil",
+    "vata care"
+  ],
+  "content": "## What Is Herbal Sleep Oil?\nA calming topical oil crafted from warm sesame or coconut oil infused with Ashwagandha, Brahmi, and optional lavender. Designed to relax the nervous system and support deep sleep.\n\n## Ayurvedic Significance\nThis blend pacifies **Vata**, grounds the mind, reduces restlessness, and supports nighttime relaxation.\n\n### Key Benefits\n- Supports quicker sleep onset.\n- Calms anxiety and mental agitation.\n- Nourishes scalp and feet tissues.\n- Restores balance after stressful days.\n\n## Ingredients\n- **Sesame or Coconut Oil base**\n- **Ashwagandha extract**\n- **Brahmi leaves**\n- **Lavender (optional)**\n\n## Usage Instructions\n- Warm lightly and massage onto **feet or scalp** before bedtime.\n- Use consistently for 2–4 weeks.\n\n## Safety\n- Patch test before use.\n- Consult your doctor if pregnant or using sedatives.\n\n## Packaging\n- Available in a **roll-on** or **measured bottle**.\n\n## Why Choose This Sleep Oil?\nInfused with classical Medhya herbs, this oil supports natural rest without dependency.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-foot-soak-epsom-ayurvedic-herbs",
+      "title": "Herbal Foot Soak (Epsom + Ayurvedic Herbs)"
+    },
+    {
+      "slug": "organic-sesame-oil-til-taila",
+      "title": "Organic Sesame Oil (Til Taila)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "sleep-better-with-ayurvedic-night-oils",
+      "title": "Sleep Better with Ayurvedic Night Oils"
+    },
+    {
+      "slug": "plant-omegas-in-ayurveda-flaxseed-uses-and-benefits",
+      "title": "Plant Omegas in Ayurveda: Flaxseed Uses and Benefits"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

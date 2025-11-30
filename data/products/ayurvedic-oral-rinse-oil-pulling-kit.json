@@ -1,0 +1,50 @@
+{
+  "title": "Ayurvedic Oral Rinse (Oil Pulling Kit)",
+  "date": "2025-11-30",
+  "price": 299,
+  "excerpt": "Traditional oil pulling kit with sesame or coconut oil and herbal infusions for natural oral hygiene and gum support.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Oral Care",
+  "sku": "OIL-PULL-045",
+  "tags": [
+    "oil pulling",
+    "oral rinse",
+    "gum care",
+    "ayurveda"
+  ],
+  "content": "## What Is This Ayurvedic Oral Rinse?\nA starter kit for traditional oil pulling (kavala/gandusha) using cold-pressed sesame or coconut oil enhanced with herbal additions like neem or peppermint.\n\n## Ayurvedic Significance\nOil pulling is a classical technique for oral detox, gum strengthening, and overall mouth freshness.\n\n### Key Benefits\n- Helps reduce plaque and bad breath.\n- Supports gum health.\n- Naturally moisturizes the mouth and supports oral hygiene.\n\n## Ingredients\n- Cold-pressed sesame or coconut oil\n- Herbal infusions: neem or peppermint\n\n## Usage Instructions\n- Swish 1 tablespoon of oil for 5–15 minutes.\n- Spit into trash (not sink), rinse with warm water.\n\n## Packaging\n- Glass bottle and instruction leaflet.\n\n## Safety & Consultation\n- Not a substitute for dental care. Consult dentist for gum disease or sensitivity.\n\n## Why Choose This Kit?\nA simple, effective way to incorporate traditional oil pulling into daily oral hygiene.",
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "oil-pulling-ancient-oral-care-for-modern-times",
+      "title": "Oil Pulling: Ancient Oral Care for Modern Times"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    }
+  ]
+}

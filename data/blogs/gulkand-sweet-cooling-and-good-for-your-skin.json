@@ -1,0 +1,46 @@
+{
+  "title": "Gulkand: Sweet, Cooling, and Good for Your Skin",
+  "date": "2025-11-30",
+  "author": "Harish",
+  "excerpt": "Gulkand is more than a sweet preserve—it's an Ayurvedic cooling tonic loved for digestion, skin health, and emotional balance.",
+  "coverImage": "/og-image.png",
+  "tags": [
+    "gulkand",
+    "rose",
+    "pitta cooling",
+    "skin health"
+  ],
+  "content": "<h2>What Makes Gulkand Special?</h2>\n<p>Gulkand is a traditional preserve made from fragrant rose petals and natural sweeteners. It is cooling, soothing, and deeply rejuvenating—especially for Pitta types experiencing heat, acidity, or irritability.</p>\n\n<h2>Health Benefits</h2>\n<ul>\n<li>Reduces internal heat and acidity.</li>\n<li>Promotes gentle digestion.</li>\n<li>Supports skin clarity and glow.</li>\n<li>Calms emotional irritability.</li>\n</ul>\n\n<h2>How to Use Gulkand</h2>\n<ul>\n<li>1 tsp with milk at night for cooling sleep.</li>\n<li>As a sweet topping for desserts.</li>\n<li>Mixed into yogurt for a cooling snack.</li>\n</ul>\n\n<h2>Traditional Recipes</h2>\n<p>Ayurvedic homes often sun-cook rose petals and jaggery for days to intensify flavor and potency. Cardamom adds digestion-boosting warmth.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop Gulkand</a> for a sweet, cooling Ayurvedic treat.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "soothe-and-restore-ayurvedic-baths-for-sensitive-skin",
+      "title": "Soothe and Restore: Ayurvedic Baths for Sensitive Skin"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "amla-candy-healthy-sweet-thats-great-for-immunity",
+      "title": "Amla Candy: Healthy Sweet That's Great for Immunity"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "gulkand-rose-petal-preserve",
+      "title": "Gulkand (Rose Petal Preserve)"
+    },
+    {
+      "slug": "herb-infused-bath-tea-rose-oats",
+      "title": "Herb-Infused Bath Tea (Rose + Oats)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ]
+}

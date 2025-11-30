@@ -1,0 +1,50 @@
+{
+  "title": "Ayurvedic Sleep Supplement (Melatonin-free Herbal Formula)",
+  "date": "2025-11-30",
+  "price": 499,
+  "excerpt": "A melatonin-free herbal sleep aid using jatamansi, brahmi, and ashwagandha for natural relaxation and improved sleep onset.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Sleep & Relaxation",
+  "sku": "SLEEP-HERB-099",
+  "tags": [
+    "sleep supplement",
+    "melatonin free",
+    "jatamansi",
+    "brahmi"
+  ],
+  "content": "## What Is This Sleep Supplement?\nA gentle, melatonin-free herbal capsule crafted with jatamansi, brahmi, and ashwagandha. Supports sleep latency, calmness, and deep relaxation.\n\n## Ayurvedic Significance\nTrue sleep support means pacifying Vata and grounding the mind. These herbs stabilize the nervous system without synthetic hormones.\n\n### Key Benefits\n- Helps sleep onset and relaxation.\n- Melatonin-free & non-habit-forming.\n- Supports natural circadian regulation.\n\n## Ingredients\n- Jatamansi\n- Brahmi\n- Ashwagandha\n\n## Usage Instructions\n- Take one capsule 30–60 minutes before sleep or as per label.\n\n## Packaging\n- Bottle with guidance and complementary lifestyle tips.\n\n## Safety & Consultation\n- Consult if pregnant, on sedatives, or treating chronic insomnia.\n\n## Why Choose This Supplement?\nA natural herbal sleep ally that works with your body's rhythms—not against them.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-nerve-tonic-jatamansi-ashwagandha",
+      "title": "Herbal Nerve Tonic (Jatamansi + Ashwagandha)"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    },
+    {
+      "slug": "ayurvedic-sleep-pillow-lavender-jatamansi",
+      "title": "Ayurvedic Sleep Pillow (Lavender + Jatamansi)"
+    },
+    {
+      "slug": "ayurvedic-sleep-tea-vata-calming-blend",
+      "title": "Ayurvedic Sleep Tea (Vata-Calming Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "natural-sleep-aids-herbs-that-help-without-melatonin",
+      "title": "Natural Sleep Aids: Herbs That Help Without Melatonin"
+    },
+    {
+      "slug": "calm-the-nervous-system-with-ayurvedic-tonics",
+      "title": "Calm the Nervous System with Ayurvedic Tonics"
+    },
+    {
+      "slug": "better-sleep-with-ayurvedic-pillows-and-scents",
+      "title": "Better Sleep with Ayurvedic Pillows and Scents"
+    }
+  ]
+}

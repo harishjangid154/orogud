@@ -9,22 +9,22 @@ export default function Footer(): JSX.Element {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-surface-2 border-t border-border mt-16">
-      <div className="container-max py-12 px-4 md:px-8">
-        <div className="grid gap-8 grid-cols-1 md:grid-cols-5 mb-8">
+    <footer className="bg-surface-2 border-t border-border">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-16">
+        <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-12">
           {/* Brand & description */}
-          <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-3 mb-4" aria-label="OROGUD home">
+          <div className="lg:col-span-2">
+            <Link href="/" className="flex items-center gap-3 mb-6" aria-label="OROGUD home">
               <div
-                className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
+                className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
                 style={{ background: "var(--accent)" }}
               >
-                <Image src="/og-image.png" alt="OROGUD" width={20} height={20} unoptimized className="h-full w-full" />
+                <Image src="/og-image.png" alt="OROGUD" width={24} height={24} unoptimized className="h-full w-full" />
               </div>
-              <span className="text-lg font-semibold text-text">OROGUD</span>
+              <span className="text-xl font-bold text-text tracking-tight">OROGUD</span>
             </Link>
 
-            <p className="text-muted text-sm leading-relaxed max-w-sm">
+            <p className="text-base text-muted leading-relaxed max-w-md">
               OROGUD curates wholesome homegrown and household products — from washed ghee and jaggery to wooden
               cookware and homewares. Natural, vetted, and delivered with care.
             </p>
@@ -32,46 +32,72 @@ export default function Footer(): JSX.Element {
 
           {/* Shop */}
           <div>
-            <h4 className="text-sm font-semibold text-text mb-4">Shop</h4>
-            <ul className="flex flex-col gap-3 footer-quiet">
+            <h4 className="text-base font-bold text-text mb-6 uppercase tracking-wide">Shop</h4>
+            <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/products" className="text-sm">All Products</Link>
+                <Link href="/products" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  All Products
+                </Link>
               </li>
               <li>
-                <Link href="/products?category=food" className="text-sm">Food & Pantry</Link>
+                <Link href="/products?category=Health%20%26%20Wellness" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Health & Wellness
+                </Link>
               </li>
               <li>
-                <Link href="/products?category=home" className="text-sm">Home & Living</Link>
+                <Link href="/products?category=Food%20%26%20Pantry" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Food & Pantry
+                </Link>
               </li>
               <li>
-                <Link href="/products?category=skincare" className="text-sm">Wellness & Care</Link>
+                <Link href="/products?category=Skin%20Care" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Skin Care
+                </Link>
+              </li>
+              <li>
+                <Link href="/products?category=Tea%20%26%20Beverages" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Tea & Beverages
+                </Link>
+              </li>
+              <li>
+                <Link href="/categories" className="text-base text-accent hover:text-accent-600 transition-colors font-semibold">
+                  View All Categories →
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Resources */}
           <div>
-            <h4 className="text-sm font-semibold text-text mb-4">Resources</h4>
-            <ul className="flex flex-col gap-3 footer-quiet">
+            <h4 className="text-base font-bold text-text mb-6 uppercase tracking-wide">Resources</h4>
+            <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/blogs" className="text-sm">Blog</Link>
+                <Link href="/blogs" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Blog
+                </Link>
               </li>
               <li>
-                <Link href="/about" className="text-sm">About Us</Link>
+                <Link href="/about" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  About Us
+                </Link>
               </li>
               <li>
-                <Link href="/shipping" className="text-sm">Shipping & Returns</Link>
+                <Link href="/shipping" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  Shipping & Returns
+                </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-sm">FAQ</Link>
+                <Link href="/faq" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                  FAQ
+                </Link>
               </li>
             </ul>
           </div>
 
           {/* Newsletter */}
           <div>
-            <h4 className="text-sm font-semibold text-text mb-4">Newsletter</h4>
-            <p className="text-muted text-sm mb-4 leading-relaxed">Get product drops, tips, and offers — curated for simple living.</p>
+            <h4 className="text-base font-bold text-text mb-6 uppercase tracking-wide">Newsletter</h4>
+            <p className="text-base text-muted mb-6 leading-relaxed">Get product drops, tips, and offers — curated for simple living.</p>
 
             <form
               onSubmit={(e) => {
@@ -83,16 +109,16 @@ export default function Footer(): JSX.Element {
                   input.value = "";
                 }
               }}
-              className="flex flex-col gap-2"
+              className="flex flex-col gap-3"
             >
               <input
                 name="email"
                 type="email"
                 placeholder="you@example.com"
                 required
-                className="rounded-md border px-3 py-2 text-sm bg-surface border-border"
+                className="rounded-lg border px-4 py-3 text-base bg-surface border-border focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
               />
-              <button type="submit" className="btn btn-primary btn-sm">
+              <button type="submit" className="btn btn-primary">
                 Subscribe
               </button>
             </form>
@@ -102,11 +128,11 @@ export default function Footer(): JSX.Element {
         {/* Divider */}
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="text-sm text-muted">
+            <div className="text-base text-muted font-medium">
               © {year} OROGUD · All rights reserved
             </div>
-            <div className="text-sm text-muted">
-              <Link href="mailto:founders@orogud.com" className="text-accent hover:text-accent-600 transition-colors">
+            <div className="text-base text-muted">
+              <Link href="mailto:founders@orogud.com" className="text-accent hover:text-accent-600 transition-colors font-semibold">
                 founders@orogud.com
               </Link>
             </div>

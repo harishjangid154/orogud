@@ -13,6 +13,8 @@ type BlogData = {
   coverImage?: string;
   content: string;
   tags?: string[];
+  relatedBlogs?: Array<{ slug: string; title: string }>;
+  relatedProducts?: Array<{ slug: string; title: string }>;
 };
 
 // ---------- Helpers ----------
@@ -181,7 +183,7 @@ export default async function BlogPage({
           ) : (
             <p className="mt-4 muted">No blog files found in <code>data/blogs</code>.</p>
           )}
-        </div>
+          </div>
       </main>
     );
   }
@@ -196,52 +198,54 @@ export default async function BlogPage({
 
   return (
     <main className="bg-primary min-h-screen">
-      <div className="container-max px-4 md:px-8 py-8">
-        {/* Breadcrumb */}
-        <div className="mb-8 flex items-center gap-2 text-sm text-muted">
-          <Link href="/blogs" className="hover:text-accent transition-colors">Blog</Link>
-          <span>/</span>
-          <span className="text-text font-medium">{blog.title}</span>
+      {/* Hero Cover Image */}
+      {blog.coverImage ? (
+        <div className="w-full h-96 md:h-[500px] overflow-hidden">
+          <img src={blog.coverImage} alt={blog.title} className="w-full h-full object-cover" />
         </div>
+      ) : null}
 
-        <article className="card card-pad-lg max-w-3xl mx-auto">
-          {blog.coverImage ? (
-            <div className="w-full mb-8 overflow-hidden rounded-lg">
-              <img src={blog.coverImage} alt={blog.title} className="w-full h-auto object-cover" />
-            </div>
-          ) : null}
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-8 md:py-12">
+        <div className="max-w-7xl mx-auto">
+          {/* Breadcrumb */}
+          <div className="mb-8 flex items-center gap-2 text-sm text-muted">
+            <Link href="/blogs" className="hover:text-accent transition-colors">Blog</Link>
+            <span>/</span>
+            <span className="text-text font-medium">{blog.title}</span>
+          </div>
 
-          <header className="mb-8 pb-8 border-b border-border">
-            <h1 className="text-4xl md:text-5xl font-bold text-text mb-6">{blog.title}</h1>
+          <div className="grid gap-8 lg:grid-cols-3">
+            {/* Main Content - 2 columns */}
+            <article className="lg:col-span-2">
+              <header className="mb-8 pb-8 border-b border-border">
+                <h1 className="text-4xl md:text-5xl font-bold text-text mb-6 leading-tight">{blog.title}</h1>
 
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div className="flex items-center gap-3 text-sm text-muted">
-                {blog.author ? <span className="font-medium text-text">{blog.author}</span> : null}
-                {displayDate ? <span>·</span> : null}
-                {displayDate ? <span>{displayDate}</span> : null}
-              </div>
-              {blog.tags && blog.tags.length ? (
-                <div className="flex gap-2">
-                  {blog.tags.map((t) => (
-                    <span key={t} className="badge">{t}</span>
-                  ))}
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+                  <div className="flex items-center gap-3 text-sm text-muted">
+                    {blog.author ? <span className="font-medium text-text">{blog.author}</span> : null}
+                    {displayDate ? <span>·</span> : null}
+                    {displayDate ? <span>{displayDate}</span> : null}
+                  </div>
+                  {blog.tags && blog.tags.length ? (
+                    <div className="flex gap-2 flex-wrap">
+                      {blog.tags.map((t) => (
+                        <span key={t} className="badge">{t}</span>
+                      ))}
+                    </div>
+                  ) : null}
                 </div>
-              ) : null}
-            </div>
 
-            {blog.excerpt ? <p className="lead text-lg mt-6">{blog.excerpt}</p> : null}
-          </header>
+                {blog.excerpt ? <p className="lead text-lg text-muted">{blog.excerpt}</p> : null}
+              </header>
 
-          <section className="prose max-w-none mb-8" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+              <section className="prose max-w-none mb-12" dangerouslySetInnerHTML={{ __html: htmlContent }} />
 
-          <footer className="border-t border-border pt-8">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-              <div>
-                <p className="text-muted text-sm mb-3">Enjoyed this article?</p>
+              <footer className="border-t border-border pt-8">
+                <p className="text-muted text-sm mb-4">Enjoyed this article?</p>
                 <div className="flex gap-2">
                   <a
                     href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(
-                      (process.env.NEXT_PUBLIC_SITE_URL ?? "") + `/blog/${slug}`
+                      (process.env.NEXT_PUBLIC_SITE_URL ?? "") + `/blogs/${slug}`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -251,10 +255,59 @@ export default async function BlogPage({
                   </a>
                   <a href="/blogs" className="btn btn-ghost btn-sm">Back to blog</a>
                 </div>
+              </footer>
+            </article>
+
+            {/* Sidebar - Related Content */}
+            <aside className="lg:col-span-1 space-y-6">
+              {/* Related Blogs */}
+              {blog.relatedBlogs && blog.relatedBlogs.length > 0 && (
+                <div className="card card-pad-lg sticky top-24">
+                  <h3 className="text-lg font-bold text-text mb-4">Related Articles</h3>
+                  <div className="space-y-3">
+                    {blog.relatedBlogs.map((relatedBlog) => (
+                      <Link
+                        key={relatedBlog.slug}
+                        href={`/blogs/${relatedBlog.slug}`}
+                        className="block p-3 rounded-lg border border-border hover:border-accent hover:bg-accent-light transition-all group"
+                      >
+                        <p className="font-semibold text-sm text-text group-hover:text-accent transition-colors line-clamp-2">{relatedBlog.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Related Products */}
+              {blog.relatedProducts && blog.relatedProducts.length > 0 && (
+                <div className="card card-pad-lg">
+                  <h3 className="text-lg font-bold text-text mb-4">Related Products</h3>
+                  <div className="space-y-3">
+                    {blog.relatedProducts.map((product) => (
+                      <Link
+                        key={product.slug}
+                        href={`/products/${product.slug}`}
+                        className="block p-3 rounded-lg border border-border hover:border-accent hover:bg-accent-light transition-all group"
+                      >
+                        <p className="font-semibold text-sm text-text group-hover:text-accent transition-colors line-clamp-2">{product.title}</p>
+                      </Link>
+                    ))}
+                  </div>
+                  <Link href="/products" className="btn btn-outline btn-sm w-full mt-4">
+                    View All Products
+                  </Link>
+                </div>
+              )}
+
+              {/* Newsletter CTA */}
+              <div className="card card-pad-lg bg-accent-light border-2 border-accent/20">
+                <h4 className="font-bold text-text mb-2">Stay Updated</h4>
+                <p className="text-sm text-muted mb-4">Get wellness tips and product updates delivered to your inbox.</p>
+                <button className="btn btn-primary w-full btn-sm">Subscribe</button>
               </div>
-            </div>
-          </footer>
-        </article>
+            </aside>
+          </div>
+        </div>
       </div>
     </main>
   );

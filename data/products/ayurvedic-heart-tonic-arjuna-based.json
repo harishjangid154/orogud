@@ -1,0 +1,50 @@
+{
+  "title": "Ayurvedic Heart Tonic — Arjuna-Based",
+  "date": "2025-11-30",
+  "price": 499,
+  "excerpt": "A traditional heart-supportive supplement featuring Arjuna bark extract and co-supportive herbs—used under practitioner guidance.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Wellness Supplements",
+  "sku": "ARJUNA-055",
+  "tags": [
+    "arjuna",
+    "heart tonic",
+    "cardiovascular",
+    "ayurveda"
+  ],
+  "content": "## What Is This Heart Tonic?\nA classical-inspired supplement centered on Terminalia arjuna bark extract, complemented by supportive herbs like punarnava. Formulated to support healthy cardiovascular function under professional supervision.\n\n## Ayurvedic Significance\nArjuna is known in Ayurveda as a 'hridaya' herb—supportive of heart strength and emotional steadiness.\n\n### Key Benefits (Supportive)\n- Supports normal heart function.\n- Traditionally used for circulatory wellness.\n- Gentle tonic when supervised appropriately.\n\n## Ingredients\n- Standardized Arjuna bark extract\n- Punarnava and co-supportive herbs\n\n## Usage Instructions\n- Use strictly **as per label** or as advised by an Ayurvedic practitioner.\n\n## Packaging\n- Bottle with extract standardization details and safety notes.\n\n## Safety & Consultation\n- Consult your doctor before use, especially if you have cardiac conditions, are on blood pressure or heart medications, pregnant, or breastfeeding.\n\n## Why Choose This Tonic?\nA carefully standardized Arjuna formula meant to complement—not replace—professional cardiovascular care.",
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    },
+    {
+      "slug": "ayurvedic-multivitamin-whole-food-blend",
+      "title": "Ayurvedic Multivitamin — Whole-Food Blend"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "arjuna-the-classical-herb-for-heart-health",
+      "title": "Arjuna: The Classical Herb for Heart Health"
+    },
+    {
+      "slug": "heart-health-with-herbs-what-ayurveda-recommends",
+      "title": "Heart Health with Herbs: What Ayurveda Recommends"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

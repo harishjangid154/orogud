@@ -1,0 +1,50 @@
+{
+  "title": "Licorice Toothpaste — Herbal (Fluoride-Free)",
+  "date": "2025-11-30",
+  "price": 199,
+  "excerpt": "A fluoride-free herbal toothpaste combining licorice and neem to soothe gums and support antimicrobial oral health.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Oral Care",
+  "sku": "TP-LIC-028",
+  "tags": [
+    "herbal toothpaste",
+    "licorice",
+    "neem",
+    "oral care"
+  ],
+  "content": "## What Is Licorice Toothpaste?\nA gentle, fluoride-free toothpaste formulated with licorice (mulethi) and neem to support gum health, soothe irritation, and provide antimicrobial action.\n\n## Ayurvedic Significance\nLicorice soothes mucous membranes and reduces acidity; neem offers natural antimicrobial properties to maintain oral balance.\n\n### Key Benefits\n- Soothes gums and reduces irritation.\n- Natural antimicrobial support.\n- Free from synthetic foaming agents and fluoride (optional formulation).\n\n## Ingredients\n- Neem powder or extract\n- Licorice extract\n- Calcium carbonate (mild polishing agent)\n- Clove essential oil\n\n## Usage Instructions\n- Brush twice daily as usual. Rinse thoroughly.\n\n## Packaging\n- Recyclable tube or refill pouch to reduce waste.\n\n## Safety & Consultation\n- If you have severe gum disease, consult a dentist before switching.\n\n## Why Choose This Toothpaste?\nA natural, effective herbal alternative for daily oral care that focuses on soothing and long-term gum health.",
+  "relatedProducts": [
+    {
+      "slug": "neem-turmeric-tooth-powder",
+      "title": "Neem & Turmeric Tooth Powder"
+    },
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "herbal-anti-dandruff-shampoo-bar",
+      "title": "Herbal Anti-Dandruff Shampoo Bar"
+    },
+    {
+      "slug": "herbal-breath-freshener-cardamom-clove",
+      "title": "Herbal Breath Freshener (Cardamom + Clove)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "switching-to-herbal-toothpaste-what-to-expect",
+      "title": "Switching to Herbal Toothpaste: What to Expect"
+    },
+    {
+      "slug": "ditch-chemicals-natural-ayurvedic-oral-care",
+      "title": "Ditch Chemicals: Natural Ayurvedic Oral Care"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Eye Gel (Cucumber + Aloe)",
+  "date": "2025-11-30",
+  "price": 259,
+  "excerpt": "A cooling gel made with aloe, cucumber extract, and triphala infusion to soothe eye strain and reduce puffiness.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Skin Care",
+  "sku": "EYE-GEL-062",
+  "tags": [
+    "eye gel",
+    "cucumber",
+    "aloe",
+    "puffiness relief"
+  ],
+  "content": "## What Is This Herbal Eye Gel?\nA lightweight, cooling gel designed to soothe tired eyes and reduce puffiness. It blends aloe vera gel, cucumber extract, and a gentle triphala infusion.\n\n## Ayurvedic Significance\nCucumber cools excess Pitta around the eyes, while aloe hydrates and soothes. Triphala is traditionally used for eye health and tissue rejuvenation.\n\n### Key Benefits\n- Hydrates delicate under-eye skin.\n- Reduces puffiness from strain or lack of sleep.\n- Provides instant cooling relief.\n\n## Ingredients\n- Aloe vera gel\n- Cucumber extract\n- Triphala infusion\n\n## Usage Instructions\n- Apply a small amount under the eyes.\n- Use morning and night for best results.\n\n## Packaging\n- Compact tube or small jar for travel convenience.\n\n## Safety & Consultation\n- Avoid direct eye contact. Patch-test if sensitive. Consult an ophthalmologist for chronic puffiness or eye conditions.\n\n## Why Choose This Gel?\nClean ingredients, fast absorption, and cooling relief for digital-age eye fatigue.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-eye-cream-cucumber-triphala",
+      "title": "Herbal Eye Cream (Cucumber + Triphala)"
+    },
+    {
+      "slug": "ayurvedic-cooling-gel-aloe-cucumber",
+      "title": "Ayurvedic Cooling Gel (Aloe + Cucumber)"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "eye-care-in-ayurveda-cooling-rituals-for-tired-eyes",
+      "title": "Eye Care in Ayurveda: Cooling Rituals for Tired Eyes"
+    },
+    {
+      "slug": "screens-eyes-ayurvedic-soothers-for-eye-fatigue",
+      "title": "Screens & Eyes: Ayurvedic Soothers for Eye Fatigue"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

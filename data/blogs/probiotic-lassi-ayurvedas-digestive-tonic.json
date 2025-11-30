@@ -1,0 +1,46 @@
+{
+  "title": "Probiotic Lassi: Ayurveda’s Digestive Tonic",
+  "date": "2025-11-30",
+  "author": "Harish",
+  "excerpt": "Lassi is a cooling, probiotic-rich drink that supports digestion, hydration, and gut health. Learn how to make, customize, and enjoy it safely.",
+  "coverImage": "/og-image.png",
+  "tags": [
+    "lassi",
+    "probiotic",
+    "digestion",
+    "ayurveda"
+  ],
+  "content": "<h2>What Makes Lassi a Timeless Digestive Drink</h2>\n<p>In Ayurveda, buttermilk and lassi are valued for their lightness, cooling nature, and ability to support digestion. The gentle fermentation creates probiotics that help nourish gut flora, improve digestion, and calm Pitta-related heat.</p>\n\n<h2>How to Make a Perfect Lassi at Home</h2>\n<ol>\n<li>Mix 1 scoop of cultured lassi powder with 1 cup chilled water or milk.</li>\n<li>Whisk or churn until frothy.</li>\n<li>Add roasted cumin, a pinch of salt, or fresh herbs for flavor.</li>\n</ol>\n<p>Serve chilled as a digestive aid after meals or as a refreshing daytime drink.</p>\n\n<h2>Health Benefits</h2>\n<ul>\n<li><strong>Probiotic support:</strong> Nourishes beneficial bacteria.</li>\n<li><strong>Cooling:</strong> Helps reduce internal heat and inflammation.</li>\n<li><strong>Digestive comfort:</strong> Eases bloating and supports nutrient absorption.</li>\n</ul>\n\n<h2>Who Should Be Cautious</h2>\n<p>People with lactose intolerance or certain immune conditions should consult a healthcare professional before regular consumption. Our mix is designed to be gentle, but individual tolerance varies.</p>\n\n<p><a href='#' style='font-weight:bold;'>Shop cultured lassi mix</a> and enjoy a daily probiotic tonic rooted in tradition.</p>",
+  "relatedBlogs": [
+    {
+      "slug": "chai-the-ayurvedic-way-sip-for-digestion",
+      "title": "Chai the Ayurvedic Way: Sip for Digestion"
+    },
+    {
+      "slug": "making-digestive-care-kid-friendly-triphala-gummies",
+      "title": "Making Digestive Care Kid-Friendly: Triphala Gummies"
+    },
+    {
+      "slug": "triphala-the-gentle-detoxifier-you-can-use-nightly",
+      "title": "Triphala — The Gentle Detoxifier You Can Use Nightly"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "slug": "fermented-buttermilk-cultured-lassi-mix",
+      "title": "Cultured Lassi Mix (Fermented Buttermilk Powder)"
+    },
+    {
+      "slug": "organic-triphala-powder",
+      "title": "Organic Triphala Powder"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cold-pressed-coconut-oil",
+      "title": "Ayurvedic Cold-Pressed Coconut Oil"
+    }
+  ]
+}

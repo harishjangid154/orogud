@@ -1,0 +1,50 @@
+{
+  "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)",
+  "date": "2025-11-30",
+  "price": 549,
+  "excerpt": "A practitioner-formulated Rasayana capsule blend featuring Brahmi, Ashwagandha, and Amalaki to support vitality, cognition, and skin health.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Wellness Supplements",
+  "sku": "RASAYANA-059",
+  "tags": [
+    "rasayana",
+    "anti aging",
+    "ashwagandha",
+    "brahmi"
+  ],
+  "content": "## What Is This Rasayana Capsule?\nA rejuvenative herbal supplement formulated with standardized extracts of Brahmi, Ashwagandha, and Amalaki—three of Ayurveda's most important Rasayana herbs.\n\n## Ayurvedic Significance\nRasayanas nurture ojas (vital essence), support memory, promote cellular regeneration, and offer gentle anti-aging support.\n\n### Key Benefits (Supportive)\n- Supports cognitive health and focus.\n- Helps maintain energy and resilience.\n- Promotes skin vitality and antioxidant support.\n\n## Ingredients\n- Standardized Brahmi extract\n- Standardized Ashwagandha extract\n- Amalaki extract\n- Additional supportive herbs per formulation\n\n## Usage Instructions\n- Use **strictly as per label** or practitioner guidance.\n\n## Packaging\n- Eco-friendly bottle with clinical-style information.\n\n## Safety & Consultation\n- Consult doctor if pregnant, breastfeeding, on mental health medications, or with chronic conditions.\n\n## Why Choose This Formula?\nProfessionally formulated, clearly standardized, and grounded in Ayurvedic rejuvenation tradition.",
+  "relatedProducts": [
+    {
+      "slug": "herbal-nerve-tonic-jatamansi-ashwagandha",
+      "title": "Herbal Nerve Tonic (Jatamansi + Ashwagandha)"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-energy-capsules-shilajit-resin-standardized",
+      "title": "Ayurvedic Energy Capsules (Standardized Shilajit Resin)"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "calm-the-nervous-system-with-ayurvedic-tonics",
+      "title": "Calm the Nervous System with Ayurvedic Tonics"
+    },
+    {
+      "slug": "ashwagandha-ancient-stress-relief-backed-by-ayurveda",
+      "title": "Ashwagandha — The Adaptogenic Root for Stress Resilience & Vitality"
+    },
+    {
+      "slug": "brahmi-for-focus-an-ayurvedic-hack-for-busy-minds",
+      "title": "Brahmi for Focus: An Ayurvedic Hack for Busy Minds"
+    }
+  ]
+}

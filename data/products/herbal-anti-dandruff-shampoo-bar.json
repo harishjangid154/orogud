@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Anti-Dandruff Shampoo Bar",
+  "date": "2025-11-30",
+  "price": 299,
+  "excerpt": "A solid shampoo bar enriched with bhringraj, neem, and tea tree to reduce flaking and nourish the scalp—eco-friendly and travel-friendly.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Hair Care",
+  "sku": "SHMP-BAR-054",
+  "tags": [
+    "shampoo bar",
+    "anti-dandruff",
+    "bhringraj",
+    "neem"
+  ],
+  "content": "## What Is This Shampoo Bar?\nA natural, eco-friendly anti-dandruff shampoo bar made with saponified oils, bhringraj, neem oil, and tea tree essential oil for a cleansing yet nourishing scalp experience.\n\n## Ayurvedic Significance\nNeem and tea tree purify the scalp; bhringraj supports hair roots and reduces breakage.\n\n### Key Benefits\n- Reduces dandruff and itchiness.\n- Strengthens scalp and roots.\n- Zero-waste, long-lasting bar.\n\n## Ingredients\n- Saponified plant oils\n- Bhringraj powder\n- Neem oil\n- Tea tree essential oil\n\n## Usage Instructions\n- Wet hair, rub bar to lather, massage scalp, rinse thoroughly.\n\n## Packaging\n- Cardboard box with optional reusable tin.\n\n## Safety & Consultation\n- Avoid contact with eyes. Tea tree can be strong—patch-test if sensitive.\n\n## Why Choose This Bar?\nA powerful yet gentle natural alternative to chemical anti-dandruff shampoos.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-beard-oil-bhringraj-almond-oil",
+      "title": "Ayurvedic Beard Oil (Bhringraj + Almond Oil)"
+    },
+    {
+      "slug": "ayurvedic-hair-growth-serum-bhringraj-castor",
+      "title": "Ayurvedic Hair Growth Serum — Bhringraj + Castor"
+    },
+    {
+      "slug": "herbal-acne-serum-tea-tree-neem",
+      "title": "Herbal Acne Serum (Tea Tree + Neem)"
+    },
+    {
+      "slug": "herbal-deodorant-aluminium-free",
+      "title": "Herbal Deodorant — Aluminium-Free"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "beard-care-with-ayurveda-oils-and-grooming-tips",
+      "title": "Beard Care with Ayurveda: Oils and Grooming Tips"
+    },
+    {
+      "slug": "combat-acne-with-ayurvedic-actives",
+      "title": "Combat Acne with Ayurvedic Actives"
+    }
+  ]
+}

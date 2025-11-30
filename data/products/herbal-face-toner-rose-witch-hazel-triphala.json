@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Face Toner — Rose + Witch Hazel + Triphala",
+  "date": "2025-11-30",
+  "price": 299,
+  "excerpt": "Alcohol-free toner blending cooling rose hydrosol, triphala infusion and witch hazel for pore-tightening and Pitta balance.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Skin Care",
+  "sku": "TONER-ROSE-026",
+  "tags": [
+    "face toner",
+    "triphala",
+    "rose hydrosol",
+    "pitta care"
+  ],
+  "content": "## What Is This Herbal Face Toner?\nAn alcohol-free, soothing facial mist combining rose hydrosol, a gentle triphala infusion, and witch hazel (or glycerin alternative). Designed to calm Pitta, tighten pores, and support skin clarity without stripping natural oils.\n\n## Ayurvedic Significance\nRose cools and pacifies Pitta, while Triphala provides mild astringent and antioxidant benefits to tone skin. Witch hazel offers gentle astringency to refine pores.\n\n### Key Benefits\n- Alcohol-free calming toner suitable for Pitta and sensitive skin.\n- Tightens pores and supports skin clarity.\n- Hydrates and preps skin for serums or moisturizer.\n\n## Ingredients\n- Rose hydrosol\n- Triphala infusion (cool-extracted)\n- Witch hazel (low alcohol) or glycerin alternative\n- Optional: preservative for water-based formula\n\n## Usage Instructions\n- After cleansing, spray or apply with cotton pad.\n- Use morning and evening before serum/moisturizer.\n\n## Packaging\n- Recyclable spray bottle for even misting.\n\n## Storage\n- Keep in a cool place; refrigerate for extra cooling effect.\n\n## Safety & Consultation\n- Patch test prior to first use. Consult dermatologist for active dermatitis or allergic history.\n\n## Why Choose This Toner?\nGentle, Ayurvedic-forward formula to soothe, refresh, and tone without chemical astringents.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-face-cleanser-sandal-chickpea-flour",
+      "title": "Ayurvedic Face Cleanser — Sandal & Chickpea Flour"
+    },
+    {
+      "slug": "herbal-detox-capsules-gentle",
+      "title": "Herbal Detox Capsules (Gentle)"
+    },
+    {
+      "slug": "herbal-eye-cream-cucumber-triphala",
+      "title": "Herbal Eye Cream (Cucumber + Triphala)"
+    },
+    {
+      "slug": "herbal-eye-drops-triphala-based",
+      "title": "Herbal Eye Drops (Triphala-Based)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "toning-the-ayurvedic-way-ingredients-that-calm-the-skin",
+      "title": "Toning the Ayurvedic Way: Ingredients That Calm the Skin"
+    },
+    {
+      "slug": "cool-down-natural-care-for-sun-exposed-skin",
+      "title": "Cool Down: Natural Care for Sun-Exposed Skin"
+    },
+    {
+      "slug": "eye-care-in-ayurveda-cooling-rituals-for-tired-eyes",
+      "title": "Eye Care in Ayurveda: Cooling Rituals for Tired Eyes"
+    }
+  ]
+}

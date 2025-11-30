@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "About OROGUD",
+    "subtitle": "Rooted in tradition, crafted for modern living",
+    "description": "We curate authentic, organic products that bring the wisdom of Ayurveda and traditional Indian practices into your daily life."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "content": "At OROGUD, we believe in the power of natural, time-tested ingredients. Our mission is to make authentic Ayurvedic and organic products accessible to everyone, while maintaining the highest standards of purity and quality. We work directly with small-scale farmers and traditional artisans to bring you products that are not just good for you, but good for the planet too.",
+    "image": "/og-image.png"
+  },
+  "values": [
+    {
+      "title": "Authenticity",
+      "description": "Every product is sourced from trusted suppliers who follow traditional methods and organic practices.",
+      "icon": "authentic"
+    },
+    {
+      "title": "Quality",
+      "description": "We test and verify every batch to ensure purity, potency, and safety. No compromises, ever.",
+      "icon": "quality"
+    },
+    {
+      "title": "Sustainability",
+      "description": "We're committed to eco-friendly packaging, ethical sourcing, and supporting local communities.",
+      "icon": "sustainability"
+    },
+    {
+      "title": "Transparency",
+      "description": "Clear labeling, honest sourcing information, and open communication about our products and practices.",
+      "icon": "transparency"
+    }
+  ],
+  "story": {
+    "title": "Our Story",
+    "sections": [
+      {
+        "heading": "The Beginning",
+        "content": "OROGUD was born from a simple realization: the products our grandparents used daily—pure ghee, organic jaggery, traditional herbs—were becoming harder to find in their authentic form. What started as a personal quest to source quality products for our families grew into a mission to share these treasures with others."
+      },
+      {
+        "heading": "What We Do",
+        "content": "We travel across India, visiting farms, meeting artisans, and building relationships with suppliers who share our values. Every product in our collection is handpicked, tested, and verified. We don't just sell products—we curate experiences that connect you to centuries of traditional wisdom."
+      },
+      {
+        "heading": "Looking Forward",
+        "content": "As we grow, our commitment remains the same: to bring you the purest, most authentic products while supporting the communities and traditions that make them possible. We're building a bridge between ancient wisdom and modern wellness."
+      }
+    ]
+  },
+  "team": {
+    "title": "Meet the Team",
+    "members": [
+      {
+        "name": "Harish",
+        "role": "Founder & Curator",
+        "bio": "Passionate about Ayurveda and traditional wellness practices. Spends months traveling across India to source authentic products.",
+        "image": "/og-image.png"
+      },
+      {
+        "name": "Team Member",
+        "role": "Quality Assurance",
+        "bio": "Ensures every product meets our strict quality standards through rigorous testing and verification processes.",
+        "image": "/og-image.png"
+      },
+      {
+        "name": "Team Member",
+        "role": "Community Relations",
+        "bio": "Builds and maintains relationships with farmers, artisans, and suppliers across the country.",
+        "image": "/og-image.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "email": "founders@orogud.com",
+    "message": "Have questions, suggestions, or just want to say hello? We'd love to hear from you.",
+    "social": {
+      "instagram": "https://instagram.com/orogud_"
+    }
+  },
+  "stats": [
+    {
+      "number": "100+",
+      "label": "Products Curated"
+    },
+    {
+      "number": "50+",
+      "label": "Partner Farms"
+    },
+    {
+      "number": "1000+",
+      "label": "Happy Customers"
+    },
+    {
+      "number": "5+",
+      "label": "Years of Experience"
+    }
+  ]
+}
+

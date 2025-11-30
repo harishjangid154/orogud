@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Face Peel (Papaya Enzyme + Turmeric)",
+  "date": "2025-11-30",
+  "price": 349,
+  "excerpt": "A gentle enzyme-based exfoliating peel with papaya enzymes, turmeric, and yogurt powder for bright, glowing skin.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Skin Care",
+  "sku": "FACE-PEEL-098",
+  "tags": [
+    "face peel",
+    "papaya enzyme",
+    "turmeric",
+    "exfoliation"
+  ],
+  "content": "## What Is This Herbal Enzyme Peel?\nA mild exfoliating treatment that uses papaya's natural enzymes (papain), turmeric, and yogurt powder to brighten skin without harsh scrubbing.\n\n## Ayurvedic Significance\nTurmeric enhances glow and supports skin clarity. Yogurt is cooling and Pitta-balancing. Enzymatic exfoliation avoids microtears associated with harsh physical scrubs.\n\n### Key Benefits\n- Gently removes dead skin.\n- Brightens complexion.\n- Smooth, non-abrasive exfoliation.\n\n## Ingredients\n- Papain enzyme powder\n- Turmeric\n- Yogurt powder\n\n## Usage Instructions\n- Mix a small scoop with water or rose water. Apply a thin layer for 5–10 minutes and rinse. Use fortnightly.\n\n## Packaging\n- Small jar with measuring scoop included.\n\n## Safety & Consultation\n- Not for broken or sunburned skin. Discontinue if irritation occurs. Patch-test before full use.\n\n## Why Choose This Peel?\nA gentle Ayurvedic-inspired method for natural glow and surface renewal.",
+  "relatedProducts": [
+    {
+      "slug": "ayurvedic-body-scrub-coffee-turmeric",
+      "title": "Ayurvedic Body Scrub (Coffee + Turmeric)"
+    },
+    {
+      "slug": "herbal-joint-supplement-boswellia-turmeric",
+      "title": "Herbal Joint Supplement (Boswellia + Turmeric)"
+    },
+    {
+      "slug": "neem-turmeric-tooth-powder",
+      "title": "Neem & Turmeric Tooth Powder"
+    },
+    {
+      "slug": "turmeric-curcuma-longa-powder-organic",
+      "title": "Organic Turmeric (Curcuma Longa) Powder"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "natural-exfoliation-ayurvedic-scrubs-for-glowing-skin",
+      "title": "Natural Exfoliation: Ayurvedic Scrubs for Glowing Skin"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    },
+    {
+      "slug": "brighten-up-ayurvedic-enzyme-peels-for-healthy-skin",
+      "title": "Brighten Up: Ayurvedic Enzyme Peels for Healthy Skin"
+    }
+  ]
+}

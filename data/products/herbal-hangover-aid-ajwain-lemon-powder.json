@@ -1,0 +1,50 @@
+{
+  "title": "Herbal Hangover Aid (Ajwain + Lemon Powder)",
+  "date": "2025-11-30",
+  "price": 149,
+  "excerpt": "Single-serve digestive powder with ajwain, lemon, rock salt and ginger to support rehydration and settle the stomach after overindulgence.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Digestives & Travel",
+  "sku": "HANGOVER-AID-082",
+  "tags": [
+    "hangover aid",
+    "ajwain",
+    "lemon powder",
+    "digestive remedy"
+  ],
+  "content": "## What Is This Hangover Aid?\nA quick-mix single-serve powder combining ajwain (carom seeds), lemon powder, rock salt, and ginger to soothe the stomach, stimulate digestion, and support rehydration after overindulgence.\n\n## Ayurvedic Significance\nAjwain stimulates agni (digestive fire) and relieves bloating; ginger warms and eases nausea; citrus restores lightness and electrolytes (with rock salt).\n\n### Key Benefits\n- Settles nausea and bloating.\n- Supports rehydration and light digestion.\n- Travel-friendly single-serve sachets.\n\n## Ingredients\n- Ajwain powder\n- Lemon powder\n- Rock salt\n- Ginger powder\n\n## Usage Instructions\n- Mix one sachet in 200–300 ml of warm water, stir, and sip slowly until symptoms ease.\n\n## Packaging\n- Individually sealed single-serve sachets in a box.\n\n## Safety & Consultation\n- Avoid if you have severe vomiting, dehydration, or suspected alcohol poisoning—seek medical care. Consult doctor if on sodium-restricted diets.\n\n## Why Choose This Powder?\nA quick, traditional, and gentle approach to digestive relief after overeating or alcohol.",
+  "relatedProducts": [
+    {
+      "slug": "digestive-tonic-ajwain-cumin-syrup",
+      "title": "Digestive Tonic — Ajwain + Cumin Syrup"
+    },
+    {
+      "slug": "amla-candy-organic",
+      "title": "Organic Amla Candy"
+    },
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-anti-aging-capsule-rasayana-blend",
+      "title": "Ayurvedic Anti-Aging Capsule (Rasayana Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "beat-bloating-with-ayurvedic-digestive-tonics",
+      "title": "Beat Bloating with Ayurvedic Digestive Tonics"
+    },
+    {
+      "slug": "recover-naturally-ayurvedic-tips-after-a-big-night",
+      "title": "Recover Naturally: Ayurvedic Tips After a Big Night"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

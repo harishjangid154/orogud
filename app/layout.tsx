@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ToastProvider, ToastViewport } from "@/components/ui/Toast";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadataBase = new URL("https://orogud.com");
 
@@ -55,15 +57,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="terracotta">
-       <head>
+      <head>
         {/* theme-color moved to a plain meta tag to avoid the unsupported metadata warning */}
         <meta name="theme-color" content="#3B7A3A" />
         {/* you can add other head-level meta tags here if needed */}
       </head>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <ToastProvider>
+          <Header />
+          {children}
+          <Footer />
+          <ToastViewport />
+        </ToastProvider>
+        <GoogleAnalytics />
       </body>
     </html>
   );

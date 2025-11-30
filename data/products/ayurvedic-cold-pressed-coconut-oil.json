@@ -1,0 +1,50 @@
+{
+  "title": "Ayurvedic Cold-Pressed Coconut Oil",
+  "date": "2025-11-30",
+  "price": 249,
+  "excerpt": "Pure organic cold-pressed coconut oil for cooking, hair care, and skin nourishment in Ayurvedic routines.",
+  "images": [
+    "/og-image.png"
+  ],
+  "category": "Wellness Oils",
+  "sku": "COCO-OIL-070",
+  "tags": [
+    "coconut oil",
+    "ayurveda",
+    "hair oil",
+    "cooking oil"
+  ],
+  "content": "## What Is This Cold-Pressed Coconut Oil?\nA pure, virgin, cold-pressed coconut oil that can be used for cooking, hair care, and skin nourishment. Naturally antimicrobial and cooling.\n\n## Ayurvedic Significance\nCoconut oil is cooling, soothing, and pacifies Pitta and Vata when used moderately. Ideal for head massage, skin moisturization, and medium-heat cooking.\n\n### Key Benefits\n- Moisturizes skin deeply.\n- Strengthens and conditions hair.\n- Supports healthy digestion when used in moderation.\n\n## Ingredients\n- Organic virgin coconut oil (cold-pressed)\n\n## Usage Instructions\n- Cooking at medium heat.\n- Apply warm oil to hair before washing.\n- Use on skin as moisturizer.\n\n## Packaging\n- Glass jar with airtight lid.\n\n## Safety & Consultation\n- Not ideal for Kapha-dominant individuals in cold weather. Consult for cholesterol management.\n\n## Why Choose This Oil?\nA versatile, clean, Ayurvedic staple for daily lifestyle and self-care rituals.",
+  "relatedProducts": [
+    {
+      "slug": "ashwagandha-root-powder",
+      "title": "Organic Ashwagandha Powder"
+    },
+    {
+      "slug": "ayurvedic-cooking-oil-blend-heart-friendly-blend",
+      "title": "Ayurvedic Cooking Oil Blend (Heart-friendly Blend)"
+    },
+    {
+      "slug": "ayurvedic-heart-tonic-arjuna-based",
+      "title": "Ayurvedic Heart Tonic — Arjuna-Based"
+    },
+    {
+      "slug": "ayurvedic-male-vitality-tonic-safed-musli-blend",
+      "title": "Ayurvedic Male Vitality Tonic (Safed Musli Blend)"
+    }
+  ],
+  "relatedBlogs": [
+    {
+      "slug": "coconut-oil-in-ayurveda-friend-or-foe",
+      "title": "Coconut Oil in Ayurveda: Friend or Foe?"
+    },
+    {
+      "slug": "ayurvedic-haircare-oil-rituals-for-stronger-hair",
+      "title": "Ayurvedic Haircare: Oil Rituals for Stronger Hair"
+    },
+    {
+      "slug": "a-natural-first-aid-kit-ayurvedic-balms-that-work",
+      "title": "A Natural First Aid Kit — Ayurvedic Balms That Work"
+    }
+  ]
+}

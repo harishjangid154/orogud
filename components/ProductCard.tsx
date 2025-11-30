@@ -1,7 +1,9 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import { Card, CardHeader, CardFooter } from '@/components/ui/Card';
 import { ShoppingCart } from 'lucide-react';
+import { trackClick, trackProductView } from '@/lib/analytics';
 
 interface ProductCardProps {
   slug: string;
@@ -23,11 +25,17 @@ export default function ProductCard({
   showCategory = true,
 }: ProductCardProps) {
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col h-full border-border/50 hover:border-accent/50">
+    <Card 
+      className="overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col h-full border-border/50 hover:border-accent/50"
+      data-card
+      data-card-name={title}
+      data-card-id={slug}
+    >
       {/* Image Container - Optimized */}
       <Link
         href={`/products/${slug}`}
         className="block overflow-hidden bg-surface-2 aspect-video relative group"
+        onClick={() => trackProductView(slug, title, category)}
       >
         {image ? (
           <img
@@ -49,6 +57,7 @@ export default function ProductCard({
           <Link
             href={`/products/${slug}`}
             className="hover:text-accent transition-colors"
+            onClick={() => trackProductView(slug, title, category)}
           >
             {title}
           </Link>
@@ -75,6 +84,7 @@ export default function ProductCard({
           href={`/products/${slug}`}
           className="inline-flex items-center justify-center h-8 w-8 rounded-md bg-accent/10 text-accent hover:bg-accent hover:text-accent-contrast transition-colors"
           title="View product"
+          onClick={() => trackProductView(slug, title, category)}
         >
           <ShoppingCart className="h-4 w-4" />
         </Link>

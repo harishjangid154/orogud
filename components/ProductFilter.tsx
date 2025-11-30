@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ChevronDown, X } from 'lucide-react';
+import { trackClick } from "@/lib/analytics";
 import * as Select from '@/components/ui/Select';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/Card';
 
@@ -41,6 +42,7 @@ export default function ProductFilter({
                   ? 'bg-accent text-accent-contrast shadow-sm'
                   : 'text-muted hover:bg-surface-2 hover:text-text'
               }`}
+              onClick={() => trackClick('link', 'Filter: All Products', 'filter-all-products')}
             >
               <div className="flex items-center justify-between">
                 <span>All Products</span>
@@ -59,6 +61,7 @@ export default function ProductFilter({
                       ? 'bg-accent text-accent-contrast shadow-sm'
                       : 'text-muted hover:bg-surface-2 hover:text-text'
                   }`}
+                  onClick={() => trackClick('link', `Filter: ${category}`, `filter-${category.toLowerCase().replace(/\s+/g, '-')}`)}
                 >
                   <span>{category}</span>
                 </Link>
@@ -72,6 +75,7 @@ export default function ProductFilter({
           <Link
             href="/products"
             className="flex items-center justify-center gap-2 px-4 py-2 rounded-md border border-border text-sm font-medium text-muted hover:bg-surface-2 hover:text-text transition-all"
+            onClick={() => trackClick('link', 'Clear Filters', 'filter-clear')}
           >
             <X className="h-4 w-4" />
             Clear Filters

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { JSX, useEffect, useState } from "react";
 import CategoryDropdown from "@/components/CategoryDropdown";
+import { trackClick } from "@/lib/analytics";
 
 type NavItem = { name: string; href: string };
 
@@ -56,7 +57,7 @@ export default function Header(): JSX.Element {
     <header className="bg-surface border-b border-border sticky top-0 z-40 shadow-soft" role="banner">
       <div className="px-4 md:px-6 lg:px-8 xl:px-12 flex items-center gap-6 h-20">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 flex-shrink-0" aria-label="OROGUD home">
+        <Link href="/" className="flex items-center gap-3 flex-shrink-0" aria-label="OROGUD home" onClick={() => trackClick('link', 'Logo', 'header-logo')}>
           <div
             className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
             style={{ background: "var(--accent)" }}
@@ -81,6 +82,7 @@ export default function Header(): JSX.Element {
                   active ? "text-accent" : "text-text hover:text-accent"
                 }`}
                 aria-current={active ? "page" : undefined}
+                onClick={() => trackClick('link', `Nav: ${item.name}`, `nav-${item.name.toLowerCase()}`)}
               >
                 {item.name}
               </Link>
@@ -93,7 +95,10 @@ export default function Header(): JSX.Element {
 
           {/* Mobile menu toggle */}
           <button
-            onClick={() => setMobileOpen((s) => !s)}
+            onClick={() => {
+              setMobileOpen((s) => !s);
+              trackClick('button', mobileOpen ? 'Close Menu' : 'Open Menu', 'mobile-menu-toggle');
+            }}
             className="md:hidden btn btn-ghost"
             aria-expanded={mobileOpen}
             aria-controls="mobile-menu"
@@ -125,7 +130,10 @@ export default function Header(): JSX.Element {
                 <Link
                   key={item.href}
                   href={item.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={() => {
+                    setMobileOpen(false);
+                    trackClick('link', `Mobile Nav: ${item.name}`, `mobile-nav-${item.name.toLowerCase()}`);
+                  }}
                   className={`py-3 px-4 rounded-lg transition-colors text-base font-semibold ${
                     active ? "text-accent bg-accent-light" : "text-text hover:bg-surface"
                   }`}

@@ -4,6 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { JSX } from "react";
+import { trackClick, trackFormSubmission } from "@/lib/analytics";
 
 export default function Footer(): JSX.Element {
   const year = new Date().getFullYear();
@@ -14,7 +15,7 @@ export default function Footer(): JSX.Element {
         <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-12">
           {/* Brand & description */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-3 mb-6" aria-label="OROGUD home">
+            <Link href="/" className="flex items-center gap-3 mb-6" aria-label="OROGUD home" onClick={() => trackClick('link', 'Logo', 'footer-logo')}>
               <div
                 className="w-12 h-12 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
                 style={{ background: "var(--accent)" }}
@@ -35,32 +36,32 @@ export default function Footer(): JSX.Element {
             <h4 className="text-base font-bold text-text mb-6 uppercase tracking-wide">Shop</h4>
             <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/products" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/products" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: All Products', 'footer-all-products')}>
                   All Products
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=Health%20%26%20Wellness" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/products?category=Health%20%26%20Wellness" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Health & Wellness', 'footer-health-wellness')}>
                   Health & Wellness
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=Food%20%26%20Pantry" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/products?category=Food%20%26%20Pantry" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Food & Pantry', 'footer-food-pantry')}>
                   Food & Pantry
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=Skin%20Care" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/products?category=Skin%20Care" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Skin Care', 'footer-skin-care')}>
                   Skin Care
                 </Link>
               </li>
               <li>
-                <Link href="/products?category=Tea%20%26%20Beverages" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/products?category=Tea%20%26%20Beverages" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Tea & Beverages', 'footer-tea-beverages')}>
                   Tea & Beverages
                 </Link>
               </li>
               <li>
-                <Link href="/categories" className="text-base text-accent hover:text-accent-600 transition-colors font-semibold">
+                <Link href="/categories" className="text-base text-accent hover:text-accent-600 transition-colors font-semibold" onClick={() => trackClick('link', 'Footer: View All Categories', 'footer-view-all-categories')}>
                   View All Categories →
                 </Link>
               </li>
@@ -72,22 +73,22 @@ export default function Footer(): JSX.Element {
             <h4 className="text-base font-bold text-text mb-6 uppercase tracking-wide">Resources</h4>
             <ul className="flex flex-col gap-4">
               <li>
-                <Link href="/blogs" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/blogs" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Blog', 'footer-blog')}>
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/about" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: About Us', 'footer-about-us')}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/shipping" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/shipping" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: Shipping & Returns', 'footer-shipping-returns')}>
                   Shipping & Returns
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="text-base text-muted hover:text-accent transition-colors font-medium">
+                <Link href="/faq" className="text-base text-muted hover:text-accent transition-colors font-medium" onClick={() => trackClick('link', 'Footer: FAQ', 'footer-faq')}>
                   FAQ
                 </Link>
               </li>
@@ -105,6 +106,7 @@ export default function Footer(): JSX.Element {
                 const target = e.target as HTMLFormElement;
                 const input = target.querySelector<HTMLInputElement>("input[name=email]");
                 if (input) {
+                  trackFormSubmission('newsletter_signup', { email_domain: input.value.split('@')[1] });
                   alert(`Subscribed: ${input.value}`);
                   input.value = "";
                 }
@@ -118,7 +120,7 @@ export default function Footer(): JSX.Element {
                 required
                 className="rounded-lg border px-4 py-3 text-base bg-surface border-border focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
               />
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary" onClick={() => trackClick('button', 'Newsletter Subscribe', 'newsletter-subscribe')}>
                 Subscribe
               </button>
             </form>
@@ -132,7 +134,7 @@ export default function Footer(): JSX.Element {
               © {year} OROGUD · All rights reserved
             </div>
             <div className="text-base text-muted">
-              <Link href="mailto:founders@orogud.com" className="text-accent hover:text-accent-600 transition-colors font-semibold">
+              <Link href="mailto:founders@orogud.com" className="text-accent hover:text-accent-600 transition-colors font-semibold" onClick={() => trackClick('link', 'Footer: Email', 'footer-email')}>
                 founders@orogud.com
               </Link>
             </div>

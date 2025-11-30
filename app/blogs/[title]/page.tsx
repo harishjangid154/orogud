@@ -181,7 +181,7 @@ export default async function BlogPage({
           ) : (
             <p className="mt-4 muted">No blog files found in <code>data/blogs</code>.</p>
           )}
-        </div>
+          </div>
       </main>
     );
   }
@@ -196,7 +196,8 @@ export default async function BlogPage({
 
   return (
     <main className="bg-primary min-h-screen">
-      <div className="container-max px-4 md:px-8 py-8">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
+        <div className="max-w-4xl mx-auto">
         {/* Breadcrumb */}
         <div className="mb-8 flex items-center gap-2 text-sm text-muted">
           <Link href="/blogs" className="hover:text-accent transition-colors">Blog</Link>
@@ -255,6 +256,7 @@ export default async function BlogPage({
             </div>
           </footer>
         </article>
+        </div>
       </div>
     </main>
   );

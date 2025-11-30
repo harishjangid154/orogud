@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import Link from "next/link";
 import React, { JSX } from "react";
+import ProductCarousel from "@/components/ProductCarousel";
+import BlogCarousel from "@/components/BlogCarousel";
 
 type BlogData = {
   title: string;
@@ -20,7 +22,7 @@ type ProductData = {
   date?: string;
   price?: string | number;
   excerpt?: string;
-  images?: string[]; // relative paths like "/images/p-1.jpg"
+  images?: string[];
   category?: string;
   featured?: boolean;
   content?: string;
@@ -48,7 +50,18 @@ async function loadJson<T>(dir: string, slug: string): Promise<T | null> {
   }
 }
 
-async function loadLatestBlogs(limit = 3): Promise<Array<BlogData & { slug: string }>> {
+async function loadAllProducts(): Promise<Array<ProductData & { slug: string }>> {
+  const slugs = await readJsonDir(PRODUCTS_DIR);
+  const arr: Array<ProductData & { slug: string }> = [];
+  for (const s of slugs) {
+    const p = await loadJson<ProductData>(PRODUCTS_DIR, s);
+    if (!p) continue;
+    arr.push({ ...p, slug: s });
+  }
+  return arr;
+}
+
+async function loadAllBlogs(): Promise<Array<BlogData & { slug: string }>> {
   const slugs = await readJsonDir(BLOGS_DIR);
   const arr: Array<BlogData & { slug: string }> = [];
   for (const s of slugs) {
@@ -57,156 +70,118 @@ async function loadLatestBlogs(limit = 3): Promise<Array<BlogData & { slug: stri
     arr.push({ ...b, slug: s });
   }
   arr.sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0));
-  return arr.slice(0, limit);
+  return arr;
 }
 
-async function loadLatestProducts(limit = 6): Promise<Array<ProductData & { slug: string }>> {
-  const slugs = await readJsonDir(PRODUCTS_DIR);
-  const arr: Array<ProductData & { slug: string }> = [];
-  for (const s of slugs) {
-    const p = await loadJson<ProductData>(PRODUCTS_DIR, s);
-    if (!p) continue;
-    arr.push({ ...p, slug: s });
+function groupByCategory(products: Array<ProductData & { slug: string }>) {
+  const grouped: Record<string, Array<ProductData & { slug: string }>> = {};
+  for (const product of products) {
+    const category = product.category || "Uncategorized";
+    if (!grouped[category]) {
+      grouped[category] = [];
+    }
+    grouped[category].push(product);
   }
-  // sort by date (newest first), fallback keep original order
-  arr.sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0));
-  return arr.slice(0, limit);
+  return grouped;
 }
+
+// Featured categories to show on homepage
+const FEATURED_CATEGORIES = [
+  "Health & Wellness",
+  "Food & Pantry",
+  "Skin Care",
+  "Tea & Beverages",
+  "Personal Care",
+  "Superfoods",
+];
 
 export default async function HomePage(): Promise<JSX.Element> {
-  const [products, blogs] = await Promise.all([loadLatestProducts(6), loadLatestBlogs(3)]);
+  const [allProducts, allBlogs] = await Promise.all([loadAllProducts(), loadAllBlogs()]);
+  
+  const productsByCategory = groupByCategory(allProducts);
+  const featuredBlogs = allBlogs.slice(0, 6);
+
+  // Get featured products for each category (max 6 per category)
+  const featuredCategories = FEATURED_CATEGORIES.filter(
+    (cat) => productsByCategory[cat] && productsByCategory[cat].length > 0
+  );
 
   return (
     <main className="bg-primary">
-      {/* Hero Section */}
-      <section className="container-max px-4 md:px-8 py-16 md:py-24">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold text-text leading-tight mb-6">
-            Simple, trusted products for home & wellness
-          </h1>
-          <p className="lead text-lg mb-8">
-            Handpicked household and farm products — from washed ghee and jaggery to wooden cookware and daily essentials. Curated for simple living.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/products" className="btn btn-primary btn-lg">
-              Explore Products
-            </Link>
-            <Link href="/blogs" className="btn btn-outline btn-lg">
-              Read Our Blog
-            </Link>
+      {/* Compact Hero Section */}
+      <section className="border-b border-border">
+        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
+          <div className="max-w-3xl">
+            <h1 className="text-3xl md:text-4xl font-bold text-text leading-tight mb-3">
+              Simple, trusted products for home & wellness
+            </h1>
+            <p className="text-muted text-base md:text-lg mb-4 max-w-2xl">
+              Handpicked household and farm products — from washed ghee and jaggery to wooden cookware and daily essentials. Curated for simple living.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/products" className="btn btn-primary">
+                Explore Products
+              </Link>
+              <Link href="/blogs" className="btn btn-outline">
+                Read Our Blog
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content */}
+      {/* Main Content - Category Sections */}
       <div className="bg-surface">
-        <div className="container-max px-4 md:px-8 py-16">
-          {/* Products section */}
-          <section className="mb-16">
-            <div className="flex items-center justify-between mb-8">
-              <div>
-                <h2 className="text-3xl font-bold text-text">Latest products</h2>
-                <p className="text-muted mt-2">Discover our newest additions</p>
-              </div>
-              <Link href="/products" className="text-sm text-accent hover:text-accent-600 font-medium transition-colors">
-                View all →
-              </Link>
-            </div>
+        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
+          {/* Featured Products by Category */}
+          {featuredCategories.map((category) => {
+            const categoryProducts = productsByCategory[category].slice(0, 8);
+            return (
+              <ProductCarousel
+                key={category}
+                products={categoryProducts}
+                title={category}
+                viewAllLink={`/products?category=${encodeURIComponent(category)}`}
+              />
+            );
+          })}
 
-            {products.length === 0 ? (
-              <div className="card card-pad-md">
-                <p className="text-muted">No products found in <code>data/products</code>.</p>
-              </div>
-            ) : (
-              <div className="product-grid">
-                {products.map((p) => (
-                  <article key={p.slug} className="card card-pad-md hover:shadow-md transition-all">
-                    {p.images && p.images.length ? (
-                      <Link href={`/products/${p.slug}`} className="block overflow-hidden rounded-lg mb-4">
-                        <img src={p.images[0]} alt={p.title} className="w-full h-56 object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
-                      </Link>
-                    ) : null}
+          {/* Featured Blogs Section */}
+          <BlogCarousel
+            blogs={featuredBlogs}
+            title="Latest Articles"
+            viewAllLink="/blogs"
+          />
 
-                    <div>
-                      <h3 className="text-lg font-semibold text-text mb-2">
-                        <Link href={`/products/${p.slug}`} className="hover:text-accent transition-colors">{p.title}</Link>
-                      </h3>
-                      {p.excerpt ? <p className="text-muted text-sm mb-4 line-clamp-2">{p.excerpt}</p> : null}
-
-                      <div className="flex items-center justify-between pt-4 border-t border-border">
-                        <div className="flex items-center gap-2">
-                          {p.category ? <span className="badge">{p.category}</span> : null}
-                          {p.price ? <div className="text-sm font-semibold text-accent">{typeof p.price === "number" ? `₹${p.price}` : p.price}</div> : null}
-                        </div>
-                        <Link href={`/products/${p.slug}`} className="btn btn-primary btn-sm">View</Link>
-                      </div>
-                    </div>
-                  </article>
-                ))}
-              </div>
-            )}
-          </section>
-
-          {/* Blogs section */}
-          <section>
-            <div className="flex items-center justify-between mb-8">
-              <div>
-                <h2 className="text-3xl font-bold text-text">Latest articles</h2>
-                <p className="text-muted mt-2">Insights and guides for simple living</p>
-              </div>
-              <Link href="/blogs" className="text-sm text-accent hover:text-accent-600 font-medium transition-colors">
-                View all →
-              </Link>
-            </div>
-
-            {blogs.length === 0 ? (
-              <div className="card card-pad-md">
-                <p className="text-muted">No blog posts found in <code>data/blogs</code>.</p>
-              </div>
-            ) : (
-              <div className="product-grid">
-                {blogs.map((b) => {
-                  const displayDate = b.date
-                    ? new Date(b.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })
-                    : null;
-
+          {/* Additional Categories Section */}
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold text-text mb-4">Explore by Category</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              {Object.keys(productsByCategory)
+                .filter((cat) => !FEATURED_CATEGORIES.includes(cat))
+                .sort()
+                .slice(0, 8)
+                .map((category) => {
+                  const count = productsByCategory[category].length;
                   return (
-                    <article key={b.slug} className="card card-pad-md hover:shadow-md transition-all">
-                      {b.coverImage ? (
-                        <Link href={`/blog/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
-                          <img src={b.coverImage} alt={b.title} className="w-full h-56 object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
-                        </Link>
-                      ) : null}
-
-                      <div>
-                        <h3 className="text-lg font-semibold text-text mb-2">
-                          <Link href={`/blog/${b.slug}`} className="hover:text-accent transition-colors">{b.title}</Link>
-                        </h3>
-
-                        <div className="flex items-center gap-2 text-xs text-muted mb-3">
-                          {b.author ? <span>{b.author}</span> : null}
-                          {displayDate ? <span>·</span> : null}
-                          {displayDate ? <span>{displayDate}</span> : null}
-                        </div>
-
-                        {b.excerpt ? <p className="text-muted text-sm mb-4 line-clamp-2">{b.excerpt}</p> : null}
-
-                        <div className="flex items-center justify-between pt-4 border-t border-border">
-                          <div className="flex items-center gap-2">
-                            {b.tags?.slice(0, 2).map((t) => (
-                              <span key={t} className="badge text-xs">
-                                {t}
-                              </span>
-                            ))}
-                          </div>
-                          <Link href={`/blog/${b.slug}`} className="btn btn-primary btn-sm">Read</Link>
-                        </div>
-                      </div>
-                    </article>
+                    <Link
+                      key={category}
+                      href={`/products?category=${encodeURIComponent(category)}`}
+                      className="card card-pad-md hover:shadow-md transition-all text-center group"
+                    >
+                      <h3 className="font-semibold text-text mb-2 group-hover:text-accent transition-colors">
+                        {category}
+                      </h3>
+                      <p className="text-sm text-muted">{count} {count === 1 ? "product" : "products"}</p>
+                    </Link>
                   );
                 })}
-              </div>
-            )}
+            </div>
+            <div className="mt-6 text-center">
+              <Link href="/products" className="btn btn-outline">
+                View All Categories
+              </Link>
+            </div>
           </section>
         </div>
       </div>

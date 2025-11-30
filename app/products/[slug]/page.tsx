@@ -111,8 +111,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   if (!product) {
     const available = await readProductSlugs();
     return (
-      <main className="container-max py-16">
-        <div className="card">
+      <main className="px-4 md:px-6 lg:px-8 xl:px-12 py-8">
+        <div className="max-w-4xl mx-auto">
+          <div className="card">
           <h1 className="text-2xl font-semibold">Product not found</h1>
           <p className="muted mt-2">We couldn't find product: <strong>{slug}</strong>.</p>
           {available.length ? (
@@ -127,6 +128,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
           ) : (
             <p className="muted mt-4">No product files found in <code>data/products</code>.</p>
           )}
+          </div>
         </div>
       </main>
     );
@@ -136,7 +138,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
   return (
     <main className="bg-primary min-h-screen">
-      <div className="container-max px-4 md:px-8 py-8">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
+        <div className="max-w-6xl mx-auto">
         {/* Breadcrumb */}
         <div className="mb-8 flex items-center gap-2 text-sm text-muted">
           <Link href="/products" className="hover:text-accent transition-colors">Products</Link>
@@ -221,6 +224,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
               </Link>
             </div>
           </aside>
+        </div>
         </div>
       </div>
     </main>

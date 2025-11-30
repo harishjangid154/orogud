@@ -5,6 +5,8 @@ import Link from "next/link";
 import React, { JSX } from "react";
 import ProductCarousel from "@/components/ProductCarousel";
 import BlogCarousel from "@/components/BlogCarousel";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/Card";
+import { ArrowRight } from "lucide-react";
 
 type BlogData = {
   title: string;
@@ -108,19 +110,20 @@ export default async function HomePage(): Promise<JSX.Element> {
 
   return (
     <main className="bg-primary">
-      {/* Compact Hero Section */}
-      <section className="border-b border-border">
-        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
-          <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-4xl font-bold text-text leading-tight mb-3">
+      {/* Enhanced Hero Section */}
+      <section className="border-b border-border/50">
+        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-16 lg:py-20">
+          <div className="max-w-4xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text leading-tight mb-4">
               Simple, trusted products for home & wellness
             </h1>
-            <p className="text-muted text-base md:text-lg mb-4 max-w-2xl">
+            <p className="text-lg md:text-xl text-muted mb-8 max-w-3xl leading-relaxed">
               Handpicked household and farm products — from washed ghee and jaggery to wooden cookware and daily essentials. Curated for simple living.
             </p>
-            <div className="flex flex-wrap gap-3">
-              <Link href="/products" className="btn btn-primary">
+            <div className="flex flex-wrap gap-4">
+              <Link href="/products" className="btn btn-primary inline-flex items-center gap-2">
                 Explore Products
+                <ArrowRight className="h-4 w-4" />
               </Link>
               <Link href="/blogs" className="btn btn-outline">
                 Read Our Blog
@@ -131,8 +134,8 @@ export default async function HomePage(): Promise<JSX.Element> {
       </section>
 
       {/* Main Content - Category Sections */}
-      <div className="bg-surface">
-        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-6 md:py-8">
+      <div className="bg-primary">
+        <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-16">
           {/* Featured Products by Category */}
           {featuredCategories.map((category) => {
             const categoryProducts = productsByCategory[category].slice(0, 8);
@@ -154,9 +157,12 @@ export default async function HomePage(): Promise<JSX.Element> {
           />
 
           {/* Additional Categories Section */}
-          <section className="mb-8">
-            <h2 className="text-2xl font-bold text-text mb-4">Explore by Category</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          <section className="mb-12">
+            <div className="mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-text mb-2">Explore by Category</h2>
+              <p className="text-muted text-lg">Browse our curated collections</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {Object.keys(productsByCategory)
                 .filter((cat) => !FEATURED_CATEGORIES.includes(cat))
                 .sort()
@@ -167,19 +173,26 @@ export default async function HomePage(): Promise<JSX.Element> {
                     <Link
                       key={category}
                       href={`/products?category=${encodeURIComponent(category)}`}
-                      className="card card-pad-md hover:shadow-md transition-all text-center group"
+                      className="group"
                     >
-                      <h3 className="font-semibold text-text mb-2 group-hover:text-accent transition-colors">
-                        {category}
-                      </h3>
-                      <p className="text-sm text-muted">{count} {count === 1 ? "product" : "products"}</p>
+                      <Card className="h-full hover:shadow-lg hover:border-accent/50 transition-all duration-300 cursor-pointer">
+                        <CardHeader className="text-center">
+                          <CardTitle className="text-lg group-hover:text-accent transition-colors">
+                            {category}
+                          </CardTitle>
+                          <CardDescription className="mt-2">
+                            {count} {count === 1 ? "product" : "products"}
+                          </CardDescription>
+                        </CardHeader>
+                      </Card>
                     </Link>
                   );
                 })}
             </div>
-            <div className="mt-6 text-center">
-              <Link href="/products" className="btn btn-outline">
+            <div className="mt-8 text-center">
+              <Link href="/products" className="btn btn-outline inline-flex items-center gap-2">
                 View All Categories
+                <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
           </section>

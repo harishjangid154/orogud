@@ -4,6 +4,8 @@ import path from "path";
 import Link from "next/link";
 import React, { JSX } from "react";
 import { Metadata } from "next";
+import ProductFilter from "@/components/ProductFilter";
+import ProductCard from "@/components/ProductCard";
 
 type ProductData = {
   title: string;
@@ -115,44 +117,12 @@ export default async function ProductsPage({ searchParams }: Props): Promise<JSX
       <div className="bg-primary">
         <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-8 md:py-12">
           <div className="flex flex-col lg:flex-row gap-8">
-            {/* Category Sidebar */}
-            <aside className="lg:w-56 flex-shrink-0">
-              <div className="sticky top-6">
-                <h2 className="text-lg font-bold text-text mb-6">Categories</h2>
-                <nav className="space-y-2">
-                  <Link
-                    href="/products"
-                    className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all ${
-                      !selectedCategory
-                        ? "bg-accent text-accent-contrast shadow-md"
-                        : "text-muted hover:bg-surface-2 hover:text-text"
-                    }`}
-                  >
-                    All Products ({allProducts.length})
-                  </Link>
-                  {categories.map((category) => {
-                    const count = productsByCategory[category].length;
-                    const isActive = selectedCategory === category;
-                    return (
-                      <Link
-                        key={category}
-                        href={`/products?category=${encodeURIComponent(category)}`}
-                        className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all ${
-                          isActive
-                            ? "bg-accent text-accent-contrast shadow-md"
-                            : "text-muted hover:bg-surface-2 hover:text-text"
-                        }`}
-                      >
-                        <div className="flex items-center justify-between">
-                          <span>{category}</span>
-                          <span className="text-xs opacity-75">({count})</span>
-                        </div>
-                      </Link>
-                    );
-                  })}
-                </nav>
-              </div>
-            </aside>
+            {/* Filter Sidebar */}
+            <ProductFilter
+              categories={categories}
+              selectedCategory={selectedCategory}
+              productCount={filteredProducts.length}
+            />
 
             {/* Products Grid */}
             <div className="flex-1 min-w-0">
@@ -192,73 +162,18 @@ export default async function ProductsPage({ searchParams }: Props): Promise<JSX
                       </Link>
                     )}
                   </div>
-                  <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                     {filteredProducts.map((p) => (
-                      <article
+                      <ProductCard
                         key={p.slug}
-                        className="card card-pad-0 overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col h-full"
-                      >
-                        {/* Image Container */}
-                        {p.images && p.images.length ? (
-                          <Link
-                            href={`/products/${p.slug}`}
-                            className="block overflow-hidden bg-surface-2 aspect-square"
-                          >
-                            <img
-                              src={p.images[0]}
-                              alt={p.title}
-                              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                            />
-                          </Link>
-                        ) : (
-                          <div className="bg-surface-2 aspect-square flex items-center justify-center">
-                            <span className="text-muted text-sm">No image</span>
-                          </div>
-                        )}
-
-                        {/* Content Container */}
-                        <div className="card-pad-lg flex flex-col flex-1">
-                          <h3 className="text-base font-bold text-text mb-2 line-clamp-2">
-                            <Link
-                              href={`/products/${p.slug}`}
-                              className="hover:text-accent transition-colors"
-                            >
-                              {p.title}
-                            </Link>
-                          </h3>
-                          
-                          {p.excerpt ? (
-                            <p className="text-muted text-sm mb-4 line-clamp-2 flex-1">{p.excerpt}</p>
-                          ) : null}
-
-                          {/* Footer */}
-                          <div className="space-y-4 pt-4 border-t border-border">
-                            <div className="flex items-center justify-between">
-                              <div>
-                                {p.price ? (
-                                  <div className="text-lg font-bold text-accent">
-                                    {typeof p.price === "number" ? `₹${p.price}` : p.price}
-                                  </div>
-                                ) : null}
-                              </div>
-                              {p.category && !selectedCategory && (
-                                <Link
-                                  href={`/products?category=${encodeURIComponent(p.category)}`}
-                                  className="badge badge-sm hover:bg-accent hover:text-accent-contrast transition-colors"
-                                >
-                                  {p.category}
-                                </Link>
-                              )}
-                            </div>
-                            <Link
-                              href={`/products/${p.slug}`}
-                              className="btn btn-primary w-full"
-                            >
-                              View Product
-                            </Link>
-                          </div>
-                        </div>
-                      </article>
+                        slug={p.slug}
+                        title={p.title}
+                        excerpt={p.excerpt}
+                        price={p.price}
+                        image={p.images?.[0]}
+                        category={p.category}
+                        showCategory={!selectedCategory}
+                      />
                     ))}
                   </section>
                 </>

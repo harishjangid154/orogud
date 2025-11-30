@@ -123,14 +123,14 @@ export default async function BlogsPage(): Promise<JSX.Element> {
                   return (
                     <article key={b.slug} className="card card-pad-md hover:shadow-md transition-all">
                       {b.coverImage ? (
-                        <Link href={`/blog/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
+                        <Link href={`/blogs/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
                           <img src={b.coverImage} alt={b.title} className="w-full h-56 object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
                         </Link>
                       ) : null}
 
                       <div>
                         <h3 className="text-lg font-semibold text-text mb-2">
-                          <Link href={`/blog/${b.slug}`} className="hover:text-accent transition-colors">
+                          <Link href={`/blogs/${b.slug}`} className="hover:text-accent transition-colors">
                             {b.title}
                           </Link>
                         </h3>
@@ -151,7 +151,7 @@ export default async function BlogsPage(): Promise<JSX.Element> {
                               </span>
                             ))}
                           </div>
-                          <Link href={`/blog/${b.slug}`} className="btn btn-primary btn-sm">
+                          <Link href={`/blogs/${b.slug}`} className="btn btn-primary btn-sm">
                             Read
                           </Link>
                         </div>

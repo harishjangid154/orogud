@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { trackClick, trackProductView } from "@/lib/analytics";
 
 type Product = {
   slug: string;
@@ -36,6 +37,7 @@ export default function ProductCarousel({ products, title, viewAllLink }: Produc
     
     container.scrollTo({ left: clampedPosition, behavior: "smooth" });
     setScrollPosition(clampedPosition);
+    trackClick('button', `Carousel: Scroll ${direction}`, `carousel-scroll-${direction}`);
   };
 
   if (products.length === 0) return null;
@@ -48,6 +50,7 @@ export default function ProductCarousel({ products, title, viewAllLink }: Produc
           <Link 
             href={viewAllLink} 
             className="text-sm text-accent hover:text-accent-600 font-medium transition-colors"
+            onClick={() => trackClick('link', `View all: ${title}`, `carousel-view-all-${title.toLowerCase().replace(/\s+/g, '-')}`)}
           >
             View all →
           </Link>
@@ -80,7 +83,7 @@ export default function ProductCarousel({ products, title, viewAllLink }: Produc
               className="card card-pad-md hover:shadow-md transition-all flex-shrink-0 w-[300px]"
             >
               {product.images && product.images.length > 0 && (
-                <Link href={`/products/${product.slug}`} className="block overflow-hidden rounded-lg mb-2">
+                <Link href={`/products/${product.slug}`} className="block overflow-hidden rounded-lg mb-2" onClick={() => trackProductView(product.slug, product.title, product.category)}>
                   <Image
                     src={product.images[0]}
                     alt={product.title}
@@ -96,7 +99,7 @@ export default function ProductCarousel({ products, title, viewAllLink }: Produc
 
               <div>
                 <h3 className="text-lg font-semibold text-text mb-2 line-clamp-2">
-                  <Link href={`/products/${product.slug}`} className="hover:text-accent transition-colors">
+                  <Link href={`/products/${product.slug}`} className="hover:text-accent transition-colors" onClick={() => trackProductView(product.slug, product.title, product.category)}>
                     {product.title}
                   </Link>
                 </h3>
@@ -115,7 +118,7 @@ export default function ProductCarousel({ products, title, viewAllLink }: Produc
                       </div>
                     )}
                   </div>
-                  <Link href={`/products/${product.slug}`} className="btn btn-primary btn-sm">
+                  <Link href={`/products/${product.slug}`} className="btn btn-primary btn-sm" onClick={() => trackProductView(product.slug, product.title, product.category)}>
                     View
                   </Link>
                 </div>

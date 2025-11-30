@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Share2, Check } from 'lucide-react';
 import * as Popover from '@/components/ui/Popover';
+import { trackClick } from '@/lib/analytics';
 
 interface ShareProductButtonProps {
   slug: string;
@@ -19,6 +20,7 @@ export default function ShareProductButton({ slug, title }: ShareProductButtonPr
   const handleCopyLink = async () => {
     try {
       await navigator.clipboard.writeText(productUrl);
+      trackClick('button', 'Copy Product Link', `share-${slug}`);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
@@ -52,6 +54,7 @@ export default function ShareProductButton({ slug, title }: ShareProductButtonPr
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
+              onClick={() => trackClick('link', 'Share on Twitter', `share-twitter-${slug}`)}
             >
               Share on Twitter
             </a>
@@ -60,6 +63,7 @@ export default function ShareProductButton({ slug, title }: ShareProductButtonPr
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-left px-3 py-2 rounded-md hover:bg-accent-100 transition-colors text-sm"
+              onClick={() => trackClick('link', 'Share on Facebook', `share-facebook-${slug}`)}
             >
               Share on Facebook
             </a>

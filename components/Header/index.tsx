@@ -52,31 +52,30 @@ export default function Header(): JSX.Element {
   }
 
   return (
-    <header className="bg-surface border-b py-2 px-8" role="banner">
-      <div className="container-max flex items-center gap-4 h-16">
+    <header className="bg-surface border-b border-border sticky top-0 z-40 shadow-soft" role="banner">
+      <div className="container-max flex items-center gap-4 h-16 px-4 md:px-8">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <Link href="/" className="flex items-center gap-3" aria-label="OROGUD home">
-            <div
-              className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden"
-              style={{ background: "var(--accent)" }}
-            >
-              {/* small svg mark — replace with your logo file if available */}
-              <Image src="/og-image.png" alt="OROGUD" width={20} height={20} unoptimized className="h-full w-full" />
-            </div>
-
-          </Link>
-        </div>
+        <Link href="/" className="flex items-center gap-2 flex-shrink-0" aria-label="OROGUD home">
+          <div
+            className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden flex-shrink-0"
+            style={{ background: "var(--accent)" }}
+          >
+            <Image src="/og-image.png" alt="OROGUD" width={20} height={20} unoptimized className="h-full w-full" />
+          </div>
+          <span className="hidden sm:inline font-semibold text-text text-lg">OROGUD</span>
+        </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden sm:flex items-center gap-6 ml-6" aria-label="Primary navigation">
+        <nav className="hidden md:flex items-center gap-8 ml-8" aria-label="Primary navigation">
           {NAV.map((item) => {
             const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
             return (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`text-sm font-medium ${active ? "text-accent" : "muted"} hover:text-accent`}
+                className={`text-sm font-medium transition-colors ${
+                  active ? "text-accent font-semibold" : "text-muted hover:text-text"
+                }`}
                 aria-current={active ? "page" : undefined}
               >
                 {item.name}
@@ -85,30 +84,37 @@ export default function Header(): JSX.Element {
           })}
         </nav>
 
-        {/* Search (desktop) + actions */}
+        {/* Actions */}
         <div className="ml-auto flex items-center gap-3">
-
 
           {/* Mobile menu toggle */}
           <button
             onClick={() => setMobileOpen((s) => !s)}
-            className="sm:hidden btn btn-ghost"
+            className="md:hidden btn btn-ghost btn-sm"
             aria-expanded={mobileOpen}
             aria-controls="mobile-menu"
             aria-label="Toggle menu"
           >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
-            </svg>
+            {mobileOpen ? (
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            ) : (
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="4" y1="7" x2="20" y2="7" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="17" x2="20" y2="17" />
+              </svg>
+            )}
           </button>
         </div>
       </div>
 
       {/* Mobile menu */}
-      <div id="mobile-menu" className={`${mobileOpen ? "block" : "hidden"} sm:hidden border-t border-subtle bg-surface-2`}>
-        <div className="container-max py-3">
-
-          <nav className="flex flex-col gap-2">
+      {mobileOpen && (
+        <div id="mobile-menu" className="md:hidden border-t border-border bg-surface-2">
+          <nav className="container-max py-4 px-4 flex flex-col gap-1">
             {NAV.map((item) => {
               const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
               return (
@@ -116,7 +122,9 @@ export default function Header(): JSX.Element {
                   key={item.href}
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
-                  className={`py-2 px-2 rounded-md ${active ? "text-accent" : "text-text"} hover:bg-surface`}
+                  className={`py-3 px-3 rounded-md transition-colors ${
+                    active ? "text-accent bg-accent-light font-semibold" : "text-text hover:bg-surface"
+                  }`}
                 >
                   {item.name}
                 </Link>
@@ -124,7 +132,7 @@ export default function Header(): JSX.Element {
             })}
           </nav>
         </div>
-      </div>
+      )}
     </header>
   );
 }

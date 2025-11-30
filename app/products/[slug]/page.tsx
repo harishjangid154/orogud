@@ -135,50 +135,93 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const htmlContent = product.content && /<\/?[a-z][\s\S]*>/i.test(product.content) ? product.content : (product.content ? simpleMarkdownToHtml(product.content) : "");
 
   return (
-    <main className="container-max py-10">
-      <div className="grid gap-8 md:grid-cols-3">
-        <div className="md:col-span-2">
-          <article className="card">
-            {product.images && product.images.length ? (
-              <div className="mb-4">
-                <img src={product.images[0]} alt={product.title} className="w-full h-72 object-cover rounded-md" />
+    <main className="bg-primary min-h-screen">
+      <div className="container-max px-4 md:px-8 py-8">
+        {/* Breadcrumb */}
+        <div className="mb-8 flex items-center gap-2 text-sm text-muted">
+          <Link href="/products" className="hover:text-accent transition-colors">Products</Link>
+          <span>/</span>
+          <span className="text-text font-medium">{product.title}</span>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-3">
+          {/* Main Content */}
+          <div className="md:col-span-2">
+            <article className="card card-pad-lg">
+              {product.images && product.images.length ? (
+                <div className="mb-6 overflow-hidden rounded-lg">
+                  <img src={product.images[0]} alt={product.title} className="w-full h-auto object-cover" />
+                </div>
+              ) : null}
+
+              <header className="mb-8">
+                <div className="flex items-center gap-3 mb-4">
+                  {product.category ? <span className="badge">{product.category}</span> : null}
+                  {product.date ? <span className="text-xs text-muted">{new Date(product.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })}</span> : null}
+                </div>
+                <h1 className="text-4xl font-bold text-text mb-4">{product.title}</h1>
+                {product.excerpt ? <p className="lead text-lg">{product.excerpt}</p> : null}
+              </header>
+
+              {/* Price and CTA */}
+              <div className="bg-accent-light rounded-lg p-6 mb-8 flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-muted mb-1">Price</p>
+                  <div className="text-3xl font-bold text-accent">
+                    {product.price ? (typeof product.price === "number" ? `₹${product.price}` : product.price) : "Price on request"}
+                  </div>
+                </div>
+                <button className="btn btn-primary btn-lg">Add to cart</button>
+              </div>
+
+              {/* Description */}
+              <section className="prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+            </article>
+          </div>
+
+          {/* Sidebar */}
+          <aside className="md:col-span-1">
+            {/* Product Details */}
+            <div className="card card-pad-md mb-6">
+              <h4 className="text-sm font-semibold text-text mb-4 uppercase tracking-wide">Product Details</h4>
+              <ul className="text-sm space-y-3">
+                {product.sku ? (
+                  <li className="flex justify-between">
+                    <span className="text-muted">SKU</span>
+                    <strong className="text-text">{product.sku}</strong>
+                  </li>
+                ) : null}
+                {product.category ? (
+                  <li className="flex justify-between">
+                    <span className="text-muted">Category</span>
+                    <strong className="text-text">{product.category}</strong>
+                  </li>
+                ) : null}
+              </ul>
+            </div>
+
+            {/* Tags */}
+            {product.tags && product.tags.length > 0 ? (
+              <div className="card card-pad-md mb-6">
+                <h4 className="text-sm font-semibold text-text mb-4 uppercase tracking-wide">Tags</h4>
+                <div className="flex flex-wrap gap-2">
+                  {product.tags.map((t) => (
+                    <span key={t} className="badge">{t}</span>
+                  ))}
+                </div>
               </div>
             ) : null}
 
-            <header>
-              <h1 className="text-3xl font-bold" style={{ color: "var(--text)" }}>{product.title}</h1>
-              <div className="mt-3 flex items-center gap-3 muted text-sm">
-                {product.category ? <span className="badge">{product.category}</span> : null}
-                {product.date ? <span> · {new Date(product.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })}</span> : null}
-              </div>
-              {product.excerpt ? <p className="lead mt-4">{product.excerpt}</p> : null}
-            </header>
-
-            <section className="mt-6 prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-            <div className="mt-6 flex items-center gap-3">
-              <div className="text-2xl font-semibold">{product.price ? (typeof product.price === "number" ? `₹${product.price}` : product.price) : "Price on request"}</div>
-              <button className="btn btn-primary">Add to cart</button>
+            {/* Related */}
+            <div className="card card-pad-md">
+              <h4 className="text-sm font-semibold text-text mb-3 uppercase tracking-wide">Explore More</h4>
+              <p className="text-muted text-sm mb-4">Discover more curated products from our collection.</p>
+              <Link href="/products" className="btn btn-outline btn-sm w-full">
+                View all products
+              </Link>
             </div>
-          </article>
+          </aside>
         </div>
-
-        <aside className="md:col-span-1">
-          <div className="card">
-            <h4 className="text-sm font-semibold mb-3">Product details</h4>
-            <ul className="text-sm muted space-y-2">
-              {product.sku ? <li>SKU: <strong className="text-text">{product.sku}</strong></li> : null}
-              {product.category ? <li>Category: <strong className="text-text">{product.category}</strong></li> : null}
-              {product.tags ? <li>Tags: {product.tags.map((t) => <span key={t} className="badge mr-2">{t}</span>)}</li> : null}
-            </ul>
-          </div>
-
-          <div className="card mt-4">
-            <h4 className="text-sm font-semibold mb-3">Related</h4>
-            <p className="muted text-sm">You can implement related products here (by category or tag).</p>
-            <Link href="/products" className="mt-3 btn btn-ghost">View all products</Link>
-          </div>
-        </aside>
       </div>
     </main>
   );

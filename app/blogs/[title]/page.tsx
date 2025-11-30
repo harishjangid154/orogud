@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { Metadata } from "next";
 import React from "react";
+import Link from "next/link";
 
 type BlogData = {
   title: string;
@@ -194,53 +195,67 @@ export default async function BlogPage({
   const displayDate = blog.date ? new Date(blog.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" }) : null;
 
   return (
-    <main className="container-max py-10">
-      <article className="card">
-        {blog.coverImage ? (
-          <div className="w-full mb-6 overflow-hidden rounded-md">
-            <img src={blog.coverImage} alt={blog.title} className="w-full h-auto object-cover" />
-          </div>
-        ) : null}
+    <main className="bg-primary min-h-screen">
+      <div className="container-max px-4 md:px-8 py-8">
+        {/* Breadcrumb */}
+        <div className="mb-8 flex items-center gap-2 text-sm text-muted">
+          <Link href="/blogs" className="hover:text-accent transition-colors">Blog</Link>
+          <span>/</span>
+          <span className="text-text font-medium">{blog.title}</span>
+        </div>
 
-        <header className="mb-6">
-          <h1 className="text-3xl font-bold" style={{ color: "var(--text)" }}>{blog.title}</h1>
-
-          <div className="mt-3 flex items-center gap-3 text-sm muted">
-            {blog.author ? <span>By {blog.author}</span> : null}
-            {displayDate ? <span> · {displayDate}</span> : null}
-            {blog.tags && blog.tags.length ? (
-              <span className="ml-2 inline-flex gap-2">
-                {blog.tags.map((t) => (
-                  <span key={t} className="badge">{t}</span>
-                ))}
-              </span>
-            ) : null}
-          </div>
-
-          {blog.excerpt ? <p className="lead mt-4">{blog.excerpt}</p> : null}
-        </header>
-
-        <section className="prose max-w-none" dangerouslySetInnerHTML={{ __html: htmlContent }} />
-
-        <footer className="mt-8 border-t pt-6 border-subtle">
-          <div className="flex items-center justify-between">
-            <div className="muted text-sm">Enjoyed this post? Share it with friends.</div>
-            <div className="flex gap-2">
-              <a
-                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(
-                  (process.env.NEXT_PUBLIC_SITE_URL ?? "") + `/blog/${slug}`
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-ghost"
-              >
-                Share
-              </a>
-              <a href="/blogs" className="btn btn-ghost">Back to blogs</a>
+        <article className="card card-pad-lg max-w-3xl mx-auto">
+          {blog.coverImage ? (
+            <div className="w-full mb-8 overflow-hidden rounded-lg">
+              <img src={blog.coverImage} alt={blog.title} className="w-full h-auto object-cover" />
             </div>
-          </div>
-        </footer>
-      </article>
+          ) : null}
+
+          <header className="mb-8 pb-8 border-b border-border">
+            <h1 className="text-4xl md:text-5xl font-bold text-text mb-6">{blog.title}</h1>
+
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div className="flex items-center gap-3 text-sm text-muted">
+                {blog.author ? <span className="font-medium text-text">{blog.author}</span> : null}
+                {displayDate ? <span>·</span> : null}
+                {displayDate ? <span>{displayDate}</span> : null}
+              </div>
+              {blog.tags && blog.tags.length ? (
+                <div className="flex gap-2">
+                  {blog.tags.map((t) => (
+                    <span key={t} className="badge">{t}</span>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+
+            {blog.excerpt ? <p className="lead text-lg mt-6">{blog.excerpt}</p> : null}
+          </header>
+
+          <section className="prose max-w-none mb-8" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+
+          <footer className="border-t border-border pt-8">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div>
+                <p className="text-muted text-sm mb-3">Enjoyed this article?</p>
+                <div className="flex gap-2">
+                  <a
+                    href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(blog.title)}&url=${encodeURIComponent(
+                      (process.env.NEXT_PUBLIC_SITE_URL ?? "") + `/blog/${slug}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-outline btn-sm"
+                  >
+                    Share on Twitter
+                  </a>
+                  <a href="/blogs" className="btn btn-ghost btn-sm">Back to blog</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </article>
+      </div>
     </main>
   );
 }

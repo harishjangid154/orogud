@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
-import React from "react";
+import React, { JSX } from "react";
 import { Metadata } from "next";
 
 type BlogData = {
@@ -91,71 +91,79 @@ export default async function BlogsPage(): Promise<JSX.Element> {
   const blogs = await loadAllBlogs();
 
   return (
-    <main className="container-max py-10">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold" style={{ color: "var(--text)" }}>
-          OROGUD Blog
-        </h1>
-        <p className="lead mt-2">
-          Insights, guides and stories about our products, traditional techniques, and simple living. Newest first.
-        </p>
-      </header>
-
-      {blogs.length === 0 ? (
-        <div className="card">
-          <h2 className="text-xl font-semibold">No blog posts found</h2>
-          <p className="muted mt-2">
-            There are no blog files in <code>data/blogs</code>. Add JSON files named like <code>my-post-slug.json</code>.
-          </p>
+    <main className="bg-primary min-h-screen">
+      {/* Header Section */}
+      <div className="container-max px-4 md:px-8 py-12 md:py-16">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl md:text-5xl font-bold text-text mb-4">OROGUD Blog</h1>
+          <p className="lead text-lg">Insights, guides and stories about our products, traditional techniques, and simple living.</p>
         </div>
-      ) : (
-        <section className="product-grid">
-          {blogs.map((b) => {
-            const displayDate = b.date
-              ? new Date(b.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })
-              : null;
+      </div>
 
-            return (
-              <article key={b.slug} className="card card-pad-md">
-                {b.coverImage ? (
-                  <Link href={`/blog/${b.slug}`} className="block overflow-hidden rounded-md">
-                    <img src={b.coverImage} alt={b.title} className="w-full h-48 object-cover rounded-md" />
-                  </Link>
-                ) : null}
+      {/* Blog Grid */}
+      <div className="bg-surface">
+        <div className="container-max px-4 md:px-8 py-16">
+          {blogs.length === 0 ? (
+            <div className="card card-pad-lg max-w-md">
+              <h2 className="text-xl font-semibold text-text mb-2">No blog posts found</h2>
+              <p className="text-muted">There are no blog files in <code>data/blogs</code>. Add JSON files named like <code>my-post-slug.json</code>.</p>
+              <Link href="/" className="btn btn-primary btn-sm mt-4">Back to home</Link>
+            </div>
+          ) : (
+            <>
+              <div className="mb-6 flex items-center justify-between">
+                <p className="text-muted">{blogs.length} article{blogs.length !== 1 ? 's' : ''} available</p>
+              </div>
+              <section className="product-grid">
+                {blogs.map((b) => {
+                  const displayDate = b.date
+                    ? new Date(b.date).toLocaleDateString("en-GB", { year: "numeric", month: "short", day: "numeric" })
+                    : null;
 
-                <div className="mt-4">
-                  <h3 className="text-lg font-semibold">
-                    <Link href={`/blog/${b.slug}`} className="text-text hover:underline">
-                      {b.title}
-                    </Link>
-                  </h3>
+                  return (
+                    <article key={b.slug} className="card card-pad-md hover:shadow-md transition-all">
+                      {b.coverImage ? (
+                        <Link href={`/blog/${b.slug}`} className="block overflow-hidden rounded-lg mb-4">
+                          <img src={b.coverImage} alt={b.title} className="w-full h-56 object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
+                        </Link>
+                      ) : null}
 
-                  <div className="mt-2 flex items-center gap-3 text-sm muted">
-                    {b.author ? <span>By {b.author}</span> : null}
-                    {displayDate ? <span> · {displayDate}</span> : null}
-                  </div>
+                      <div>
+                        <h3 className="text-lg font-semibold text-text mb-2">
+                          <Link href={`/blog/${b.slug}`} className="hover:text-accent transition-colors">
+                            {b.title}
+                          </Link>
+                        </h3>
 
-                  {b.excerpt ? <p className="muted mt-3">{b.excerpt}</p> : <p className="muted mt-3">No excerpt available.</p>}
+                        <div className="flex items-center gap-2 text-xs text-muted mb-3">
+                          {b.author ? <span>{b.author}</span> : null}
+                          {displayDate ? <span>·</span> : null}
+                          {displayDate ? <span>{displayDate}</span> : null}
+                        </div>
 
-                  <div className="mt-4 flex items-center justify-between gap-2">
-                    <div className="flex items-center gap-2">
-                      {b.tags?.slice(0, 3).map((t) => (
-                        <span key={t} className="badge">
-                          {t}
-                        </span>
-                      ))}
-                    </div>
+                        {b.excerpt ? <p className="text-muted text-sm mb-4 line-clamp-2">{b.excerpt}</p> : <p className="text-muted text-sm mb-4">No excerpt available.</p>}
 
-                    <Link href={`/blog/${b.slug}`} className="btn btn-primary btn-sm">
-                      Read
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            );
-          })}
-        </section>
-      )}
+                        <div className="flex items-center justify-between pt-4 border-t border-border">
+                          <div className="flex items-center gap-2">
+                            {b.tags?.slice(0, 2).map((t) => (
+                              <span key={t} className="badge text-xs">
+                                {t}
+                              </span>
+                            ))}
+                          </div>
+                          <Link href={`/blog/${b.slug}`} className="btn btn-primary btn-sm">
+                            Read
+                          </Link>
+                        </div>
+                      </div>
+                    </article>
+                  );
+                })}
+              </section>
+            </>
+          )}
+        </div>
+      </div>
     </main>
   );
 }

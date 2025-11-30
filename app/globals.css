@@ -13,6 +13,7 @@
 
   --border: #E8E5E1;
   --shadow: rgba(31, 35, 38, 0.06);
+  --shadow-md: rgba(31, 35, 38, 0.1);
 
   --wood: #8A6B4A;
   --beige: #CFC1AE;
@@ -24,18 +25,22 @@
   --danger: #B44A4A;
 
   --radius: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
   --container-max: 1200px;
 }
 
 :root[data-theme="terracotta"] {
   --accent: #B86C4A;
   --accent-600: #994F37;
+  --accent-100: #F5E8E0;
   --accent-contrast: #FFFFFF;
 }
 
 :root[data-theme="teal"] {
   --accent: #4F7E7A;
   --accent-600: #35615F;
+  --accent-100: #E8F1F0;
   --accent-contrast: #FFFFFF;
 }
 
@@ -47,6 +52,7 @@
   --color-text-tertiary: var(--subtle);
   --color-border: var(--border);
   --color-shadow: var(--shadow);
+  --color-shadow-md: var(--shadow-md);
   --color-wood: var(--wood);
   --color-beige: var(--beige);
   --color-cream: var(--cream);
@@ -55,18 +61,256 @@
   --color-warning: var(--warning);
   --color-danger: var(--danger);
   --color-radius: var(--radius);
+  --color-radius-lg: var(--radius-lg);
+  --color-radius-xl: var(--radius-xl);
   --color-container-max: var(--container-max);
-
 }
 
 @theme terracotta {
   --color-accent: var(--accent);
   --color-accent-600: var(--accent-600);
+  --color-accent-100: var(--accent-100);
   --color-accent-contrast: var(--accent-contrast);
 }
 
 @theme teal {
   --color-accent: var(--accent);
   --color-accent-600: var(--accent-600);
+  --color-accent-100: var(--accent-100);
   --color-accent-contrast: var(--accent-contrast);
 }
+
+/* ===== SEMANTIC COMPONENT CLASSES ===== */
+
+/* Backgrounds */
+.bg-primary { background-color: var(--bg); }
+.bg-surface { background-color: var(--surface); }
+.bg-surface-2 { background-color: var(--surface-2); }
+.bg-accent { background-color: var(--accent); }
+.bg-accent-light { background-color: var(--accent-100); }
+
+/* Text colors */
+.text-text { color: var(--text); }
+.text-muted { color: var(--muted); }
+.text-subtle { color: var(--subtle); }
+.text-accent { color: var(--accent); }
+.text-accent-600 { color: var(--accent-600); }
+
+/* Borders */
+.border-border { border-color: var(--border); }
+.border-subtle { border-color: var(--subtle); }
+
+/* Shadows */
+.shadow-soft { box-shadow: 0 1px 3px var(--shadow); }
+.shadow-md { box-shadow: 0 4px 12px var(--shadow-md); }
+
+/* Cards */
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 1px 3px var(--shadow);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px var(--shadow-md);
+  border-color: var(--accent);
+}
+
+.card-pad-sm { padding: 1rem; }
+.card-pad-md { padding: 1.5rem; }
+.card-pad-lg { padding: 2rem; }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 1rem 1.75rem;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-600);
+  border-color: var(--accent-600);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.btn-ghost:hover {
+  background-color: var(--surface-2);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn-outline:hover {
+  background-color: var(--accent-100);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.375rem 0.875rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background-color: var(--accent-100);
+  color: var(--accent-600);
+  border: 1px solid var(--accent);
+  white-space: nowrap;
+}
+
+/* Typography */
+.lead {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.prose {
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  color: var(--text);
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose h1 { font-size: 2rem; }
+.prose h2 { font-size: 1.5rem; }
+.prose h3 { font-size: 1.25rem; }
+.prose h4 { font-size: 1.1rem; }
+
+.prose p {
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.prose ul, .prose ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.prose a {
+  color: var(--accent);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.prose a:hover {
+  color: var(--accent-600);
+}
+
+/* Container */
+.container-max {
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+}
+
+/* Footer quiet links */
+.footer-quiet a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-quiet a:hover {
+  color: var(--accent);
+}
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+textarea {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  color: var(--text);
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-100);
+}
+
+input::placeholder {
+  color: var(--subtle);
+}
+
+/* Utility classes */
+.muted { color: var(--muted); }
+.subtle { color: var(--subtle); }
+.accent { color: var(--accent); }
